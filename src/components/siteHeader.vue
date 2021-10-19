@@ -6,7 +6,8 @@
       hide-on-scroll
       height="64"
       elevate-on-scroll
-    >
+      src="https://2021.igem.org/wiki/images/b/b0/T--Tongji_China--top-background.png"
+>
       <router-link to="/" class="d-flex">
         <Logo />
       </router-link>
@@ -24,7 +25,12 @@
             <template v-slot:activator="{ on, attrs }">
               <v-btn
                 plain
-                class="py-8 submenubtn hidden-sm-and-down"
+                class="
+                  py-8
+                  submenubtn
+                  hidden-sm-and-down
+                  white--text
+                "
                 :ripple="false"
                 v-on="on"
                 v-bind="attrs"
@@ -46,7 +52,7 @@
                 link
                 :to="subitem.to"
               >
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                <v-list-item-title>{{ subitem.title }}</v-list-item-title>
               </v-list-item>
             </v-list>
           </v-menu>
@@ -57,7 +63,7 @@
           depressed
           tile
           plain
-          class="py-8 hidden-sm-and-down"
+          class="py-8 hidden-sm-and-down white--text"
           :to="item.to"
           >{{ item.title }}</v-btn
         > </template
@@ -82,69 +88,108 @@ export default class SiteHeader extends Vue {
   public drawer = false
   public items = [
     {
-      icon: 'mdi-folder-home-outline',
       title: 'Home',
       to: '/'
     },
     {
-      icon: 'mdi-account',
-      title: 'About',
-      to: '/about'
-    },
-    {
-      icon: 'mdi-tools',
-      title: 'Services',
-      to: '/services',
+      title: 'Project',
       submenu: [
         {
-          title: 'Services Page',
-          to: '/services'
+          title: 'Description',
+          to: '/description'
         },
         {
-          title: 'Static Websites',
-          to: '/#'
+          title: 'Result',
+          to: 'result'
         },
         {
-          title: 'Mobile Applications',
-          to: '/#'
-        },
-        {
-          title: 'Corporate websites',
-          to: '/#'
-        },
-        {
-          title: 'Editorial Sites',
-          to: '/#'
-        },
-        {
-          title: 'Ecommerce and Store',
-          to: '/#'
-        },
-        {
-          title: 'Block Chain Devemopment',
-          to: '/#'
+          title: 'Contribution',
+          to: 'contribution'
         }
       ]
     },
     {
-      icon: 'mdi-cash-usd',
-      title: 'Pricing',
-      to: '/pricing'
+      title: 'Lab',
+      submenu: [
+        {
+          title: 'Design',
+          to: '/design'
+        },
+        {
+          title: 'Engineering',
+          to: '/engineering'
+        },
+        {
+          title: 'Experiments Protocol',
+          to: '/experiments_protocol'
+        },
+        {
+          title: 'Notebook',
+          to: '/notebook'
+        },
+        {
+          title: 'Parts',
+          to: '/parts'
+        },
+        {
+          title: 'Improved part',
+          to: '/improved_part'
+        },
+        {
+          title: 'Safety',
+          to: '/safety'
+        }
+      ]
     },
     {
-      icon: 'mdi-folder-image',
-      title: 'Gallery',
-      to: '/gallery'
+      title: 'Human Practice',
+      submenu: [
+        {
+          title: 'Integrated human practise',
+          to: '/integrated_human_practise'
+        },
+        {
+          title: 'Education & Public Engagement',
+          to: '/education_public_engagement'
+        },
+        {
+          title: 'Implementation',
+          to: '/implementation'
+        }
+      ]
     },
     {
-      icon: 'mdi-blogger',
-      title: 'Blog',
-      to: '/blog'
+      title: 'Models',
+      to: '/models'
     },
     {
-      icon: 'mdi-contacts',
-      title: 'Contact',
-      to: '/contact'
+      title: 'Team',
+      submenu: [
+        {
+          title: 'Team',
+          to: '/team'
+        },
+        {
+          title: 'Attribution',
+          to: '/attribution'
+        },
+        {
+          title: 'Collaboration',
+          to: '/collaboration'
+        },
+        {
+          title: 'Partnership',
+          to: '/partnership'
+        },
+        {
+          title: 'Sponsors',
+          to: '/sponsors'
+        }
+      ]
+    },
+    {
+      title: 'Medal Criteria',
+      to: '/medal_criteria'
     }
   ]
 
