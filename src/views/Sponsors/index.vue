@@ -7,7 +7,7 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 
 @Component
-export default class Home extends Vue {
-  static id = 'Home'
+export default class Sponsors extends Vue {
+  static id = 'Sponsors'
 }
 </script>
