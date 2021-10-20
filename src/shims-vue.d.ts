@@ -1,4 +1,6 @@
 declare module '*.vue' {
   import Vue from 'vue'
-  export default Vue
+  export default class ComponentWithId extends Vue {
+    static readonly id: string
+  }
 }

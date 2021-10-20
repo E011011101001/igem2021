@@ -30,6 +30,7 @@
                   submenubtn
                   hidden-sm-and-down
                   white--text
+                  font-weight-medium
                 "
                 :ripple="false"
                 v-on="on"
@@ -63,7 +64,7 @@
           depressed
           tile
           plain
-          class="py-8 hidden-sm-and-down white--text"
+          class="py-8 hidden-sm-and-down white--text font-weight-medium"
           :to="item.to"
           >{{ item.title }}</v-btn
         > </template
@@ -96,15 +97,15 @@ export default class SiteHeader extends Vue {
       submenu: [
         {
           title: 'Description',
-          to: '/description'
+          to: '/Description'
         },
         {
           title: 'Result',
-          to: 'result'
+          to: '/Result'
         },
         {
           title: 'Contribution',
-          to: 'contribution'
+          to: '/Contribution'
         }
       ]
     },
@@ -113,31 +114,31 @@ export default class SiteHeader extends Vue {
       submenu: [
         {
           title: 'Design',
-          to: '/design'
+          to: '/Design'
         },
         {
           title: 'Engineering',
-          to: '/engineering'
+          to: '/Engineering'
         },
         {
           title: 'Experiments Protocol',
-          to: '/experiments_protocol'
+          to: '/Experiments_protocol'
         },
         {
           title: 'Notebook',
-          to: '/notebook'
+          to: '/Notebook'
         },
         {
           title: 'Parts',
-          to: '/parts'
+          to: '/Parts'
         },
         {
           title: 'Improved part',
-          to: '/improved_part'
+          to: '/Improved_part'
         },
         {
           title: 'Safety',
-          to: '/safety'
+          to: '/Safety'
         }
       ]
     },
@@ -146,50 +147,50 @@ export default class SiteHeader extends Vue {
       submenu: [
         {
           title: 'Integrated human practise',
-          to: '/integrated_human_practise'
+          to: '/Integrated_human_practise'
         },
         {
           title: 'Education & Public Engagement',
-          to: '/education_public_engagement'
+          to: '/Education_public_engagement'
         },
         {
           title: 'Implementation',
-          to: '/implementation'
+          to: '/Implementation'
         }
       ]
     },
     {
       title: 'Models',
-      to: '/models'
+      to: '/Models'
     },
     {
       title: 'Team',
       submenu: [
         {
           title: 'Team',
-          to: '/team'
+          to: '/Team'
         },
         {
           title: 'Attribution',
-          to: '/attribution'
+          to: '/Attribution'
         },
         {
           title: 'Collaboration',
-          to: '/collaboration'
+          to: '/Collaboration'
         },
         {
           title: 'Partnership',
-          to: '/partnership'
+          to: '/Partnership'
         },
         {
           title: 'Sponsors',
-          to: '/sponsors'
+          to: '/Sponsors'
         }
       ]
     },
     {
       title: 'Medal Criteria',
-      to: '/medal_criteria'
+      to: '/Medal_criteria'
     }
   ]
 
