@@ -101,7 +101,7 @@ export default class SiteHeader extends Vue {
         },
         {
           title: 'Result',
-          to: '/Result'
+          to: '/Results'
         },
         {
           title: 'Contribution',
@@ -122,7 +122,7 @@ export default class SiteHeader extends Vue {
         },
         {
           title: 'Experiments Protocol',
-          to: '/Experiments_protocol'
+          to: '/Experiments'
         },
         {
           title: 'Notebook',
@@ -146,22 +146,22 @@ export default class SiteHeader extends Vue {
       title: 'Human Practice',
       submenu: [
         {
-          title: 'Integrated human practise',
-          to: '/Integrated_human_practise'
+          title: 'Integrated human practice',
+          to: '/Human_Practices'
         },
         {
           title: 'Education & Public Engagement',
-          to: '/Education_public_engagement'
+          to: '/Communication'
         },
         {
-          title: 'Implementation',
+          title: 'Implementation & Entrepreneurship',
           to: '/Implementation'
         }
       ]
     },
     {
       title: 'Models',
-      to: '/Models'
+      to: '/Model'
     },
     {
       title: 'Team',
@@ -171,12 +171,12 @@ export default class SiteHeader extends Vue {
           to: '/Team'
         },
         {
-          title: 'Attribution',
-          to: '/Attribution'
+          title: 'Attributions & Acknowledgements',
+          to: '/Attributions'
         },
         {
           title: 'Collaboration',
-          to: '/Collaboration'
+          to: '/Collaborations'
         },
         {
           title: 'Partnership',
@@ -190,7 +190,7 @@ export default class SiteHeader extends Vue {
     },
     {
       title: 'Medal Criteria',
-      to: '/Medal_criteria'
+      to: '/Medal_Criteria'
     }
   ]
 

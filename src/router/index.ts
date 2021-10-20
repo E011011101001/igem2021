@@ -12,7 +12,7 @@ import Notebook from '@/views/Notebook/index.vue'
 import Parts from '@/views/Parts/index.vue'
 import Improved_part from '@/views/Improved_part/index.vue'
 import Safety from '@/views/Safety/index.vue'
-import Integrated_human_practise from '@/views/Integrated_human_practise/index.vue'
+import Integrated_human_practice from '@/views/Integrated_human_practice/index.vue'
 import Education_public_engagement from '@/views/Education_public_engagement/index.vue'
 import Implementation from '@/views/Implementation/index.vue'
 import Models from '@/views/Models/index.vue'
@@ -37,7 +37,7 @@ const routes: Array<RouteConfig> = [
     component: Description
   },
   {
-    path: '/Result',
+    path: '/Results',
     name: Result.id,
     component: Result
   },
@@ -57,7 +57,6 @@ const routes: Array<RouteConfig> = [
     component: Engineering
   },
   {
-    // TODO: change
     path: '/Experiments',
     name: Exp.id,
     component: Exp
@@ -83,24 +82,23 @@ const routes: Array<RouteConfig> = [
     component: Safety
   },
   {
-    // TODO: change
-    path: '/#',
-    name: Integrated_human_practise.id,
-    component: Integrated_human_practise
+    path: '/Human_Practices',
+    name: Integrated_human_practice.id,
+    component: Integrated_human_practice
   },
   {
-    // TODO: change
-    path: '/#',
+    path: '/Communication',
     name: Education_public_engagement.id,
     component: Education_public_engagement
   },
   {
     path: '/Implementation',
     name: Implementation.id,
-    component: Implementation
+    component: Implementation,
+    alias: '/Entrepreneurship'
   },
   {
-    path: '/Models',
+    path: '/Model',
     name: Models.id,
     component: Models
   },
@@ -110,12 +108,12 @@ const routes: Array<RouteConfig> = [
     component: Team
   },
   {
-    path: '/Attribution',
+    path: '/Attributions',
     name: Attribution.id,
     component: Attribution
   },
   {
-    path: '/Collaboration',
+    path: '/Collaborations',
     name: Collaboration.id,
     component: Collaboration
   },
@@ -131,7 +129,7 @@ const routes: Array<RouteConfig> = [
   },
   {
     // TODO: change
-    path: '/#',
+    path: '/Medal_Criteria',
     name: Medal_criteria.id,
     component: Medal_criteria
   }
