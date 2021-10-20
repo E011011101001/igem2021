@@ -1,6 +1,9 @@
 <template lang="pug">
-  div
-    h1 LOGO
+    v-img(
+      contain
+      src='https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--logo.png'
+      max-width="8em"
+    )
 </template>
 
 <script lang="ts">
