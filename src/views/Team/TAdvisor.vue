@@ -1,6 +1,6 @@
 <template lang="pug">
 v-card(
-  height="44em"
+  height="41em"
 )
   v-img(
     :src="src"
