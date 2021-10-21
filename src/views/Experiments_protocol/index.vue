@@ -75,8 +75,8 @@ PCR program:
 | ------------------------ | ------------------------------------------ | ----------------------------------------------- |
 | Initial denaturalization | 95℃                                        | 30 s                                            |
 | 25~35 cycles             | 95℃                                        | 15 s                                            |
-| **\\**                    | Annealing temperature<br> depending on  primer | 15 s                                            |
-| **\\**                    | 72℃                                        | Determined by the length<br/> of amplified fragments |
+| \\                    | Annealing temperature<br> depending on  primer | 15 s                                            |
+| \\                    | 72℃                                        | Determined by the length<br/> of amplified fragments |
 | Final Extension          | 72℃                                        | 5 min                                           |
 | Hold                     | 10℃                                        | ∞                                               |
 
@@ -211,8 +211,8 @@ Colony PCR program:
 | ------------------------ | ----------------------------------------- | ----------------------------------------------- |
 | Initial denaturalization | 95℃                                       | 30 s                                            |
 | 25~35 cycles             | 95℃                                       | 15 s                                            |
-| **\\**                    | Annealing temperature<br/>depending on primer | 15 s                                            |
-| **\\**                    | 72℃                                       | Determined by the length<br/>of amplified fragments |
+| \\                    | Annealing temperature<br/>depending on primer | 15 s                                            |
+| \\                    | 72℃                                       | Determined by the length<br/>of amplified fragments |
 | Final Extension          | 72℃                                       | 5 min                                           |
 | Hold                     | 10℃                                       | ∞                                               |
 

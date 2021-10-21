@@ -31,13 +31,13 @@ The enzyme concentration could be regulated by the copy number of the enzyme-enc
 
 <img src="https://2021.igem.org/wiki/images/3/3d/T--Tongji_China--p1.jpg" alt="p1" style="max-width:100%" />
 
-[^Figure 1. Different ways of pathway optimization]:
+<center>Figure 1. Different ways of pathway optimization</center>
 
 However, to experimentally study all possible combinations of promoters with different expression levels of enzymes can be expensive and time-consuming. Luckily, in past decades, more tools have been developed to solve this problem<sup>[4]</sup>. Here we design a strategy, combing combinatorial random library and machine-learning, to optimize the heterologous Sqr-Sdo-AprBA-Sat pathway in E.coli efficiently. Our strategy is shown below. A random combinatorial library of plasmids, with enzymes of different expression levels, will be constructed by Gibson assembly and pre-screened according to their sulfide-degrading efficiency. Data of degradation efficiency, the growth rate of these pre-screened strains will be collected and the ANN model will then be applied to predict the optimized combination.
 
 <img src="https://2021.igem.org/wiki/images/9/9f/T--Tongji_China--p2-16345442418301.jpg" alt="p2" style="max-width:100%" />
 
-[^Figure 2. Optimization strategy]:
+<center>Figure 2. Optimization strategy</center>
 
 [1].      Xu, P., et al., *Improving Metabolic Pathway Efficiency by Statistical Model-Based Multivariate Regulatory Metabolic Engineering.* ACS Synth Biol, 2017. **6**(1): p. 148-158.
 

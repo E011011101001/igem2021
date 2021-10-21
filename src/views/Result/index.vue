@@ -50,7 +50,7 @@ We extracted RNA of our engineered bacteria and wild-type bacteria for RT qPCR e
 
  <img src="https://2021.igem.org/wiki/images/4/49/T--Tongji_China---16344961965841.png" alt="img" style="max-width:100%" />
 
-[^Figure 1.]:  Result of RT-qPCR for four genes
+<center>Figure 1.  Result of RT-qPCR for four genes</center>
 
 ### **The expression level of the target protein was detected by SDS-PAGE** #
 
@@ -58,21 +58,21 @@ We first tried to introduce plasmids linked with 1/2/3/4 target genes into *E.co
 
 <img src="https://2021.igem.org/wiki/images/b/b0/T--Tongji_China---16344962954133.jpeg" alt="img" style="max-width:100%" />
 
-[^Figure 2.]:  SDS-PAGE bands of four genes regulated by the promoter of J23110
+<center>Figure 2.  SDS-PAGE bands of four genes regulated by the promoter of J23110</center>
 
 
 Therefore, four target genes were added with efficient T7 promoter respectively and introduced into *E.coli* BL21(DE3).Under the condition of IPTG induction, all proteins of strain containing target genes and wild-type strain were extracted. SDS-PAGE experiment and Coomassie brilliant blue staining showed that the expression of each target protein could be realized in *E.coli* BL21(DE3).
 
 <img src="https://2021.igem.org/wiki/images/2/2e/T--Tongji_China--RES-16344963137465.jpeg" alt="img" style="max-width:100%" />
 
-[^Figure 3.]:  SDS-PAGE bands of four genes regulated by T7 promoter
+<center>Figure 3.  SDS-PAGE bands of four genes regulated by T7 promoter</center>
 
 
 We had hoped to construct plasmids with T7 promoter for all four genes, and then test the protein expression, but the construction process was very difficult. Finally, due to the limited time, we connected the four genes, but only the SQR gene was regulated by the T7 promoter. In the staining results, only the SQR band was obvious, but it was speculated that the other proteins should be able to express normally.
 
 <img src="https://2021.igem.org/wiki/images/5/59/T--Tongji_China--RES-16344963268247.jpeg" alt="img" style="max-width:100%" />
 
-[^Figure 4.]:  SDS-PAGE bands of T7-SQR-J23110-SDO-APR-SAT
+<center>Figure 4.  SDS-PAGE bands of T7-SQR-J23110-SDO-APR-SAT</center>
 
 ### **Protein function verification experiment**
 
@@ -86,7 +86,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 
 ![img](https://2021.igem.org/wiki/images/0/0d/T--Tongji_China--RES-16344963436149.png)
 
-[^Figure 5.]:  standard curve of S<sup>2-</sup>
+<center>Figure 5.  standard curve of S<sup>2-</sup></center>
 
 - **Sulfide oxidation in liquid environment**
 
@@ -94,7 +94,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 
   ![img](https://2021.igem.org/wiki/images/f/fe/T--Tongji_China--RES-163449635323611.png)
 
-[^Figure 6.]:  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )
+<center>Figure 6.  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )</center>
 
 
 - **Hydrogen sulfide oxidation in simulated food  waste environment**
@@ -104,7 +104,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
   <img src="https://2021.igem.org/wiki/images/6/62/T--Tongji_China--RES%E9%B8%A1%E8%9B%8B%E6%B6%B2-16346659014661.png" alt="鸡蛋液" style="max-width:100%" />
 
 
-[^Figure 7.]:  Existence of S<sup>2-</sup> in egg liquid with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type）
+<center>Figure 7.  Existence of S<sup>2-</sup> in egg liquid with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type）</center>
 
 
 
@@ -128,19 +128,19 @@ In order to improve the hydrogen sulfide oxidation efficiency by making subtle c
 
 <img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--figure_7.jpg" alt="p1" style="max-width:100%" />
 
-[^Figure 8 ]: Promoter characterization
+<center>Figure 8  Promoter characterization</center>
 
 Next, we designed a PCR strategy that promoters have different strength can be obtained in a single PCR reaction **(Figure 9)**. Genes in hydrogen sulfide oxidation pathway were also amplified with high fidelity PCR so that homologous arms can be added.
 
 <img src="https://2021.igem.org/wiki/images/2/29/T--Tongji_China--figure_8.jpg" alt="p2" style="max-width:100%" />
 
-[^Figure 9 ]: Amplifying promoters with different strength
+<center>Figure 9  Amplifying promoters with different strength</center>
 
 Due to the limitation of commercial recombinase, it is almost impossible to recombine four genes with their respective promoters in a single reaction, so we recombine SQR, SDO with their promoters, AprBA, SAT with their promoters, respectively for the first round. Plasmid backbone with ampicillin resistance gene was used. This reaction was not effective enough due to the limitation of recombinase at first , we had improved our homologous arms to get better efficiency **(Figure 10 left)**.
 
 <img src="https://2021.igem.org/wiki/images/c/c1/T--Tongji_China--RESfigure_9.jpg" alt="p3" style="max-width:100%" />
 
-[^Figure 10 ]: The first round of homologous recombination
+<center>Figure 10  The first round of homologous recombination</center>
 
 We performed resistance screening to enrich recombined plasmids. Then random recombined promoter-SQR-promoter-SDO sequences and promoter-AprBA-promoter-SAT sequences, amplified and added with homologous arms for the next recombination reaction **(Figure 10 right)**.
 
@@ -149,7 +149,7 @@ Then the promoter-SQR-promoter-SDO sequences and promoter-AprBA-promoter-SAT seq
 
 <img src="https://2021.igem.org/wiki/images/3/34/T--Tongji_China--figure_11.jpg" alt="p5" style="max-width:100%" />
 
-[^Figure 11 ]: The second round of homologous recombination
+<center>Figure 11  The second round of homologous recombination</center>
 
 ## Kill switch
 
@@ -159,19 +159,19 @@ Considering the accessibility of the template and the time limitation, we adopte
 
 <img src="https://2021.igem.org/wiki/images/3/3a/T--Tongji_China--RES%E8%B4%A8%E7%B2%92%E6%9E%84%E5%BB%BA%E6%B5%81%E7%A8%8B.png" alt="质粒构建流程" style="max-width:100%" />
 
-[^Figure 12. The initial plasmid construction flow chart]:
+<center>Figure 12. The initial plasmid construction flow chart</center>
 
 Unfortunately, the synthesis of J23119-CstR-Pcstr-MazE -Dre encountered difficulty so that we couldn't obtain the sequence of J23119-CstR-Pcstr. Considering this part was very necessary for our work, we contacted Professor Huaiwei Liu from Shandong University based on literature and fortunately got his help. Using the plasmid he donated as a template, we successfully amplified the CstR-Pcstr sequence (Figure 3A) and used it for our plasmid construction.
 
 <img src="https://2021.igem.org/wiki/images/a/a2/T--Tongji_China--RES%E8%B4%A8%E7%B2%92%E6%9E%84%E5%BB%BA%E6%B5%81%E7%A8%8B-2.png" alt="质粒构建流程-2" style="max-width:100%" />
 
-[^Figure 13. The modified plasmid construction flow chart]:
+<center>Figure 13. The modified plasmid construction flow chart</center>
 
 We successfully constructed the plasmid CstR-Pcstr-MazE -Dre and amplified CstR-Pcstr-MazE-Dre (Figure 3B).Then we cloned CstR-Pcstr-MazE-Dre to pACYC-rox-ter-rox-MazF.
 
 <img src="https://2021.igem.org/wiki/images/c/c0/T--Tongji_China--RES%E8%83%B6%E5%9B%BE-16347103179871.png" alt="胶图" style="max-width:100%" />
 
-[^Figure 14. Agarose electrophoresis]:
+<center>Figure 14. Agarose electrophoresis</center>
 
 However, according to the sequencing results, we found that Pcstr was missing, probably due to the complexity of each block. Meanwhile, we found the terminator between the two rox sites was partly moved after we cultured the final plasmid. We assumed that it could be the leakage of Pcstr that turned on the expression of Dre, which then cut off the terminator. This means we need to optimize our design.
 
@@ -181,19 +181,19 @@ To optimize the design of our kill switch, we tried to find a proper combination
 
 <img src="https://2021.igem.org/wiki/images/b/bc/T--Tongji_China--RES%E5%90%AF%E5%8A%A8%E5%AD%90%E8%A1%A8%E5%BE%81.png" alt="启动子表征" style="max-width:100%" />
 
-[^Figure 15. The strength of the three key promoters]:
+<center>Figure 15. The strength of the three key promoters</center>
 
-From our results, we found that the intensity of Pcstr is significantly higher than J23110, and PlacI is very lower than J23110. This may explain why we encountered the leakage of Pcstr —— the inhibition of the CstR may be too low to block Pcstr while the intensity of Pcstr is in a high level. Although this is not consistent with the literature, the facts tell us that it is.  Considering the time limitation and the workload of changing different promoters to test the best combination, we constructed a [[model]]() (链接到modeling）to achieve this.
+From our results, we found that the intensity of Pcstr is significantly higher than J23110, and PlacI is very lower than J23110. This may explain why we encountered the leakage of Pcstr —— the inhibition of the CstR may be too low to block Pcstr while the intensity of Pcstr is in a high level. Although this is not consistent with the literature, the facts tell us that it is.  Considering the time limitation and the workload of changing different promoters to test the best combination, we constructed a [model](/Team:Tongji_China/Model) achieve this.
 
 ## 2.CstR with Pcstr Characterization
 
 To ensure appropriate concentration range of S<sup>2-</sup> used for the characterization of pACYC-rox-ter-rox-MazF-CstR-Pcstr-MazE-Dre, we first characterized the function of CstR with Pcstr using pTrchis2A-CstR-Pcstr-mKate-CpSQR. The expression level regulated by Pcstr at different concentrations of S<sup>2-</sup>  was shown by the fluorescence intensity of mKate (/OD<sub>600 nm</sub>).
 
-At the beginning, bacteria cultured in 5 mL were treated with 0, 6.5, 13.0, 26.0 and 39.0 mg/L Na<sub>2</sub>S (0, 20, 40, 80 and 120 mg/L Na<sub>2</sub>S·9H<sub>2</sub>O) respectively, and then the fluorescence intensity of mKate was measured with a microplate reader.[（超链接到protocol界面）]()
+At the beginning, bacteria cultured in 5 mL were treated with 0, 6.5, 13.0, 26.0 and 39.0 mg/L Na<sub>2</sub>S (0, 20, 40, 80 and 120 mg/L Na<sub>2</sub>S·9H<sub>2</sub>O) respectively, and then the fluorescence intensity of mKate was measured with a microplate reader.[(See experiments protocol)](/Team:Tongji_China/Experiments)
 
 <img src="https://2021.igem.org/wiki/images/a/a2/T--Tongji_China--CstR%E8%A1%A8%E5%BE%81-16346494229474.png" alt="CstR表征" style="max-width:100%" />
 
-[^Figure 16. ]: (A)The fluorescence intensity variation relative to the concentration of Na<sub>2</sub>S; (B)the curve of fluorescence intensity relative to time; (C)the curve of OD<sub>600 nm</sub> relative to time
+<center>Figure 16.  (A)The fluorescence intensity variation relative to the concentration of Na<sub>2</sub>S; (B)the curve of fluorescence intensity relative to time; (C)the curve of OD<sub>600 nm</sub> relative to time</center>
 
 It can be seen that the presence of S<sup>2-</sup> at different concentrations has no significant effect on the growth of bacteria. However, with the increase of S<sup>2-</sup>, the fluorescence intensity increases at first and then decreases, indicating that when S<sup>2-</sup> is too high, the lifting effect on CstR inhibition is weakened.  We hope to find out an appropriate concentration range in which the strength of Pcstr is positively correlated with the concentration of S<sup>2-</sup>, which tells us that we need to reduce the concentration gradient and concentration range for further characterization.
 
@@ -201,11 +201,11 @@ We further used 0, 3.25, 6.50, 9.75, 13.00, 16.25 mg/L Na<sub>2</sub>S (0, 10, 2
 
 <img src="https://2021.igem.org/wiki/images/0/06/T--Tongji_China--RES%E5%B0%8F%E6%A2%AF%E5%BA%A6%E6%B5%8B%E8%AF%95-16346505249295.png" alt="小梯度测试" style="max-width:100%" />
 
-[^Figure 17. ]: The fluorescence intensity variation relative to the concentration of Na<sub>2</sub>S with a smaller range
+<center>Figure 17.  The fluorescence intensity variation relative to the concentration of Na<sub>2</sub>S with a smaller range</center>
 
 It can be seen from the figure that in a smaller concentration range, there is a positive correlation between fluorescence intensity and Na<sub>2</sub>S concentration, visible to naked eyes, which implies that we can use data within this concentration range to guide our characterization experiments.
 
-But unfortunately, as mentioned above, we encountered difficulties in constructing the final kill switch plasmid, thus the characterization of which failed to be carried out smoothly. Given this problem, we intend to build a [model](链接到modeling)（链接到modeling） trying to settle it.
+But unfortunately, as mentioned above, we encountered difficulties in constructing the final kill switch plasmid, thus the characterization of which failed to be carried out smoothly. Given this problem, we intend to build a [model](/Team:Tongji_China/Model) trying to settle it.
 
 ## Reference
 

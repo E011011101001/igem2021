@@ -3,5 +3,5 @@ module.exports = {
     'vuetify'
   ],
   filenameHashing: false,
-  publicPath: ''
+  publicPath: '/Team:Tongji_China'
 }

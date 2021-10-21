@@ -29,7 +29,7 @@ Our experiment has preliminarily proved the possibility of using engineered bact
 
 # Introduction
 
-According to the **background**==(<span style="color:red">超链接到2.1 description)</span>== we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances, so that we could solve the problem through engineered bacteria.
+According to the [background](/Team:Tongji_China/Description#background) we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances, so that we could solve the problem through engineered bacteria.
 
 We selected sulfate as our end product, which has no major effect on both bacteria and environment at low doses and is odorless itself.
 
@@ -41,7 +41,7 @@ We wanted to realize our idea of converting sulfide to sulfate through four gene
 
 
 
-[^Figure 1.]:  Treatment route of converting sulfide to sulfate.
+<center>Figure 1.  Treatment route of converting sulfide to sulfate.</center>
 
 
 
@@ -51,15 +51,15 @@ After experimental testing, we found that the promoter was too weak, resulting i
 
 ## **The expression of the target mRNA and protein**
 
-Through RT-qPCR experiment and SDS-PAGE experiment, we preliminarily verified that the four genes can be transcribed and translated normally in E. coli.(more details can be found in **==result==**)==(<span style="color:red">链接到2.2result</span>)==
+Through RT-qPCR experiment and SDS-PAGE experiment, we preliminarily verified that the four genes can be transcribed and translated normally in E. coli.(more details can be found in [result](/Team:Tongji_China/Result).
 
 <img src="https://2021.igem.org/wiki/images/4/49/T--Tongji_China---16344961965841.png" alt="-16344961965841" style="max-width:100%" />
 
-[^Figure 2.]:  Result of RT-qPCR for four genes
+<center>Figure 2.  Result of RT-qPCR for four genes</center>
 
 <img src="https://2021.igem.org/wiki/images/f/fd/T--Tongji_China---16344963137465.jpeg" alt="-16344963137465" style="max-width:100%" />
 
-[^Figure 3.]:  SDS-PAGE bands of four genes regulated by T7 promoter
+<center>Figure 3.  SDS-PAGE bands of four genes regulated by T7 promoter</center>
 
 ### **Protein function verification experiment**
 
@@ -75,7 +75,7 @@ We configured a series of sodium sulfide solutions with concentration gradient a
 
 
 
-[^Figure 5.]:  standard curve of S<sup>2-</sup>
+<center>Figure 5.  standard curve of S<sup>2-</sup></center>
 
 - **Sulfide oxidation in liquid environment**
 
@@ -85,7 +85,7 @@ We put the engineered bacteria and wild-type bacteria into a certain concentrati
 
 <img src="https://2021.igem.org/wiki/images/5/55/T--Tongji_China---163449635323611.png" alt="-163449635323611" style="max-width:100%" />
 
-[^Figure 5 & 6.]:  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )
+<center>Figure 5 & 6.  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )</center>
 
 - **Hydrogen sulfide oxidation in simulated food  waste environment**
 
@@ -95,7 +95,7 @@ We have preliminarily confirmed that the engineering bacteria can effectively in
 
 
 
-[^Figure 7.]:  Existence of S<sup>2-</sup> in egg liquid with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type）
+<center>Figure 7.  Existence of S<sup>2-</sup> in egg liquid with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type）</center>
 
 
 

@@ -74,11 +74,9 @@ According to our collaboration on education, we learned from each other and got 
 
 ## ICII
 
-We realize that we need to introduce synthesis biology to more people. Therefore, we’ve designed different activities for different ages of people. <span style="color: red;">**==(To see more:链接至6.2 education)==**</span>
+We realize that we need to introduce synthesis biology to more people. Therefore, we’ve designed different activities for different ages of people. [(To see more)](/Team:Tongji_China/Communication)
 
 When it comes to education for primary school students, we participated in ICII(Into China, Into iGEM) hosted by NAU-CHINA and CPU_CHINA. Here is what we’ve done.
-
-
 
       `)
       this.ele = poc as HTMLElement

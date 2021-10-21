@@ -54,8 +54,10 @@ In order to learn about the harm of food waste odor on different people, we've d
 
 <img src="https://2021.igem.org/wiki/images/c/cc/T--Tongji_China--6.1-3.jpeg" alt="6.1-3" style="max-width:100%" />
 
-During our talk with Professor Sun Ming, we learned some basic rules to obey in designing questionnaire ==(To learn more链接至2.3 contribution)==. Therefore we made some changes to the questionnaire according to our research objectives and targets. For example, as our research targets were mostly residents and people who work in related fields, we set some pictures in it to make targets understand more easily. Besides, we tried our best to describe professional vocabulary in an easy-to-understand language. Most importantly, we always put ourselves in others' shoes and avoid any vague expression. ==(What's the results?链接至 )==
+During our talk with Professor Sun Ming, we learned some basic rules to obey in designing questionnaire [(To learn more)](/Team:Tongji_China/Contribution). Therefore we made some changes to the questionnaire according to our research objectives and targets. For example, as our research targets were mostly residents and people who work in related fields, we set some pictures in it to make targets understand more easily. Besides, we tried our best to describe professional vocabulary in an easy-to-understand language. Most importantly, we always put ourselves in others' shoes and avoid any vague expression.
 
+<embed src="https://2021.igem.org/wiki/images/e/e2/T--Tongji_China--Human_Practices-Public_Oriented_Social_Survey-10.20.pdf" width="100%" height="875" 
+ type="application/pdf">
 
 ### The whole process of food waste treatment
 
@@ -67,17 +69,17 @@ In order to learn about the **whole process** of food waste treatment, we visite
 
 We realize that there are many different places where the odor of food waste emerges. Therefore, we did some field trips to a **neighborhood**, a **school** and a **food market**, exploring people's ideas on food waste in different places.
 
-<img src="https://2021.igem.org/wiki/images/d/de/T--Tongji_China--6.1-4-16347000279811.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/d/de/T--Tongji_China--6.1-4-16347000279811.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/7/72/T--Tongji_China--Neighborhood_.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/7/72/T--Tongji_China--Neighborhood_.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/9/9d/T--Tongji_China--6.1-26-16347000468272.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/9/9d/T--Tongji_China--6.1-26-16347000468272.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/4/42/T--Tongji_China--HP_school.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/4/42/T--Tongji_China--HP_school.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-5-16347000558704.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-5-16347000558704.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/0/01/T--Tongji_China--Food_market_.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/0/01/T--Tongji_China--Food_market_.png" style="max-width:49%" />
 
 #### Middle-end:
 
@@ -159,13 +161,13 @@ After learning about people's opinions on eliminating odor of food waste by synt
 
 As we all know,there are many complex components in odor gases therefore we need to select the gases we want to treat and the final products.
 
-To do that, we've read huge amounts of literature and visited one of the authors, **Professor Lv Fan** from School of Environmental Science and Engineering in Tongji University. She told us that the gases in odor can be divided into **organic and inorganic ones**, like H~2~S, NH~3~ and alkene. She advised us to pay attention to **H~2~S and NH~3~** whose sniffing thresholds are low.
+To do that, we've read huge amounts of literature and visited one of the authors, **Professor Lv Fan** from School of Environmental Science and Engineering in Tongji University. She told us that the gases in odor can be divided into **organic and inorganic ones**, like H<sub>2</sub>S, NH<sub>3</sub> and alkene. She advised us to pay attention to **H<sub>2</sub>S and NH<sub>3</sub>** whose sniffing thresholds are low.
 
-<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-27.jpeg" alt="6.1-27" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-27.jpeg" alt="6.1-27" style="max-width:50%" />
 
 <img src="https://2021.igem.org/wiki/images/d/d9/T--Tongji_China--6.1-14.jpeg" alt="6.1-14" style="max-width:100%" />
 
-We know that the aim of implementation of garbage sorting in Shanghai is to make full use of waste resources, therefore we must take it into consideration when selecting final products. We came to **Tian Wei Environmental Company** and the staff there told us that if we want to treat H~2~S and NH~3~, we can transform them into **SO~4~^2-^ and NO~3~^-^** which are **helpful in composting**.
+We know that the aim of implementation of garbage sorting in Shanghai is to make full use of waste resources, therefore we must take it into consideration when selecting final products. We came to **Tian Wei Environmental Company** and the staff there told us that if we want to treat H<sub>2</sub>S and NH<sub>3</sub>, we can transform them into **SO<sub>4</sub><sup>2-</sup> and NO<sub>3</sub><sup>-</sup>** which are **helpful in composting**.
 
 ![6.1-28](https://2021.igem.org/wiki/images/9/9e/T--Tongji_China--6.1-28.png)
 
@@ -173,7 +175,7 @@ We know that the aim of implementation of garbage sorting in Shanghai is to make
 
 ### Pathway design
 
-After determining the gases and final products, we started our design which is divided into three parts: **hydrogen sulfide degradation, pathway optimization and kill switch**.==(To learn more)== To ensure biosafety, we've designed a kill switch consisting of **odor sensors, Dre recombinase system and toxin-antitoxin system**. We needed to synthesize CstR and a promoter promoted by CstR while we had problems in synthesizing the fragment, which influenced the process of our project. After reading some related literature, we found that **Professor Huaiwei Liu from Shandong University** had done some related experiments before. So we talked about our situation with him by e-mail and got the **plasmid PL1-CstR-PR3-mKatessrA** from him,which is helpful for constructing our kill switch.
+After determining the gases and final products, we started our design which is divided into three parts: **hydrogen sulfide degradation, pathway optimization and kill switch**.[(To learn more)](/Team:Tongji_China/Design) To ensure biosafety, we've designed a kill switch consisting of **odor sensors, Dre recombinase system and toxin-antitoxin system**. We needed to synthesize CstR and a promoter promoted by CstR while we had problems in synthesizing the fragment, which influenced the process of our project. After reading some related literature, we found that **Professor Huaiwei Liu from Shandong University** had done some related experiments before. So we talked about our situation with him by e-mail and got the **plasmid PL1-CstR-PR3-mKatessrA** from him,which is helpful for constructing our kill switch.
 
 <img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--6.1-16.png" alt="6.1-16" style="max-width:100%" />
 
@@ -193,23 +195,24 @@ As the project progresses, we began to take application and evaluation of our ba
 
 <img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-18.png" alt="6.1-18" style="max-width:100%" />
 
-### Efficiency of degrading H~2~S in gases and liquid
+### Efficiency of degrading H<sub>2</sub>S in gases and liquid
 
 #### Characterization in liquid forms
 
-After constructing the plasimid we needed, we began to characterize our plasimids.==(To learn more).== In the characterization of hydrogen sulfide degradation, we adopted **Methylene blue spectrophotometric method**, but the results were not steady. Therefore we turned to **Professor ZhanYun Guo** from School of Life Science and Technology in Tongji University for help. He told us that **S^2-^ may be easily oxidized by oxygen** in the air, so when we are experimenting ,we can establish an **acidic environment** and add some **reductive substances** like Vitamin C. Besides, he gave us some **reduced glutathione** as positive reference substances.
+After constructing the plasimid we needed, we began to [characterize](/Team:Tongji_China/Results) our plasimids. In the characterization of hydrogen sulfide degradation, we adopted **Methylene blue spectrophotometric method**, but the results were not steady. Therefore we turned to **Professor ZhanYun Guo** from School of Life Science and Technology in Tongji University for help. He told us that **S<sup>2-</sup> may be easily oxidized by oxygen** in the air, so when we are experimenting ,we can establish an **acidic environment** and add some **reductive substances** like Vitamin C. Besides, he gave us some **reduced glutathione** as positive reference substances.
 
-![6.1-29](https://2021.igem.org/wiki/images/2/28/T--Tongji_China--6.1-29.jpeg)
+<img src="https://2021.igem.org/wiki/images/2/28/T--Tongji_China--6.1-29.jpeg" />
+<br/>
 
-<img src="https://2021.igem.org/wiki/images/8/8a/T--Tongji_China--6.1-30.jpeg" alt="6.1-30" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/8/8a/T--Tongji_China--6.1-30.jpeg" alt="6.1-30" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--6.1-31.jpeg" alt="6.1-31" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--6.1-31.jpeg" alt="6.1-31" style="max-width:49%" />
 
 #### Characterization in gas forms
 
-Besides, we want to test the efficiency of degrading H~2~S in gas form. However, there isn't High Performance Gas Chromatograph in our lab to detect the concentration of gases. Therefore, we turned to **Professor Fan Lv** from Tongji University for help and she was willing to make us **use the instrument** in her lab and we finished the **construction of reaction device** under her guidance.
+Besides, we want to test the efficiency of degrading H<sub>2</sub>S in gas form. However, there isn't High Performance Gas Chromatograph in our lab to detect the concentration of gases. Therefore, we turned to **Professor Fan Lv** from Tongji University for help and she was willing to make us **use the instrument** in her lab and we finished the **construction of reaction device** under her guidance.
 
-<img src="https://2021.igem.org/wiki/images/c/c6/T--Tongji_China--6.1-27-16346888059952.jpeg" alt="6.1-27" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/c/c6/T--Tongji_China--6.1-27-16346888059952.jpeg" alt="6.1-27" style="max-width:50%" />
 
 ### Application
 
@@ -227,7 +230,7 @@ When it comes to the **carrier of our bacteria**, we turned to **Professor Xinpi
 
 Through the human practices in application and evaluation, we have a deeper understanding of the application aspects of our project. When we are testing the degrading efficiency of our bacteria, we asked for help from **Professor Zhanyun Guo** and **Professor Fan Lv** and learned about the **improvement of our characterization experiments** and got access to **devices for testing gas concentration**.
 
-When it comes to the application future for our project, we asked for advice from professors in our school and consulted Professor Xinping Zeng for advice in hardware. Then we made a model to simulate the dynamics of engineered bacteria spread and odor degradation in practical application.==(To see more)==
+When it comes to the application future for our project, we asked for advice from professors in our school and consulted Professor Xinping Zeng for advice in hardware. Then we made a [model](/Team:Tongji_China/Model) to simulate the dynamics of engineered bacteria spread and odor degradation in practical application.
 
       `)
 

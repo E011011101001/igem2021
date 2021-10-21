@@ -29,7 +29,7 @@ export default class Education extends Vue {
 
  Education and Public Engagement is a vital part in iGEM. By educating the public about the concept of synthetic biology, we could collect public feedback towards science and more groups would be able to participate in synthetic biology as well, which may get rid of people's **prejudice towards science**. At the same time, we think that a new perspective or a new position, such as **interdisciplinary** and communications between **industry and academia**, can promote the development of synthetic biology better. As a result, spreading the concept of synthetic biology to all ages as much as possible is of great importance. In the work of Tongji_China, our education and popularization cover **primary, secondary, and university students as well as other social groups.**
 
-## Pupils&Middle School Students
+## Pupils & Middle School Students
 
 For lower age groups, such as pupils and middle school students, building and **keeping their interests** towards biology ought to be put on the top priority. After that, they may receive and explore knowledge better.
 
@@ -61,9 +61,9 @@ In a bid to promote biology to lower age groups, this year, members from Tongji_
 
 Just as its name implies, we popularized the concept of biology on a micro-scale during the activities. Bacteria and fungus were introduced through slides and the operation of microscopes. At the same time, the concept of genes, law of segregation and law of independent assortment were primarily interpreted through games. With such efforts, the concept of synthetic biology was tactfully integrated as well, which showed the probability of how techniques like gene editing could be devoted to the health and progress of human society.
 
-<img src="https://2021.igem.org/wiki/images/c/c3/T--Tongji_China--%E6%98%BE%E5%BE%AE%E8%A7%82%E5%AF%9F%E6%8C%87%E5%AF%BC.jpg" alt="显微观察指导" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/c/c3/T--Tongji_China--%E6%98%BE%E5%BE%AE%E8%A7%82%E5%AF%9F%E6%8C%87%E5%AF%BC.jpg" alt="显微观察指导" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/6/6a/T--Tongji_China--%E5%88%86%E5%AD%90%E9%83%A8%E5%88%86%E4%BA%92%E5%8A%A8%EF%BC%88wyj%EF%BC%89.jpg" alt="分子部分互动（wyj）" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/6/6a/T--Tongji_China--%E5%88%86%E5%AD%90%E9%83%A8%E5%88%86%E4%BA%92%E5%8A%A8%EF%BC%88wyj%EF%BC%89.jpg" alt="分子部分互动（wyj）" style="max-width:49%" />
 
   It was also worth mentioning that our science communication activity also participated in the **ICIII (Into China, Into iGEM)**, a large inter-university and inter-city event organised by NAU_China and CPU_China. More information can be found on the *collaboration* page.
 
@@ -81,7 +81,7 @@ For college students, we would like to convey **the thought of interdisciplinary
 
 For the following questions and other ones related to synthetic biology, we were honored to invite Professor **Lu Xinhua** from College of Humanities, Tongji University to make a speech about '**Philosophy against Synthetic Biology: Human Beings and their Garbage in the Biosphere**'.
 
-<img src="https://2021.igem.org/wiki/images/a/a9/T--Tongji_China--%E5%93%B2%E5%AD%A6%E8%AE%B2%E5%BA%A7.jpg" alt="哲学讲座" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/a/a9/T--Tongji_China--%E5%93%B2%E5%AD%A6%E8%AE%B2%E5%BA%A7.jpg" alt="哲学讲座" style="max-width:50%" />
 
 **How do we look upon ourselves in nature when we master the ability in gene editing therapy?**
 
@@ -124,7 +124,7 @@ For **biological products** designed by synthetic biology and **the concept of s
 |                    Biosafety                     |       26.24%       |      28.37%      |                            32.98%                            |                       12.41%                       |
 |                Synthetic Biology                 |       31.91%       |      33.33%      |                            20.57%                            |                       14.18%                       |
 
-More result of questionnaires can be found in **Human Practice**<span style="color: red">加超链接</span>.
+More result of questionnaires can be found in [**Human Practice**](/Team:Tongji_China/Human_Practices).
 
 
       `)

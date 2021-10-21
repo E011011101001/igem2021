@@ -28,19 +28,19 @@ export default class Contribution extends Vue {
 
 ## 1. New data for existing parts
 
-In order to improve the hydrogen sulfide oxidation efficiency by making subtle control of enzymes concentration, we chose promoters with different strength in Anderson library (BBa_J23100: http://parts.igem.org/Part:BBa_J23100). We validated their relative strength in E.coli(DH5α) for model training**(Figure 1)**.  Our result shows a similar trend with previous characterization. However, we find that J23104 is a stronger promoter than J23100 and it shows bad repeatability in three replications while other promoters shows good repeatability. Characterization of J23104 in K. rhaeticus by KEYSTONE_A 2020 has a similar phenomenon.
+In order to improve the hydrogen sulfide oxidation efficiency by making subtle control of enzymes concentration, we chose promoters with different strength in Anderson library (BBa_J23100: http://parts.igem.org/Part:BBa_J23100). We validated their relative strength in E.coli(DH5α) for model training **(Figure 1)**.  Our result shows a similar trend with previous characterization. However, we find that J23104 is a stronger promoter than J23100 and it shows bad repeatability in three replications while other promoters shows good repeatability. Characterization of J23104 in K. rhaeticus by KEYSTONE_A 2020 has a similar phenomenon.
 
 <img src="https://2021.igem.org/wiki/images/2/28/T--Tongji_China--2.3.1.jpg" alt="2.3.1" style="max-width:100%" />
 
-[^Figure 1 Characterization of promoters from the Anderson library]:
+<center>Figure 1 Characterization of promoters from the Anderson library</center>
 
-We also characterized two promoter P~lacI~ and P~cst~ in our kill switch(link: design kill switch) and compared their strength with promoters in the Anderson library.  P~cst~ has a considerable strength with J23110 while PlacI is a weak promoter**(Figure 2)**.
+We also characterized two promoter P<sub>lacI</sub> and P<sub>cst</sub> in our kill switch(link: design kill switch) and compared their strength with promoters in the Anderson library.  P<sub>cst</sub> has a considerable strength with J23110 while PlacI is a weak promoter **(Figure 2)**.
 
 <img src="https://2021.igem.org/wiki/images/0/05/T--Tongji_China--2.3.2.jpg" alt="2.3.2" style="max-width:100%" />
 
 
 
-[^Figure 1 Characterization of Pcst and PlacI]:
+<center>Figure 1 Characterization of Pcst and PlacI</center>
 
 
 

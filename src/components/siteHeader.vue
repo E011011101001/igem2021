@@ -145,7 +145,7 @@ export default class SiteHeader extends Vue {
           to: '/Human_Practices'
         },
         {
-          title: 'Education & Public Engagement',
+          title: 'Communication',
           to: '/Communication'
         },
         {

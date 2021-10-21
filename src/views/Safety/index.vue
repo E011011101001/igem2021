@@ -30,11 +30,11 @@ export default class Safety extends Vue {
 
 Team Tongji_China obeys the **safety policy of iGEM 2021**. All the experiments were done in the Open Laboratory of Innovation Practice for College Students. All the equipment and devices belonged to **bio-safety level 1**, and reagent cabinet was equipped for storing hazardous reagents.
 
-<img src="https://2021.igem.org/wiki/images/0/0c/T--Tongji_China--3-7-1.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/0/0c/T--Tongji_China--3-7-1.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--3-7-2.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--3-7-2.png" style="max-width:49%" />
 
-<img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--3-7-3.png" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--3-7-3.png" style="max-width:50%" />
 
 <center>Our laboratory</center>
 

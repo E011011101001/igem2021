@@ -32,7 +32,7 @@ We not only want to prove that our project works in laboratory ,but we also want
 
 After our preliminary human practice, we found that the front and middle ends of food waste treatment have not formed a scientific and systematic deodorisation method due to the small volume, so we set our application scenario as the front and middle ends of wet waste treatment, like food waste bins, waste transfer stations, etc.
 
-Besides, since food waste is very valuable resource for us to use, we want to utilize it fully. Therefore we have partnership with SJTang and explored the possibility that producing hydrogen while eliminating H~2~S by co-cultivating our bacteria.
+Besides, since food waste is very valuable resource for us to use, we want to utilize it fully. Therefore we have partnership with SJTang and explored the possibility that producing hydrogen while eliminating H<sub>2</sub>S by co-cultivating our bacteria.
 
 ## 2. End users
 
@@ -40,7 +40,7 @@ Once we had identified our application scenario, we targeted our audience at res
 
 ## 3. Safety
 
-It works based on the concentration of H~2~S and NH~3~ which consists of odor sensors, Dre recombinase system and toxin-antitoxin system. Under cultural conditions, none of the pathway can be activated. When the bio-engineered bacteria are put into work, high density of hydrogen sulfide in the environment induces the expression of Dre recombinase and MazF (antitoxin), followed by terminator removal and MazE (toxin) expression. Once our bio-engineered bacteria leak to the environment, low density of hydrogen sulfide inhibits MazF (antitoxin) expression. Without the rescue of MazF(antitoxin), bio-engineered bacteria will be killed by the accumulation of MazE (toxin). In this way ,we succeed in adjusting the survival and death of the bacteria by adjusting the concentration of H~2~S and NH~3~.==(To learn more)==链接至3.1 design-kill switch
+It works based on the concentration of H<sub>2</sub>S and NH<sub>3</sub> which consists of odor sensors, Dre recombinase system and toxin-antitoxin system. Under cultural conditions, none of the pathway can be activated. When the bio-engineered bacteria are put into work, high density of hydrogen sulfide in the environment induces the expression of Dre recombinase and MazF (antitoxin), followed by terminator removal and MazE (toxin) expression. Once our bio-engineered bacteria leak to the environment, low density of hydrogen sulfide inhibits MazF (antitoxin) expression. Without the rescue of MazF(antitoxin), bio-engineered bacteria will be killed by the accumulation of MazE (toxin). In this way ,we succeed in adjusting the survival and death of the bacteria by adjusting the concentration of H<sub>2</sub>S and NH<sub>3</sub>. [(To learn more)](/Team:Tongji_China/Design)
 
 ## 4. Efficiency
 
@@ -50,11 +50,11 @@ Besides safety, the complex situations in real life make us consider whether our
 
 There are very many other bacteria in the food waste bins and they have to live in an anaerobic state.In the further composting process, food waste will be treated in high temperature. This series of harsh survival environments made us realize that our bio-engineered bacteria is difficult to survive in this scenario. After communicating with Professor Xinping Zeng, we intend to provide a relatively stable living environment for the engineered bacteria in the form of biochar to avoid competition with other bacteria. In addition we will further consider how to improve the survival of the engineered bacteria under extreme conditions such as anaerobic high temperatures.
 
-Besides, this year we have a solid partnership with FAFU-CHINA, whose project aimed at generating linalool by yeast. Therefore, we tried to cultivate our bio-engineered bacteria together with their yeast. They made a model to predict the living conditions of our microorganism.==(To learn more)==链接至7.4 partnership
+Besides, this year we have a solid partnership with FAFU-CHINA, whose project aimed at generating linalool by yeast. Therefore, we tried to cultivate our bio-engineered bacteria together with their yeast. They made a model to predict the living conditions of our microorganism. [(To learn more)](/Team:Tongji_China/Partnership)
 
 ### 4.2 Work efficiency
 
-During our interaction with the professors in our school, they suggested to us that the practical application would require a combination of the rate of gas production and the rate of gas's diffusion into E. coli. Therefore we established a cellular automation model to simulate the dynamics of engineered bacteria spread and odor degradation in practical application. We also simulated the application in different environment, seasons and compared different ways of implementation. ==(To learn more)==链接至4.models
+During our interaction with the professors in our school, they suggested to us that the practical application would require a combination of the rate of gas production and the rate of gas's diffusion into E. coli. Therefore we established a cellular automation model to simulate the dynamics of engineered bacteria spread and odor degradation in practical application. We also simulated the application in different environment, seasons and compared different ways of implementation. [(To learn more)](/Team:Tongji_China/Models)
 
 <img src="https://2021.igem.org/wiki/images/e/ef/T--Tongji_China--6.3-1.png" alt="6.3-1" style="max-width:100%" />
 

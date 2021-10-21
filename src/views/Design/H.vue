@@ -28,7 +28,7 @@ export default class H extends Vue {
 
 ## Selection of gene and plasmid construction
 
-According to the [background]()(超链接到2.1 description-background) we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste <sup>[1]</sup>, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances so that we could solve the problem through engineered bacteria.
+According to the [background](/Team:Tongji_China/Design#background) description-background) we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste <sup>[1]</sup>, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances so that we could solve the problem through engineered bacteria.
 Two main problems need to be solved.
 
 -  What substances to convert the odors into
@@ -42,7 +42,7 @@ After our extensive literature review and intense discussions, the following tec
 
    <img src="https://2021.igem.org/wiki/images/2/23/T--Tongji_China--S_cellular_pathway.png" alt="S cellular pathway" style="max-width:100%" />
 
-   [^Figure 1.]: The updated model of sulfur oxidation in A. ferrooxidans. OMP, outer-membrane proteins; TQO, thiosulfate quinone oxidoreductase; TSD, thiosulfate dehydrogenase; TetH, tetrathionate hydrolase; SQR, sulfide: quinone oxidoreductase; SDO, sulfur dioxygenase; HDR, Hdr-like complex; SAT, ATP sulfurylase; bd,bo3, terminal oxidases; QH2, quinol pool; NADH, NADH dehydrogenase complex I.
+   <center>Figure 1. The updated model of sulfur oxidation in A. ferrooxidans. OMP, outer-membrane proteins; TQO, thiosulfate quinone oxidoreductase; TSD, thiosulfate dehydrogenase; TetH, tetrathionate hydrolase; SQR, sulfide: quinone oxidoreductase; SDO, sulfur dioxygenase; HDR, Hdr-like complex; SAT, ATP sulfurylase; bd,bo3, terminal oxidases; QH2, quinol pool; NADH, NADH dehydrogenase complex I.</center>
 
    Through further investigation we found that sulfite is cytotoxic, singlet sulfur is produced slowly under aerobic conditions, and the large accumulation of GSSH and H<sub>2</sub>S<sub>n</sub> is toxic and causes the expression of reductase in E. coli, thus requiring conversion downstream. Taking into account, we selected sulfate as our end product, which has no major effect on both bacteria and the environment at low doses and is odorless itself.
 
@@ -52,7 +52,7 @@ After our extensive literature review and intense discussions, the following tec
 
 <img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--S%E9%80%9A%E8%B7%AF%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="S通路设计图" style="max-width:100%" />
 
-[^Figure 2. The hydrogen sulfide degradation pathway]:
+<center>Figure 2. The hydrogen sulfide degradation pathway</center>
 
 #### The introduction of the four genes
 
@@ -87,7 +87,7 @@ We hope to extract bacterial RNA, reverse transcribe it and then subject it to q
 | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | :----------------------------------------------------------: |
 | Primer | 16SrRNA_ecoli_F：<br/>CTGGAACTGAGACACGGTCC <br/> 16SrRNA_ecoli_R: <br/> GGTGCTTCTTCTGCGGGTAA |sqr-qpcr_F: <br/> tttatcgccttgccccagttga <br/> sqr-qpcr_R: <br/> ctcatagaagggctcggagaca|sdo-qpcr_F: <br/> accgaaaccagcacctacac <br/> sdo-qpcr_R:<br/>ccgatccagtatgcgcagta|aprba-qpcr_F: <br/> aacatgcgccctggatagag <br/> aprba-qpcr_R: <br/> gctccactgtcccgtattcc|sat-qpcr_F: <br/> gcgccacccatttcatcatc <br/> sat-qpcr_R: <br/> acgcatactcgggcagaaaa|
 
-[^Table 1. The primer sequences for each genes]:
+<center>Table 1. The primer sequences for each genes</center>
 
 ### Protein level
 
@@ -96,7 +96,7 @@ To detect protein expression, SDS-PAGE electrophoresis was performed on bacteria
 ### Sulfide treatment
 
 To verify the ability of the bacteria to convert sulfide, we want to directly detect the change of hydrogen sulfide concentration. In practice, the engineered bacteria will convert hydrogen sulfide in a liquid environment. Accordingly, we decide to add sodium sulfide to the aqueous solution to simulate the environment of hydrogen sulfide odor after it dissolves in water, and place the engineered bacteria in such reaction solution, took samples at different times to test the sulfide concentration and sulfate concentration in the water, to test the ability of our bacteria.
-There are many methods to detect sulfide and sulfate, according to the actual condition of our laboratory, we chose the most suitable colorimetric method (see [protocol](连接到protocol) （链接到3.3 protocol-characterization）of sulfide and sulfate detection for details).
+There are many methods to detect sulfide and sulfate, according to the actual condition of our laboratory, we chose the most suitable colorimetric method (see [protocol](/Team:Tongji_China/Experiments#2-characterization) of protocol-characterization）of sulfide and sulfate detection for details).
 
 ## References
 
