@@ -13,8 +13,8 @@ import Component from 'vue-class-component'
 import marked from 'marked'
 
 @Component
-export default class Improved extends Vue {
-  static id = 'Improved'
+export default class POC extends Vue {
+  static id = 'POC'
 
   mounted () : void {
     const poc = this.$refs.poc as Element
