@@ -19,9 +19,11 @@ export default class H extends Vue {
 
 # The three-gear kill switch
 
-Biosafety has always been an important part in iGEM. To prevent our engineered bacteria from leaking into the environment, we designed a H<sub>2</sub>S sensitive three-gear kill switch to ensure this.  H<sub>2</sub>S is an important factor in the working environment of our engineered bacteria, so we chose to use H<sub>2</sub>S concentration to control the on-off of the kill switch.  By searching for the biosensors of various gas molecules, we found a HS<sub>n</sub>H-sensing biosensor (the product of SQR oxidized H<sub>2</sub>S happens to be HS<sub>n</sub>H) -- a gene regulator, CstR, which can sense HS<sub>n</sub>H and turn on the expression of the downstream genes (Figure 1.)<sup>[1]</sup>. 
+Biosafety has always been an important part in iGEM. To prevent our engineered bacteria from leaking into the environment, we designed a H<sub>2</sub>S sensitive three-gear kill switch to ensure this.  H<sub>2</sub>S is an important factor in the working environment of our engineered bacteria, so we chose to use H<sub>2</sub>S concentration to control the on-off of the kill switch.  By searching for the biosensors of various gas molecules, we found a HS<sub>n</sub>H-sensing biosensor (the product of SQR oxidized H<sub>2</sub>S happens to be HS<sub>n</sub>H) -- a gene regulator, CstR, which can sense HS<sub>n</sub>H and turn on the expression of the downstream genes (Figure 1.)<sup>[1]</sup>.
 
+<div style="text-align: center;">
 <img src="https://2021.igem.org/wiki/images/a/ad/T--Tongji_China--%E6%96%87%E7%8C%AE%E6%8F%92%E5%9B%BE.jpeg" alt="文献插图" style="zoom: 50%;" />
+</div>
 
 [^Figure 1. the schematic presentation of CstR ]: PR(Pcstr): the promoter which CstR can combine with and inhibit; PL: the constitutive promoter which regulate the  expression of CstR
 
@@ -29,13 +31,13 @@ If we design a two-gear switch, namely, the switch is off when H<sub>2</sub>S co
 
 <img src="https://2021.igem.org/wiki/images/6/6c/T--Tongji_China--%E8%87%AA%E6%9D%80%E5%BC%80%E5%85%B3%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="自杀开关设计图" style="zoom: 80%;" />
 
-[^Figure 2. The design of our three-gear kill switch]: 
+[^Figure 2. The design of our three-gear kill switch]:
 
 Under the culture condition, H<sub>2</sub>S concentration is not high enough to turn on any of the three pathways, so the bacteria will grow normally. When the concentration of H<sub>2</sub>S is high, H<sub>2</sub>S will remove the inhibition of CstR on the downstream gene expression by combining with it, then Dre will be expressed, and the terminator before MazF will be removed, resulting in the expression of MazF toxin. Meanwhile, due to the expression of the antitoxin MazE, the bacteria will not die.  When working bacteria leak into the environment, H<sub>2</sub>S concentration in the environment will return to the normal (low) level, the inhibition of CstR will not be removed, and MazE will no longer be expressed. At this time, because MazF has been expressed, a large amount of MazF will kill the bacteria over time. (Figure 3.)
 
 <img src="https://2021.igem.org/wiki/images/e/e9/T--Tongji_China--kill_switch-2.png" alt="kill switch-2" style="zoom:50%;" />
 
-[^Figure 3.  The work circuit of our kill switch]: 
+[^Figure 3.  The work circuit of our kill switch]:
 
 <img src="https://2021.igem.org/wiki/images/4/4f/T--Tongji_China--kill_switch_%E5%8A%A8%E7%94%BB.gif" alt="kill switch 动画" style="zoom:50%;" />
 
@@ -47,7 +49,7 @@ Under the culture condition, H<sub>2</sub>S concentration is not high enough to 
 
 3. Simanshu, D.K., et al., *Structural Basis of mRNA Recognition and Cleavage by Toxin MazF and Its Regulation by Antitoxin MazE in Bacillus subtilis.* Molecular Cell, 2013. **52**(3): p. 447-458.
 
- 
+
 
       `)
     }
