@@ -1,29 +1,31 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="poc").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Description extends Vue {
   static id = 'Description'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const poc = this.$refs.poc as Element
     console.log(poc)
     if (poc) {
       poc.innerHTML = marked(`
 # Abstract
 
-Since the implementation of **household garbage sorting regulations** in Shanghai, the amount of food waste has reached a peak. However, **problems caused by odor** like unpleasant smell and health problems, have aroused great attention everywhere.This year, **Tongji_China** launches the **"LOOK!"** project to solve the problem. We construct two kinds of bioengineered E.coli to absorb **hydrogen sulfide** **and ammonia**, which are the two main ingredients in the odor. One uses enzymes related to sulfide oxidazation(**Sqr, Sdo, AprBA and Sat**), converting **hydrogen sulfide** to **sulfate**, while the other uses enzymes **AMO, HAO and NOD** to convert **ammonia** to **nitrate**. Besides, a **three-gear adjustable kill switch** based on the concentration of H2S and NH3 is added to ensure biosafety. Also, we **optimize our pathway** by high throughput screening and machine learning. Besides, we take implementation into consideration and construct models to **simulate the real environment**. With such efforts, we hope to solve the problems the odor has brought to people and downstream industries. 
+Since the implementation of **household garbage sorting regulations** in Shanghai, the amount of food waste has reached a peak. However, **problems caused by odor** like unpleasant smell and health problems, have aroused great attention everywhere.This year, **Tongji_China** launches the **"LOOK!"** project to solve the problem. We construct two kinds of bioengineered E.coli to absorb **hydrogen sulfide** **and ammonia**, which are the two main ingredients in the odor. One uses enzymes related to sulfide oxidazation(**Sqr, Sdo, AprBA and Sat**), converting **hydrogen sulfide** to **sulfate**, while the other uses enzymes **AMO, HAO and NOD** to convert **ammonia** to **nitrate**. Besides, a **three-gear adjustable kill switch** based on the concentration of H2S and NH3 is added to ensure biosafety. Also, we **optimize our pathway** by high throughput screening and machine learning. Besides, we take implementation into consideration and construct models to **simulate the real environment**. With such efforts, we hope to solve the problems the odor has brought to people and downstream industries.
 
 # Inspiration
 
@@ -35,25 +37,25 @@ The **amount** of food waste is **increasing year by year** after household garb
 
 ## Treatment paths for food waste
 
- 
 
-There's a complete treatment path for food waste in Shanghai. 
 
- 
+There's a complete treatment path for food waste in Shanghai.
+
+
 
 <img src="https://2021.igem.org/wiki/images/8/8b/T--Tongji_China--2-1%E6%B9%BF%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png" alt="2-1湿垃圾处理流程" style="zoom: 70%;" />
 
- 
+
 
 With such a huge amount of food waste, the problems of odor caused by food waste have come into our view.
 
 ## Unpleasant smell
 
-There's no doubt that food waste is very smelly, especially in summer. After our online and offline research, we find that the unpleasant smell caused by food waste is very common. Waste treatment accounted for an average of 11.3% of all odor complaints in 2018-2020, making it the sector with the **highest number of odor complaints** in the last three years. 
+There's no doubt that food waste is very smelly, especially in summer. After our online and offline research, we find that the unpleasant smell caused by food waste is very common. Waste treatment accounted for an average of 11.3% of all odor complaints in 2018-2020, making it the sector with the **highest number of odor complaints** in the last three years.
 
 <img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--2-2_%E6%8A%95%E8%AF%89.png" alt="2-2 投诉" style="zoom: 12%;" />
 
- 
+
 
 <center>Industry distribution of odor complaints from 2018-2020[2]</center>
 
@@ -63,21 +65,21 @@ Besides,in the first season of 2018 only, there were **121 complaints** from res
 
 Besides the unpleasant smell, the chemical substances in the odor may also lead to some **health problems** like respiratory, endocrine and nervous systems, and may be associated with the risk of cancer[3].Aatamila et al [4] found that odor from waste disposal centres may lead to a great impact on health symptoms such as shortness of breath, eye irritation, hoarseness, fever, and muscle pain.Gao et al [5] detected a total of 20 odorous substances in waste transfer stations, with a high proportion of emissions of benzene, toluene, methylene chloride, etc. The carcinogenic risk of 1,3-butadiene and benzene ranged from 10<sup>-6^ to 10^-4</sup>.
 
- 
+
 
 <img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--2-3_%E5%81%A5%E5%BA%B7.png" alt="2-3 健康" style="zoom:50%;" />
 
- 
+
 
 ## The Influence on downstream industries
 
 According to our human practices at **Tian Wei Environmental Company**, which focuses on recycling food waste, we have learned that the odor of food waste can have great influence on **downstream industries**. To make the best use of resources, most of the wet waste is used for **composting**. However, the odor of food waste makes the compost too stinky to use.
 
- 
+
 
 <img src="https://2021.igem.org/wiki/images/5/57/T--Tongji_China--2-4_%E5%A0%86%E8%82%A5.png" alt="2-4 堆肥" style="zoom: 50%;" />
 
- 
+
 
 ## Limitations of present odor elimination methods
 
@@ -97,7 +99,7 @@ After learning about the problems the odor has brought, we have done some resear
 
 - Ammonification reaction: organic nitrogen - ammonia (deaminase)
 
-- N<sub>2</sub> in the environment is fixed to ammonia by some microbial nitrogen fixation 
+- N<sub>2</sub> in the environment is fixed to ammonia by some microbial nitrogen fixation
 
 # Goals & Methods
 
@@ -123,13 +125,13 @@ To ensure biosafety, we have designed a three-gear adjustable kill switch based 
 
 When it comes to the application level, we’ve built several models to predict the application future of our project.
 
-### Model 1 : 
+### Model 1 :
 
-We bulit a ODE model to predict whether our three-gear-adjustable kill switch can work as expected. We have also done some parameter analysis to find the possible improving direction. This model helped with our bio-safety considerations. 
+We bulit a ODE model to predict whether our three-gear-adjustable kill switch can work as expected. We have also done some parameter analysis to find the possible improving direction. This model helped with our bio-safety considerations.
 
-### Model 2: 
+### Model 2:
 
-We established a cellular automation model to simulate the dynamics of engineered bacteria spread and odour degradation in practical application. We also simulated the application in different environment, seasons and compared different ways of implementation. This model offered a guide for the improvement and application of our project. 
+We established a cellular automation model to simulate the dynamics of engineered bacteria spread and odour degradation in practical application. We also simulated the application in different environment, seasons and compared different ways of implementation. This model offered a guide for the improvement and application of our project.
 
 # Reference:
 
@@ -155,6 +157,7 @@ We established a cellular automation model to simulate the dynamics of engineere
 
 [11] Simanshu, D.K., et al., *Structural basis of mRNA recognition and cleavage by toxin MazF and its regulation by antitoxin MazE in Bacillus subtilis.* Mol Cell, 2013. 52(3): p. 447-58.
       `)
+      this.ele = poc as HTMLElement
     }
   }
 }

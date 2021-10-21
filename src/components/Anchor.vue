@@ -99,6 +99,8 @@ export default class Anchor extends AnchorProps {
   top: 20%;
   border-right: 2px solid #25137f;
   padding-right: 24px;
+  max-height: 50vh;
+  overflow: scroll;
 }
 .anchor li {
   cursor: pointer;

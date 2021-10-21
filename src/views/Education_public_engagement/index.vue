@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="edu").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Education extends Vue {
   static id = 'Education'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const edu = this.$refs.edu as Element
     console.log(edu)
     if (edu) {
@@ -56,7 +58,7 @@ Based on the popularity of  'Synthesis of a Watermelon', members of Tongji_China
 
 In a bid to promote biology to lower age groups, this year, members from Tongji_China came to the Youth Centre located at Minhang District, Shanghai. Over twenty students from biology community joined in this science popularization activity, which was called **'Into the micro-world'**.
 
-Just as its name implies, we popularized the concept of biology on a micro-scale during the activities. Bacteria and fungus were introduced through slides and the operation of microscopes. At the same time, the concept of genes, law of segregation and law of independent assortment were primarily interpreted through games. With such efforts, the concept of synthetic biology was tactfully integrated as well, which showed the probability of how techniques like gene editing could be devoted to the health and progress of human society. 
+Just as its name implies, we popularized the concept of biology on a micro-scale during the activities. Bacteria and fungus were introduced through slides and the operation of microscopes. At the same time, the concept of genes, law of segregation and law of independent assortment were primarily interpreted through games. With such efforts, the concept of synthetic biology was tactfully integrated as well, which showed the probability of how techniques like gene editing could be devoted to the health and progress of human society.
 
 <img src="https://2021.igem.org/wiki/images/c/c3/T--Tongji_China--%E6%98%BE%E5%BE%AE%E8%A7%82%E5%AF%9F%E6%8C%87%E5%AF%BC.jpg" alt="显微观察指导" style="zoom:15%;" />
 
@@ -125,6 +127,7 @@ More result of questionnaires can be found in **Human Practice**<span style="col
 
 
       `)
+      this.ele = edu as HTMLElement
     }
   }
 }

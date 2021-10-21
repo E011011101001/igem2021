@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="attribution").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Attribution extends Vue {
   static id = 'Attribution'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const attribution = this.$refs.attribution as Element
     console.log(attribution)
     if (attribution) {
@@ -26,79 +28,79 @@ export default class Attribution extends Vue {
 
 ### Team members
 
-**Hongjuan Hu**: 
+**Hongjuan Hu**:
 
-Team Leader, HP group leader, 
+Team Leader, HP group leader,
 
-Contact with collaboration and partnership, 
-
-Wiki writing
-
-
-
-**Yiying Zhang**: 
-
-Team Leader, Academic Group Leader, 
-
-Plasmid construction and primer design, 
-
-optimizations of promoter pathways (including wet lab and modeling),  
-
-Participating HP, 
+Contact with collaboration and partnership,
 
 Wiki writing
 
 
 
-**Jiayi Cheng**: 
+**Yiying Zhang**:
 
-The construction and expression of Kill Switch, 
+Team Leader, Academic Group Leader,
 
-Wiki writing, 
+Plasmid construction and primer design,
+
+optimizations of promoter pathways (including wet lab and modeling),
+
+Participating HP,
+
+Wiki writing
+
+
+
+**Jiayi Cheng**:
+
+The construction and expression of Kill Switch,
+
+Wiki writing,
 
 art design(Logo and poster design)
 
 
 
-**Jixuan Lin** : 
+**Jixuan Lin** :
 
-Expression of removing sulfur, 
+Expression of removing sulfur,
 
-Participating HP, 
+Participating HP,
 
 Wiki writiing
 
 
 
-**Peihao Li** : 
+**Peihao Li** :
 
 Wiki design
 
 
 
-**Yuanjia Wang**: 
+**Yuanjia Wang**:
 
-In charge of human practiced(participating and content planing), 
+In charge of human practiced(participating and content planing),
 
-In charge of education and public engagement, 
+In charge of education and public engagement,
 
 Wiki writing
 
 
 
-**Jiang Wu**: 
+**Jiang Wu**:
 
-Expression of removing sulfur, 
+Expression of removing sulfur,
 
 Wiki writing and design
 
 
 
-**Hanqing Zhao** : 
+**Hanqing Zhao** :
 
 Expression of removing sulfur,
 
- Plasmid construction and primer design, 
+ Plasmid construction and primer design,
 
 wiki writing
 
@@ -106,9 +108,9 @@ wiki writing
 
 ### Instructor and advisors
 
-**Yuanzhe Kang** : 
+**Yuanzhe Kang** :
 
-Instructor. 
+Instructor.
 
 Team leader of Tongji_China 2019 and team instructor of Tongji_China 2020. He helped us in building the team Tongji_China 2021. Guidance of project and experiments
 
@@ -122,7 +124,7 @@ Team leader and HP Group Leader of Tongji_China 2020. He helped us in topic selc
 
 
 
-**WenTing Lu** : 
+**WenTing Lu** :
 
 Advisor.
 
@@ -156,19 +158,19 @@ Team leader and Academic Group leader of Tongji_China 2020. He helped us in mole
 
 #### School of Political Science & International Relations, Tongji University:
 
-- **Prof. Ming Sun**：He teached us the crteria of language expression and topic selection in designing a questionnaire. He also gave suggestions on our first edition. 
+- **Prof. Ming Sun**：He teached us the crteria of language expression and topic selection in designing a questionnaire. He also gave suggestions on our first edition.
 
 #### School of Humanities, Tongji University
 
 - **Prof. Xinghua Lu**：Prof. Lu is a doctor of philosophy mainly focusing on philosophy of art, philosophy of technology and urban philosophy. He evaluated our project from the perspective of philosophy and gave suggestions on the techniques commonly used in synthetic biology. With the effort of Lu, a interdisciplinary communication was successfully held.
 
-  
+
 
 ### General Support
 
 #### School of Life Science and Technology,Tongji Univesity:
 
-- **Prof. Shaorong Gao**: Dean of School of Life Science and Technology, Tongji University. provided us with lots of experimental materials. 
+- **Prof. Shaorong Gao**: Dean of School of Life Science and Technology, Tongji University. provided us with lots of experimental materials.
 - **Prof. Ping Li**: She shared lab resources with us.
 - **Dr. Ming Li**: She shared experimental materials with us.
 - **Mrs.Libo Xing**:Teacher in Tongji University, supports us in experimental materials.
@@ -182,7 +184,7 @@ Team leader and Academic Group leader of Tongji_China 2020. He helped us in mole
 
 ### Others
 
-- **Zhifan Lin**: Junior student from School of Life Science and Technology,Tongji Univesity. He provided as numerous support on the field and literature search at the early stage of our topic selection. He also participated in the code part of making 'Synthesis of Biology'                                                                                                                                                
+- **Zhifan Lin**: Junior student from School of Life Science and Technology,Tongji Univesity. He provided as numerous support on the field and literature search at the early stage of our topic selection. He also participated in the code part of making 'Synthesis of Biology'
 
 - **Youjun Shi**: Junior student from School of Life Science and Technology,Tongji Univesity. He participated field and literature search at the early stage of our topic selection. He also participated in the design of making 'Synthetic of Biology'
 
@@ -201,6 +203,7 @@ Team leader and Academic Group leader of Tongji_China 2020. He helped us in mole
 
 School of Life Science and Technology of Tongji University provided the experiment fund for us.
       `)
+      this.ele = attribution as HTMLElement
     }
   }
 }

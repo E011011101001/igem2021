@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="parts").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Parts extends Vue {
   static id = 'Parts'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const parts = this.$refs.parts as Element
     console.log(parts)
     if (parts) {
@@ -44,6 +46,7 @@ export default class Parts extends Vue {
 | [BBa_K3823010](http://parts.igem.org/Part:BBa_K3823010)      | MazE  antitoxin and Dre recombinase regulated by a hydrogen sulfide switch |
 
       `)
+      this.ele = parts as HTMLElement
     }
   }
 }

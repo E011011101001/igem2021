@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="poc").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Collaboration extends Vue {
   static id = 'Collaboration'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const poc = this.$refs.poc as Element
     console.log(poc)
     if (poc) {
@@ -49,7 +51,7 @@ We've finished **a complete and scientific questionnaire** after the discussion 
 
 ![tongji-software](https://2021.igem.org/wiki/images/a/ab/T--Tongji_China--tongji-software.png)
 
-We have been in good relationship with Tongji_Software for a long time, so we have discussed with them for many times for our design and human practices. Before the 8th CCiC(Conference of China iGEMer Community), we made a pre-presentation together and asked for advice from teachers of our school. Besides, we made a collaboration on education in the seeding program for high school students. We gave online lecture on college lives, synthesis biology and the current iGEM project. 
+We have been in good relationship with Tongji_Software for a long time, so we have discussed with them for many times for our design and human practices. Before the 8th CCiC(Conference of China iGEMer Community), we made a pre-presentation together and asked for advice from teachers of our school. Besides, we made a collaboration on education in the seeding program for high school students. We gave online lecture on college lives, synthesis biology and the current iGEM project.
 
 ## SJTU-BioX-Shanghai
 
@@ -71,13 +73,14 @@ According to our collaboration on education, we learned from each other and got 
 
 ## ICII
 
-We realize that we need to introduce synthesis biology to more people. Therefore, we’ve designed different activities for different ages of people. <span style="color: red;">**==(To see more:链接至6.2 education)==**</span> 
+We realize that we need to introduce synthesis biology to more people. Therefore, we’ve designed different activities for different ages of people. <span style="color: red;">**==(To see more:链接至6.2 education)==**</span>
 
 When it comes to education for primary school students, we participated in ICII(Into China, Into iGEM) hosted by NAU-CHINA and CPU_CHINA. Here is what we’ve done.
 
 
 
       `)
+      this.ele = poc as HTMLElement
     }
   }
 }

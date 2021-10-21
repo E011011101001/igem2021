@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="exp").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Exp extends Vue {
   static id = 'Exp'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const exp = this.$refs.exp as Element
     console.log(exp)
     if (exp) {
@@ -81,10 +83,10 @@ PCR program:
 ### 1.4 **1% Agarose Gel Electrophoresis（Taking 30 milliliters for example）**
 
 1. Prepare the bed in which the gel will polymerize and the comb which is suitable.
-2. Weigh 0.3 g of agarose. 
-3. Add 30 mL of 1X TAE. 
-4. Heat up the solution until the agarose is completely dissolved. 
-5. Add 30 µL of Gel-Red SAFE DNA Gel Stain (1000*) to the solution and mix sufficiently. 
+2. Weigh 0.3 g of agarose.
+3. Add 30 mL of 1X TAE.
+4. Heat up the solution until the agarose is completely dissolved.
+5. Add 30 µL of Gel-Red SAFE DNA Gel Stain (1000*) to the solution and mix sufficiently.
 6. Pour the solution into the bed and clear all its bubbles with a tip, and then place the comb rightly and tightly.
 7. Wait for its solidification.
 8. Mix the samples with 6X DNA Loading Buffer in a 5:1 ratio. Inject the right amounts of samples into the wells, as well as DNA marker with appropriate molecular weight into the fit well.
@@ -98,7 +100,7 @@ PCR program:
 | PCR products                               | 25 μL          |
 | DpnI<br/>(Bought from NEB, number:#R0176V) | 0.5 μL         |
 
-2. Mix gently and incubate for 1-2 hours at 37°C. 
+2. Mix gently and incubate for 1-2 hours at 37°C.
 
 Note: Incubation time varies along the total volume of the reaction.
 
@@ -133,7 +135,7 @@ Optimal cloning vectors usage= [0.02* Base pairs number of cloning vectors] ng;
 
 Optimal inserts usage= [0.04* Base pairs number of inserts] ng.
 
-Note:Linear cloning vectors should be used between 50 and 200 ng; insert amplification products should be used between 10 and 200 ng. Select the lowest/highest amount directly when the optimal amount of DNA used exceeds this range by using the above formula. 
+Note:Linear cloning vectors should be used between 50 and 200 ng; insert amplification products should be used between 10 and 200 ng. Select the lowest/highest amount directly when the optimal amount of DNA used exceeds this range by using the above formula.
 
 1. Arrange the following reaction systems on ice.
 
@@ -237,7 +239,7 @@ Note: Invert and blend immediately after adding Buffer P3, to prevent local prec
 1. Place the FastPure® DNA Mini Column in a Collection Tube 2 ml collection tube. Transfer the supernatant in step 4 to the FastPure® DNA Mini Column carefully, taking care not to suck the precipitate. Then centrifuge at 13,000 x g for 60 seconds. Remove the waste from the collection tube and put the FastPure® DNA Mini Column back into the collection tube.
 2. Add 500 μL Buffer PW1 to the FastPure® DNA Mini Column. Centrifuge at 13,000 x g for 60 seconds. Discard the waste liquid and put the FastPure® DNA Mini Column back into the collection tube.
 
-Note: This step is optional. Take this step if the host bacteria are end A+ and omit it if the host bacteria are end A-. 
+Note: This step is optional. Take this step if the host bacteria are end A+ and omit it if the host bacteria are end A-.
 
 1. Add 600 μL Buffer PW2 (confirm it has been diluted with absolute ethanol) to the FastPure® DNA Mini Column. Centrifuge at 13,000 x g for 60 seconds. Discard the waste.
 2. Repeat step 7.
@@ -248,7 +250,7 @@ Note: Preheating Elution Buffer to 55℃ can improve elution efficiency, in addi
 
 1. Discard the FastPure® DNA Mini Column and detect the concentration of DNA solution by Nanodrop spectrophotometer, then store it at -20℃ to prevent DNA degradation.
 
-   
+
 
 ## 2. Characterization
 
@@ -279,7 +281,7 @@ Note: Preheating Elution Buffer to 55℃ can improve elution efficiency, in addi
 
 2. Wash 5 times with distilled water, 50ml each time, take the last washing solution and add sulphate to observe whether there is any precipitate (no precipitate can be washed again)
 
-### 2.3 The Promoter Repressed by CstR 
+### 2.3 The Promoter Repressed by CstR
 
 1. Transform the plasmid pTrchis2A-CstR-Pcstr-mKate-CpSQR into E. coli DH5α competent cells.
 2. The engineered bacteria are cultured in 25 mL LB-ampicillin (50 ng/µl) medium overnight at 37℃, 220rpm to the  OD<sub>600 nm</sub> is 0.4~0.5.
@@ -306,7 +308,7 @@ Note: Preheating Elution Buffer to 55℃ can improve elution efficiency, in addi
 
 
 
-### 2.5 The Functional Characterization of Hydrogen Sulfide Oxidation in Liquid Environment 
+### 2.5 The Functional Characterization of Hydrogen Sulfide Oxidation in Liquid Environment
 
 #### 2.5.1 **Reagents Preparation**
 
@@ -341,7 +343,7 @@ Detection reagent II
 7. After thoroughly shaking the liquid in the test tube, suck up 750 ul of bacterial liquid, add 25 μL Detection reagent I and II to the remaining liquid，centrifuge at 8000 rpm for 2 min；
 8. After all groups are completely colored, take 200 μL for each tube and measure at 665nm.
 
-### 2.6 The Functional Characterization of **Sulfur Ion Oxidation in Liquid Environment** 
+### 2.6 The Functional Characterization of **Sulfur Ion Oxidation in Liquid Environment**
 
 #### 2.6.1 **Reagents** **Preparation**
 
@@ -453,10 +455,10 @@ iTaq™ Universal SYBR® Green Supermix
 #### (1) **RNA Extraction**
 
 1. The strains were cultured in 5mL medium at 37 ℃ for 14 h；
-2. Take 3 mL medium，centrifuge at 4000 rpm for 5min，abandon supernatant； 
+2. Take 3 mL medium，centrifuge at 4000 rpm for 5min，abandon supernatant；
 3. Add 1 mL RNA iso to resuspended cells，transfer into 1.5 ml EP tube and stand on ice for 5min;
 4. Centrifuge at 12,000 rpm，4℃ for 15min，transfer the supernatant into a new 1.5 ml EP tube；
-5. Add 200 μL CHCl3，vibrate for 15s，stand on ice for 10min； 
+5. Add 200 μL CHCl3，vibrate for 15s，stand on ice for 10min；
 6. Centrifuge at 12,000 rpm，4℃ for 15min，take 400 μL supernatant and add 400 μL Isopropyl alcohol；store at -80℃ for 40min；
 7. Centrifuge at 12,000 rpm，4℃ for 15min；abandon supernatant，add 1 mL 75% ethanol to the sediment，Centrifuge at 12,000 rpm，4℃ for 5min；abandon supernatant；
 8. add 1 mL 75% ethanol to the sediment again，Centrifuge at 12,000 rpm，4℃ for 5min；abandon supernatant；
@@ -551,6 +553,7 @@ iTaq™ Universal SYBR® Green Supermix
 
 
      `)
+      this.ele = exp as HTMLElement
     }
   }
 }

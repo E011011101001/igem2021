@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="notebook").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Notebook extends Vue {
   static id = 'Notebook'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const notebook = this.$refs.notebook as Element
     console.log(notebook)
     if (notebook) {
@@ -96,7 +98,7 @@ Obtained the synthesized plasmid pACYC-rox-ter-rox-MazF
 
 ### Hydrogen sulfide oxidization module
 
-- SDS and qPCR pre-experiments 
+- SDS and qPCR pre-experiments
 
 - Construction of pET3α-SQR-SDO-APR-SAT plasmid
 
@@ -116,7 +118,7 @@ B1006 was successfully connected to pACYC-rox-ter-rox-MazF
 
 ### Hydrogen sulfide oxidization module
 
-- Construction of pET3α-SQR-APR, pET3α-SQR-SDO-APR plasmids 
+- Construction of pET3α-SQR-APR, pET3α-SQR-SDO-APR plasmids
 
 - Characterization of plasmids with sulfide treatment
 
@@ -156,7 +158,7 @@ Amplified rox-ter-rox-MazF and assemble it to pET-28a（+），but failed,becaus
 
 ### Hydrogen sulfide oxidization module
 
-- Construction of plasmids with T7 promoter for all four genes 
+- Construction of plasmids with T7 promoter for all four genes
 
 - The accuracy of sulfur ion detection kit was verified and the standard curve was drawn
 - The ability of engineering bacteria to oxidize sulfur ions in sulfur ion culture medium was tried, and the experimental results were poor. It was found that the existence of LB medium would affect the change of sulfur ion concentration. Subsequent experiments were prepared to transfer the bacteria to glucose solution to verify its function
@@ -176,7 +178,7 @@ Assembled lacI with the promoter repressed by it to pACYC-rox-ter-rox-MazF
 
 
 
-## **Week 9**: 9.12-9.18 
+## **Week 9**: 9.12-9.18
 
 ### Hydrogen sulfide oxidization module
 
@@ -203,7 +205,7 @@ pET-28a（+）but failed
 
 
 
-## **Week 10**: 9.19-9.25 
+## **Week 10**: 9.19-9.25
 
 ### Hydrogen sulfide oxidization module
 
@@ -225,7 +227,7 @@ Construct plasmids with T7 promoter in all four genes
 
 ### Kill switch
 
-Characterization of pTrchis2A-lacI-cstR-trc-op2-op1-op2-mkate-CnSqr to observe the function of the CstR 
+Characterization of pTrchis2A-lacI-cstR-trc-op2-op1-op2-mkate-CnSqr to observe the function of the CstR
 
 
 
@@ -253,13 +255,13 @@ Characterization of pTrchis2A-lacI-cstR-trc-op2-op1-op2-mkate-CnSqr to observe t
 
 - Went on the characterization of pTrchis2A-lacI-cstR-trc-op2-op1-op2-mkate-CpSqr
 
-  
+
 
 ## **Week 12**: 10.3-10.9
 
 ### Hydrogen sulfide oxidization module
 
-- Replace the promoter of HrtR gene on Heme-GFP plasmid with J23100, J23110, J23116 
+- Replace the promoter of HrtR gene on Heme-GFP plasmid with J23100, J23110, J23116
 
 - The ability of engineering bacteria to oxidize sulfur ions in liquid environment was repeatedly verified
 
@@ -277,6 +279,7 @@ Constructed the plasmid pACYC-rox-ter-rox-MazF-CstR-Pcstr-Dre-MazE but there was
 
 
       `)
+      this.ele = notebook as HTMLElement
     }
   }
 }

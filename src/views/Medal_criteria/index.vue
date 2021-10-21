@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="mc").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Medal extends Vue {
   static id = 'Medal'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const mc = this.$refs.mc as Element
     console.log(mc)
     if (mc) {
@@ -82,6 +84,7 @@ We've tested the efficiency of our bacteria of eliminating the odor of eggs.
 In order to introduce synthesis biology to more people, we've designed different activities to different ages of people, from primary school students to college student and received many reflections.
 
       `)
+      this.ele = mc as HTMLElement
     }
   }
 }

@@ -1,22 +1,25 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="safety").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
 
+import Anchor from '@/components/Anchor.vue'
+
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Safety extends Vue {
   static id = 'Safety'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const safety = this.$refs.safety as Element
     console.log(safety)
     if (safety) {
@@ -65,6 +68,7 @@ The expression of our plasmids needs some harmful chemicals like H2S and Na2S. B
 In order to avoid the leakage of our bioengineered bacteria into the environment, we've designed a three-gear adjustable kill switch. It works based on the concentration of H2S and NH3 which consists of odor sensors, Dre recombinase system and toxin-antitoxin system. Under cultural conditions, none of the pathway can be activated. When the bioengineered bacteria are put into work, high density of hydrogen sulfide in the environment induces the expression of Dre recombinase and MazF (antitoxin), followed by terminator removal and MazE (toxin) expression. Once our bioengineered bacteria leak to the environment, low density of hydrogen sulfide inhibits MazF (antitoxin) expression. Without the rescue of MazF(antitoxin), bioengineered bacteria will be killed by the accumulation of MazE (toxin). In this way ,we succeed in adjusting the survival and death of the bacteria by adjusting the concentration of H2S and NH3.**(To learn more)**[链接至3.1design-kill switch]
 
       `)
+      this.ele = safety as HTMLElement
     }
   }
 }

@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="poc").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Partnership extends Vue {
   static id = 'Partnership'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const poc = this.$refs.poc as Element
     console.log(poc)
     if (poc) {
@@ -25,7 +27,7 @@ export default class Partnership extends Vue {
 
 <img src="https://2021.igem.org/wiki/images/1/19/T--Tongji_China--7.4-7.png" alt="7.4-7" style="zoom: 25%;" />
 
-Tongji_China and CPU_CHINA have been in good relationship for many years. Therefore, this year we contacted each other at the very beginning of our project. 
+Tongji_China and CPU_CHINA have been in good relationship for many years. Therefore, this year we contacted each other at the very beginning of our project.
 
 ### Our timeline
 
@@ -97,13 +99,13 @@ We've finished **a complete and scientific questionnaire** after the discussion 
 
 ### Middle stage of the project
 
-We still kept in frequent contact in the following progress of the project. As both of our projects **have close relationship with human beings** in the application scenarios, we though it essential to talk about the **reasonableness of our projects from the view of morality**. Given that we are in different cities, we **held a talk about morality in our school respectively** and worked as the **online organizers of opponent's activity**, making more people participated into the talk about morality. 
+We still kept in frequent contact in the following progress of the project. As both of our projects **have close relationship with human beings** in the application scenarios, we though it essential to talk about the **reasonableness of our projects from the view of morality**. Given that we are in different cities, we **held a talk about morality in our school respectively** and worked as the **online organizers of opponent's activity**, making more people participated into the talk about morality.
 
 <img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-4.png" alt="7.4-4" style="zoom:40%;" />
 
 #### FAFU-CHINA helps us
 
-On June 15th of 2021, we invited **Professor Xinghua Lu** from College of Humanities in Tongji University to give us a talk between synthesis biology and philosophy themed on **'Philosophy vs Synthesis biology, human beings and rubbish in biosphere'**. **FAFU-CHINA**, the online organizer, **helped organize the online part of the project**. We had a new opinion on the project and synthesis biology from the view of philosophy. With help of FAFU-CHINA, we **make more people involved into the talk**, making the **spark of thoughts overcome the restriction of distance**. 
+On June 15th of 2021, we invited **Professor Xinghua Lu** from College of Humanities in Tongji University to give us a talk between synthesis biology and philosophy themed on **'Philosophy vs Synthesis biology, human beings and rubbish in biosphere'**. **FAFU-CHINA**, the online organizer, **helped organize the online part of the project**. We had a new opinion on the project and synthesis biology from the view of philosophy. With help of FAFU-CHINA, we **make more people involved into the talk**, making the **spark of thoughts overcome the restriction of distance**.
 
 #### We help FAFU-CHINA
 
@@ -196,10 +198,11 @@ After doing experiments, SJTang found that this two kinds of bacteria had simila
 
 <img src="https://2021.igem.org/wiki/images/0/09/T--Tongji_China--7.4-15.png" alt="7.4-15" style="zoom: 50%;" />
 
-<center>S2- concentration test. Use OD 665nm for concentration domination. The higher the OD 665nm value, the greater the S2- concentration. 
+<center>S2- concentration test. Use OD 665nm for concentration domination. The higher the OD 665nm value, the greater the S2- concentration.
 
 The results show that after adding the E.coli modified by SJTang's hydrogenase, the concentration of S2- in the solution increases, although without an obvious difference. However it indicates us that we need to consider more when applying our bacteria into a complex environment. The specific reasons for this result require the cooperation of the two teams to conduct a further exploration afterward.
       `)
+      this.ele = poc as HTMLElement
     }
   }
 }

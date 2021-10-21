@@ -1,22 +1,24 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-4
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-8
     div(ref="poc").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class POC extends Vue {
   static id = 'POC'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const poc = this.$refs.poc as Element
     console.log(poc)
     if (poc) {
@@ -26,7 +28,7 @@ Our experiment has preliminarily proved the possibility of using engineered bact
 
 # Introduction
 
-According to the **background**==(<span style="color:red">超链接到2.1 description)</span>== we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances, so that we could solve the problem through engineered bacteria. 
+According to the **background**==(<span style="color:red">超链接到2.1 description)</span>== we have researched, we found that hydrogen sulfide and ammonia are the two main odors that cause malodor in food waste, so we decided to convert these two malodor-emitting odors into non-toxic and odorless substances, so that we could solve the problem through engineered bacteria.
 
 We selected sulfate as our end product, which has no major effect on both bacteria and environment at low doses and is odorless itself.
 
@@ -64,7 +66,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 
 #### **Characterization experiment of S2- oxidation amount**
 
-- **Verification of test method:** 
+- **Verification of test method:**
 
 We configured a series of sodium sulfide solutions with concentration gradient and tested them with detection reagents according to certain methods. The standard curve obtained is ideal. It can be considered that our detection method can accurately reflect the relative content of sulfide in the solution within this concentration range.
 
@@ -103,6 +105,7 @@ We have preliminarily confirmed that the engineering bacteria can effectively in
 3. During the experiment, we found that in addition to malodorous gases such as hydrogen sulfide, food waste is also accompanied by obvious sour gases. In the case of deodorization, our future design may further treat sour gases.
 4. Under the current experimental conditions, our engineered bacteria takes about 2 hours to complete sulfur ions oxidation（100 μM）. In practical application, it may be necessary to improve the work efficiency of engineered bacteria and explore more suitable working conditions.
       `)
+      this.ele = poc as HTMLElement
     }
   }
 }
