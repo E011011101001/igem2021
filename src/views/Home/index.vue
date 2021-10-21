@@ -94,7 +94,6 @@ div.bkgrd
       div.home-reference.text-left
         h2 Reference
         p [1] 上海市生态环境局.二〇一九年上海市固体废物污染环境防治信息公告[EB/OL].2020-06-10
-
 </template>
 
 <script lang="ts">
@@ -134,10 +133,10 @@ export default class Home extends Vue {
     margin-left: calc((100vw - 1785px) / 2 * -1);
   }
 }
-h2, p {
+.bkgrd > h2, .bkgrd > p {
   text-indent: 1em;
 }
-p {
+.bkgrd > p {
   font-size: large;
 }
 .reference > p {
