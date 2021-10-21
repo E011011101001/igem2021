@@ -4,7 +4,7 @@
       <li
         v-for="(item, index) in anchors"
         :key="index"
-        @click="scroll(item.e)"
+        @click="scroll(item.e, index)"
         :class="`${(index === curIdx && 'active') || ''} indent-${item.level}`"
       >
         {{ item.content }}
@@ -40,9 +40,10 @@ export default class Anchor extends AnchorProps {
 
   curIdx = 0
 
-  scroll (ele: HTMLElement): void {
+  scroll (ele: HTMLElement, idx: number): void {
     const { offsetTop } = ele
     window.scroll({ top: offsetTop - 50, behavior: 'smooth' })
+    this.curIdx = idx
   }
 
   clean (): void {
@@ -59,7 +60,12 @@ export default class Anchor extends AnchorProps {
     const scroll = () => {
       const { scrollTop } = document.scrollingElement || ele
       let idx = anchors.findIndex(({ e }) => e.offsetTop - 60 >= scrollTop) - 1
-      idx = idx < 0 ? 0 : idx
+      if (idx < 0) {
+        idx = anchors.length - 1
+        if (anchors[idx].e.offsetTop - 60 > scrollTop) {
+          idx = 0
+        }
+      }
       if (idx !== this.curIdx) {
         this.curIdx = idx
         const anchor = this.$refs.anchor
