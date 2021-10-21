@@ -180,10 +180,6 @@ export default class SiteHeader extends Vue {
         {
           title: 'Partnership',
           to: '/Partnership'
-        },
-        {
-          title: 'Sponsors',
-          to: '/Sponsors'
         }
       ]
     },

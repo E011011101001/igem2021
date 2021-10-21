@@ -21,14 +21,13 @@ import Team from '@/views/Team/index.vue'
 import Attribution from '@/views/Attribution/index.vue'
 import Collaboration from '@/views/Collaboration/index.vue'
 import Partnership from '@/views/Partnership/index.vue'
-import Sponsors from '@/views/Sponsors/index.vue'
 import Medal_criteria from '@/views/Medal_criteria/index.vue'
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
   {
-    path: '/',
+    path: '',
     name: Home.id,
     component: Home
   },
@@ -126,11 +125,6 @@ const routes: Array<RouteConfig> = [
     path: '/Partnership',
     name: Partnership.id,
     component: Partnership
-  },
-  {
-    path: '/Sponsors',
-    name: Sponsors.id,
-    component: Sponsors
   },
   {
     // TODO: change
