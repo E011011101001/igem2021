@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-3
+  v-col.col-4
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-9
+  v-col.col-8
     div(ref="result").text-left
 </template>
 

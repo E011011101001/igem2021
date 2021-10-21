@@ -1,5 +1,5 @@
 <template>
-  <div style="position: sticky; top: 100px">
+  <div class="anchor">
     <ul>
       <li
         v-for="(item, index) in anchors"
@@ -94,7 +94,17 @@ export default class Anchor extends AnchorProps {
 </script>
 
 <style scoped>
+.anchor {
+  position: sticky;
+  top: 20%;
+  border-right: 2px solid #25137f;
+  padding-right: 24px;
+}
+.anchor li {
+  cursor: pointer;
+}
 .active {
   font-weight: bold;
+  color: #e96e00;
 }
 </style>
