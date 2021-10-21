@@ -1,11 +1,11 @@
 <template>
-  <div class="anchor">
+  <div class="anchor" ref="anchor">
     <ul>
       <li
         v-for="(item, index) in anchors"
         :key="index"
         @click="scroll(item.e)"
-        :class="index === curIdx ? 'active' : ''"
+        :class="`${(index === curIdx && 'active') || ''} indent-${item.level}`"
       >
         {{ item.content }}
       </li>
@@ -36,6 +36,8 @@ export default class Anchor extends AnchorProps {
 
   _ele: HTMLElement | null = null
 
+  $refs!: { anchor: HTMLDivElement }
+
   curIdx = 0
 
   scroll (ele: HTMLElement): void {
@@ -56,10 +58,21 @@ export default class Anchor extends AnchorProps {
     }
     const scroll = () => {
       const { scrollTop } = document.scrollingElement || ele
-      const idx =
-        anchors.findIndex(({ e }) => e.offsetTop - 60 >= scrollTop) - 1
-      this.curIdx = idx < 0 ? 0 : idx
-      // console.log('onsc', scrollTop, idx)
+      let idx = anchors.findIndex(({ e }) => e.offsetTop - 60 >= scrollTop) - 1
+      idx = idx < 0 ? 0 : idx
+      if (idx !== this.curIdx) {
+        this.curIdx = idx
+        const anchor = this.$refs.anchor
+        const { scrollTop, clientHeight } = anchor
+        const { children } = anchor.firstChild as HTMLElement
+        const { offsetTop } = children[idx] as HTMLElement
+        if (Math.abs(offsetTop - (scrollTop + clientHeight / 2)) > 50) {
+          anchor.scroll({
+            top: offsetTop - clientHeight / 2,
+            behavior: 'smooth'
+          })
+        }
+      }
     }
     ele.onscroll = scroll
     this._ele = ele
@@ -70,7 +83,7 @@ export default class Anchor extends AnchorProps {
     const ele = this.ele
     if (ele) {
       const anchors = Array.from(
-        ele.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]')
+        ele.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]')
       ).map(e => {
         const level = Number(e.tagName[1])
         return {
@@ -80,7 +93,6 @@ export default class Anchor extends AnchorProps {
           e: e as HTMLElement
         }
       })
-      console.log(anchors)
       this.observe(document.body, anchors)
       return anchors
     }
@@ -104,9 +116,35 @@ export default class Anchor extends AnchorProps {
 }
 .anchor li {
   cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+  font-size: 14px;
 }
-.active {
+.anchor li.indent-2 {
+  padding-left: 1em;
+}
+.anchor li.indent-3 {
+  padding-left: 2em;
+}
+.anchor li.indent-4 {
+  padding-left: 3em;
+}
+.anchor li.indent-5 {
+  padding-left: 4em;
+}
+.anchor li.indent-6 {
+  padding-left: 5em;
+}
+.anchor li.indent-7 {
+  padding-left: 6em;
+}
+.anchor li.indent-8 {
+  padding-left: 7em;
+}
+
+.anchor li.active {
   font-weight: bold;
+  font-size: 16px;
   color: #e96e00;
 }
 </style>
