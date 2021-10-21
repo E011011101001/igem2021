@@ -20,13 +20,13 @@ export default class A extends Vue {
 
 Ammonia is also one of the main substances in the odor when wet garbage corrupting. To efficiently remove odors and make this process also beneficial to the subsequent compost utilization, we designed a degradation pathway in conjunction with the nitrogen metabolism pathway of microorganisms. <sup>[1]</sup>
 
-<img src="https://2021.igem.org/wiki/images/3/36/T--Tongji_China--NH3%E9%80%9A%E8%B7%AF.jpg" alt="NH3通路" style="zoom: 44%;" />
+<img src="https://2021.igem.org/wiki/images/3/36/T--Tongji_China--NH3%E9%80%9A%E8%B7%AF.jpg" alt="NH3通路" style="max-width:100%" />
 
 [^Figure 1. Microbial transformations of nitrogen compounds]: <sup>[1]</sup>
 
 Based on three principles of destination efficiency, resource utilization, and difficulty in pathway construction, we chose to oxidize ammonia to hydroxylamine, then to nitric oxide, and finally to nitrate, which is the nitrogen element flow direction that fits our goals. In this process, the three enzymes AMO, HAO and NOD are required to play their roles in sequence.
 
-<img src="https://2021.igem.org/wiki/images/c/c0/T--Tongji_China--NH3%E9%99%8D%E8%A7%A3%E8%AE%BE%E8%AE%A1%E5%9B%BE.jpg" alt="NH3降解设计图" style="zoom: 67%;" />
+<img src="https://2021.igem.org/wiki/images/c/c0/T--Tongji_China--NH3%E9%99%8D%E8%A7%A3%E8%AE%BE%E8%AE%A1%E5%9B%BE.jpg" alt="NH3降解设计图" style="max-width:100%" />
 
 [^Figure 2. Overview of ammonia degradation pathway]: 
 

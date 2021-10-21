@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="poc").text-left
 </template>
 
@@ -55,7 +55,7 @@ We have been in good relationship with Tongji_Software for a long time, so we ha
 
 ## SJTU-BioX-Shanghai
 
-<img src="https://2021.igem.org/wiki/images/4/4c/T--Tongji_China--a9e8ef95983f46f080f69526cf37d97.png" alt="a9e8ef95983f46f080f69526cf37d97" style="zoom:10%;" />
+<img src="https://2021.igem.org/wiki/images/4/4c/T--Tongji_China--a9e8ef95983f46f080f69526cf37d97.png" alt="a9e8ef95983f46f080f69526cf37d97" style="max-width:40%" />
 
 SJTU-BioX-Shanghai contacted us when learning that we conducted the seeding program since they wanted to give lectures to more people. So we held an online meetup to talk about our ideas and experience. We happened to find that both our teams wanted to give a lecture to college students so we planned to  hold a lecture together. However, because of the COVID-19, we couldn't give a lecture together, therefore we introduced each other's project when giving our own lecture.
 

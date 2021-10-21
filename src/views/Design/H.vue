@@ -33,7 +33,7 @@ After our extensive literature review and intense discussions, the following tec
 
    Hydrogen sulfide is a strongly reducing substance, so it is natural to think that it can be oxidized to deal with it. By reviewing the literature, we found that there are sulfur treatment pathways in some sulfur bacteria (see Figure 1. below) <sup>[2]</sup>, and we can refer to this to design our treatment pathway.
 
-   <img src="https://2021.igem.org/wiki/images/2/23/T--Tongji_China--S_cellular_pathway.png" alt="S cellular pathway" style="zoom: 80%;" />
+   <img src="https://2021.igem.org/wiki/images/2/23/T--Tongji_China--S_cellular_pathway.png" alt="S cellular pathway" style="max-width:100%" />
 
    [^Figure 1.]: The updated model of sulfur oxidation in A. ferrooxidans. OMP, outer-membrane proteins; TQO, thiosulfate quinone oxidoreductase; TSD, thiosulfate dehydrogenase; TetH, tetrathionate hydrolase; SQR, sulfide: quinone oxidoreductase; SDO, sulfur dioxygenase; HDR, Hdr-like complex; SAT, ATP sulfurylase; bd,bo3, terminal oxidases; QH2, quinol pool; NADH, NADH dehydrogenase complex I.
 
@@ -43,7 +43,7 @@ After our extensive literature review and intense discussions, the following tec
 
    As Figure 2. below, we introduced a plasmid containing four genes into the bacteria to convert hydrogen sulfide to sulfate through a four-step reaction.
 
-<img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--S%E9%80%9A%E8%B7%AF%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="S通路设计图" style="zoom: 63%;" />
+<img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--S%E9%80%9A%E8%B7%AF%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="S通路设计图" style="max-width:100%" />
 
 [^Figure 2. The hydrogen sulfide degradation pathway]: 
 

@@ -22,13 +22,10 @@ div
           ).mx-2 {{ section.title }}
     v-col
   v-row
-    v-col
-    v-col.col-11
-      HPage(v-if="sectionNum === 0")
-      APage(v-else-if="sectionNum === 1")
-      OPage(v-else-if="sectionNum === 2")
-      KPage(v-else)
-    v-col
+    HPage(v-if="sectionNum === 0")
+    APage(v-else-if="sectionNum === 1")
+    OPage(v-else-if="sectionNum === 2")
+    KPage(v-else)
 
 </template>
 

@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="mddiv").text-left
 </template>
 
@@ -29,13 +29,13 @@ export default class Entrepreneurship extends Vue {
 
 With the growing amount of food waste and the associated odor and health and psychological problems, this year, Tongji_China launched the "LOOK" project. The biological products containing the concept of our 'LOOK' project will be able to absorb **hydrogen sulfide** and **ammonia** with two kinds of bioengineered E.coli. One uses enzymes related to sulfide oxidization(**Sqr, Sdo, AprBA and Sat**), converting hydrogen sulfide to sulfate, while the other uses enzymes **AMO, HAO and NOD** to convert ammonia to nitrate. Besides, a three-gear adjustable **kill switch** based on the concentration of H2S and NH3 is added to ensure biosafety. Also, we optimize our pathway by high throughput screening and machine learning. With such efforts, we hope to solve the problems the odor has brought to people and downstream industries.  
 
-<img src="https://2021.igem.org/wiki/images/9/9c/T--Tongji_China--6.4.1.png" alt="6.4.1" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/9/9c/T--Tongji_China--6.4.1.png" alt="6.4.1" style="max-width:100%" />
 
 ### Establishment of application scenario and target customers
 
 To make our project not only limited to a laboratory result, but more likely to improve the current odor problem in food waste through production. The first thing we had to do was to identify our target customers. Our preliminary HP research showed that for **large food waste treatment plants**, the odor problem can be scientifically and systematically controlled and managed due to their high level of **automation**. Besides, **the initial sorting and compacting** is done during the transfer process. 
 
-<img src="https://2021.igem.org/wiki/images/8/8e/T--Tongji_China--6.3.1-16346287525821.png" alt="6.3.1" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/8/8e/T--Tongji_China--6.3.1-16346287525821.png" alt="6.3.1" style="max-width:100%" />
 
 However, the food waste before centralised transfer (which we would like to refer to as the front-end and mid-end of food waste treatment), due to its small volume, inevitably requires a combination of human supervision and simple food waste transfer. The oversights emerged can lead to a **disconnect between food waste deposition and transfer**, resulting in odor problems. (Figure 1) We have identified the **possible scenarios** for the use of our own bioproducts as community waste bins, public waste bins and regional waste transfer stations and the **target customers** as residents, students, and workers involved in related waste treatment.
 
@@ -61,17 +61,17 @@ As we have stated in 'Treats' part in the previou SWOT analysis, there are a ser
 
 To gain a better understanding of how deodorant products are marketed, we looked primarily at Taobao, the largest shopping platform in Asia. This also prepared us for the further development of our own sales format.
 
-<img src="https://2021.igem.org/wiki/images/d/d5/T--Tongji_China--6.3.2.png" alt="6.3.2" style="zoom: 67%;" />
+<img src="https://2021.igem.org/wiki/images/d/d5/T--Tongji_China--6.3.2.png" alt="6.3.2" style="max-width:100%" />
 
 An Odor treatment plant, which mainly treats odor **physically**, has an average price of 3000RMB. It is often not considered in households, communal bins and other places that generate small volumes of food waste.
 
-<img src="https://2021.igem.org/wiki/images/7/70/T--Tongji_China--6.3.3.png" alt="6.3.3" style="zoom:45%;" />
+<img src="https://2021.igem.org/wiki/images/7/70/T--Tongji_China--6.3.3.png" alt="6.3.3" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/e/e0/T--Tongji_China--6.3.4.png" alt="6.3.4" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/e/e0/T--Tongji_China--6.3.4.png" alt="6.3.4" style="max-width:100%" />
 
 These deodorant products in colorful packaging are often worked by **chemical methods**. Plant extract deodorants are the main deodorizing product of choice in the market today because of their low price and wide range of applications. The plant extract is processed into spray, fragrance and balm to use. It achieves the deodorizing effect by covering the odor with fragrance and can meet the deodorizing needs of small volumes such as households for its portability. However, its deodorizing efficiency is not high, and more often the overpowering fragrance can cause uncomfort (such as dry eyes, tingling nose and other allergy symptoms) to people.
 
-<img src="https://2021.igem.org/wiki/images/6/61/T--Tongji_China--6.3.5.png" alt="6.3.5" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/6/61/T--Tongji_China--6.3.5.png" alt="6.3.5" style="max-width:100%" />
 
 Deodorants of this kind enrich the culture of **photosynthetic fungi, lactic acid bacteria, actinomycetes, yeasts, acetic acid bacteria**, and other microbial groups that can use odor as a nutrient metabolite. They are used frequently in highly polluted areas such as farms and chemical plants for their extremely low price (30 RMB/50 kg), however, their ingredients are often kept secret，which may increase risks to biosecurity. The complexity of the strains tends to destroy the original vegetation production system, and it remains to be seen whether the **disinfectant and germicide** they claim to add will exacerbate the side effects of deodorization.
 

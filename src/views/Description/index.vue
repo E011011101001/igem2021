@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="poc").text-left
 </template>
 
@@ -43,7 +43,7 @@ There's a complete treatment path for food waste in Shanghai.
 
 
 
-<img src="https://2021.igem.org/wiki/images/8/8b/T--Tongji_China--2-1%E6%B9%BF%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png" alt="2-1湿垃圾处理流程" style="zoom: 70%;" />
+<img src="https://2021.igem.org/wiki/images/8/8b/T--Tongji_China--2-1%E6%B9%BF%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png" alt="2-1湿垃圾处理流程" style="max-width:100%" />
 
 
 
@@ -53,7 +53,7 @@ With such a huge amount of food waste, the problems of odor caused by food waste
 
 There's no doubt that food waste is very smelly, especially in summer. After our online and offline research, we find that the unpleasant smell caused by food waste is very common. Waste treatment accounted for an average of 11.3% of all odor complaints in 2018-2020, making it the sector with the **highest number of odor complaints** in the last three years.
 
-<img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--2-2_%E6%8A%95%E8%AF%89.png" alt="2-2 投诉" style="zoom: 12%;" />
+<img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--2-2_%E6%8A%95%E8%AF%89.png" alt="2-2 投诉" style="max-width:100%" />
 
 
 
@@ -67,7 +67,7 @@ Besides the unpleasant smell, the chemical substances in the odor may also lead 
 
 
 
-<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--2-3_%E5%81%A5%E5%BA%B7.png" alt="2-3 健康" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--2-3_%E5%81%A5%E5%BA%B7.png" alt="2-3 健康" style="max-width:30%" />
 
 
 
@@ -77,7 +77,7 @@ According to our human practices at **Tian Wei Environmental Company**, which fo
 
 
 
-<img src="https://2021.igem.org/wiki/images/5/57/T--Tongji_China--2-4_%E5%A0%86%E8%82%A5.png" alt="2-4 堆肥" style="zoom: 50%;" />
+<img src="https://2021.igem.org/wiki/images/5/57/T--Tongji_China--2-4_%E5%A0%86%E8%82%A5.png" alt="2-4 堆肥" style="max-width:30%" />
 
 
 

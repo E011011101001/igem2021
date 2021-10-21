@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="poc").text-left
 </template>
 
@@ -25,7 +25,7 @@ export default class Partnership extends Vue {
       poc.innerHTML = marked(`
 ## CPU_CHINA
 
-<img src="https://2021.igem.org/wiki/images/1/19/T--Tongji_China--7.4-7.png" alt="7.4-7" style="zoom: 25%;" />
+<img src="https://2021.igem.org/wiki/images/1/19/T--Tongji_China--7.4-7.png" alt="7.4-7" style="max-width:100%" />
 
 Tongji_China and CPU_CHINA have been in good relationship for many years. Therefore, this year we contacted each other at the very beginning of our project.
 
@@ -35,9 +35,9 @@ Tongji_China and CPU_CHINA have been in good relationship for many years. Theref
 
 In April, with instructors of both teams, we held an online meetup to talk about our topics. We got familiar with each other and shared our ideas on opponents' topics. We found that the problems we focus on are about waste. Tongji_China has focused on the odor caused by food waste after the implementation of garbage sorting regulations. While CPU_CHINA noticed the phenomenon that packaging waste were piled up near express transfer stations. Since the background of us is similar, defined the willing to establish partnership primarily.
 
-<img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-8.jpeg" alt="7.4-8" style="zoom: 40%;" />
+<img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-8.jpeg" alt="7.4-8" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/6/62/T--Tongji_China--7.4-9.jpeg" alt="7.4-9" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/6/62/T--Tongji_China--7.4-9.jpeg" alt="7.4-9" style="max-width:100%" />
 
 #### May
 
@@ -45,13 +45,13 @@ In May, our members came to Nanjing and had an offline communication with CPU_CH
 
 On the other hand, since we learned that CPU-CHINA was going to conduct a questionnaire, we shared some experience to them after talking with related professionals.==(To see more)==
 
-<img src="https://2021.igem.org/wiki/images/9/92/T--Tongji_China--7.4-12.jpeg" alt="7.4-12" style="zoom: 25%;" />
+<img src="https://2021.igem.org/wiki/images/9/92/T--Tongji_China--7.4-12.jpeg" alt="7.4-12" style="max-width:100%" />
 
 #### June
 
 In June, there's China iGEM online meetup where teams can communicate their project. In order to do a perfect presentation, both of us held an online meetup to give a pre-presentation to each other.
 
-<img src="https://2021.igem.org/wiki/images/d/d1/T--Tongji_China--7.4-10.jpeg" alt="7.4-10" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/d/d1/T--Tongji_China--7.4-10.jpeg" alt="7.4-10" style="max-width:100%" />
 
 #### July
 
@@ -63,25 +63,25 @@ Both of us wanted to introduce synthesis biology to more people, especially to c
 
 Since the COVID-19 break out in part of Shanghai ,our predicted trip to waste treatment factory had to be delayed. Luckily, CPU_CHINA would visit one in Nanjing, therefore we asked for their help to collect some information we needed. <span style="color: red;">==(To see more)==</span>
 
-<img src="https://2021.igem.org/wiki/images/5/5e/T--Tongji_China--6.1-8.JPG" alt="6.1-8" style="zoom: 25%;" />
+<img src="https://2021.igem.org/wiki/images/5/5e/T--Tongji_China--6.1-8.JPG" alt="6.1-8" style="max-width:100%" />
 
 
 
 ## FAFU-CHINA
 
-<img src="https://2021.igem.org/wiki/images/5/5f/T--Tongji_China--7.4-6.png" alt="7.4-6" style="zoom:15%;" />
+<img src="https://2021.igem.org/wiki/images/5/5f/T--Tongji_China--7.4-6.png" alt="7.4-6" style="max-width:30%" />
 
 We not only hope to eliminate the odor of food waste but also want to **synthesize aroma substances**, breaking people's long-term bias on food waste. On the **China iGEM online meet-up**,  we learned that **FAFU-CHINA** were doing **a project generating aroma**, therefore, we made a communication with members of FAFU-CHINA, putting forward the idea of partnership.
 
-<img src="https://2021.igem.org/wiki/images/b/b8/T--Tongji_China--7.4-1.png" alt="7.4-1" style="zoom: 33%;" />
+<img src="https://2021.igem.org/wiki/images/b/b8/T--Tongji_China--7.4-1.png" alt="7.4-1" style="max-width:100%" />
 
 ### Initial stage of the project
 
 After proposing the idea of partnership, the two teams held **an online meetup** when both of us **shared the content and progress of our project**. During our talk, we happened to find that both of us wanted to **do a social survey**. Therefore, we **exchanged the content of our questionnaire** and **put forward some advice** respectively.
 
-<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--7.4-2.png" alt="7.4-2" style="zoom: 40%;" />
+<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--7.4-2.png" alt="7.4-2" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/b/bb/T--Tongji_China--7.4-3.png" alt="7.4-3" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/b/bb/T--Tongji_China--7.4-3.png" alt="7.4-3" style="max-width:100%" />
 
 #### FAFU-CHINA helps us
 
@@ -101,7 +101,7 @@ We've finished **a complete and scientific questionnaire** after the discussion 
 
 We still kept in frequent contact in the following progress of the project. As both of our projects **have close relationship with human beings** in the application scenarios, we though it essential to talk about the **reasonableness of our projects from the view of morality**. Given that we are in different cities, we **held a talk about morality in our school respectively** and worked as the **online organizers of opponent's activity**, making more people participated into the talk about morality.
 
-<img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-4.png" alt="7.4-4" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-4.png" alt="7.4-4" style="max-width:100%" />
 
 #### FAFU-CHINA helps us
 
@@ -174,7 +174,7 @@ At the same time, we started to do experiments to test our envisaged application
 
 The exploration in application makes both of our project more complete. For FAFU-CHINA, applying the aroma generating microorganism provides an alternative future for their project. For Tongji_China, eliminating odor as well as generating aroma helps us solve the problem more completely and provides a more pleasant working environment for related people, which is in line with our values.
 
-<img src="https://2021.igem.org/wiki/images/e/ee/T--Tongji_China--7.4-5.png" alt="7.4-5" style="zoom: 40%;" />
+<img src="https://2021.igem.org/wiki/images/e/ee/T--Tongji_China--7.4-5.png" alt="7.4-5" style="max-width:100%" />
 
 
 
@@ -184,19 +184,19 @@ We met with SJTang during the 8th CCiC(Conference of China iGEMer Community). Th
 
 Then SJTang got our bio-engineered bacteria and helped us with the experiment.
 
-<img src="https://2021.igem.org/wiki/images/3/32/T--Tongji_China--7.4-13.png" alt="7.4-13" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/3/32/T--Tongji_China--7.4-13.png" alt="7.4-13" style="max-width:100%" />
 
 <center>Growth curve of 3 different strains. HoxG1 for Hydrogenase expression, T7-Sqr and SSAS for sulfide oxidization.
 
 The experiment showed that our SSAS bacteria used for degrading S<sup>2-</sup> have similar growth rates with E.coli modified by SJTang's hydrogenase. So SJTang used SSAS and their hydrogenase strain for co-cultivation and did some futher experiments.
 
-<img src="https://2021.igem.org/wiki/images/d/d2/T--Tongji_China--7.4-14.png" alt="7.4-14" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/d/d2/T--Tongji_China--7.4-14.png" alt="7.4-14" style="max-width:100%" />
 
 <center>Growth curve of different strains. Both SSAS and HoxG1 use E.coli BL21 as chassis.</center>
 
 After doing experiments, SJTang found that this two kinds of bacteria had similar living conditions. So they induced the expression of sulfide oxidization enzymes and tested the efficiency of removing S<sup>2-</sup> in the presence of the other bacteria. The results are as follows:
 
-<img src="https://2021.igem.org/wiki/images/0/09/T--Tongji_China--7.4-15.png" alt="7.4-15" style="zoom: 50%;" />
+<img src="https://2021.igem.org/wiki/images/0/09/T--Tongji_China--7.4-15.png" alt="7.4-15" style="max-width:100%" />
 
 <center>S2- concentration test. Use OD 665nm for concentration domination. The higher the OD 665nm value, the greater the S2- concentration.
 

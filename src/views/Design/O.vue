@@ -22,13 +22,13 @@ In order to improve the hydrogen sulfide oxidation efficiency of our bio-enginee
 
 The enzyme concentration could be regulated by the copy number of the enzyme-encoding gene, the transcription efficiency (promoter and terminator), translation efficiency (RBS) and the degradation rate of mRNA and protein. Optimizing microorganisms for chemical production via metabolic engineering through high-strength promoters has been seen with large strain engineering efforts such as rewiring the yeast Saccharomyces cerevisiae for industrial-level heterologous artemisinin production<sup>[2, 3]</sup>. Since there are a lot of available promoter libraries in iGEM parts, we decided to optimize enzyme concentration by regulating promoter strength.
 
-<img src="https://2021.igem.org/wiki/images/3/3d/T--Tongji_China--p1.jpg" alt="p1" style="zoom: 50%;" />
+<img src="https://2021.igem.org/wiki/images/3/3d/T--Tongji_China--p1.jpg" alt="p1" style="max-width:100%" />
 
 [^Figure 1. Different ways of pathway optimization]:     
 
 However, to experimentally study all possible combinations of promoters with different expression levels of enzymes can be expensive and time-consuming. Luckily, in past decades, more tools have been developed to solve this problem<sup>[4]</sup>. Here we design a strategy, combing combinatorial random library and machine-learning, to optimize the heterologous Sqr-Sdo-AprBA-Sat pathway in E.coli efficiently. Our strategy is shown below. A random combinatorial library of plasmids, with enzymes of different expression levels, will be constructed by Gibson assembly and pre-screened according to their sulfide-degrading efficiency. Data of degradation efficiency, the growth rate of these pre-screened strains will be collected and the ANN model will then be applied to predict the optimized combination.
 
-<img src="https://2021.igem.org/wiki/images/9/9f/T--Tongji_China--p2-16345442418301.jpg" alt="p2" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/9/9f/T--Tongji_China--p2-16345442418301.jpg" alt="p2" style="max-width:100%" />
 
 [^Figure 2. Optimization strategy]: 
 

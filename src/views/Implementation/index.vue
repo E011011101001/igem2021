@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="mddiv").text-left
 </template>
 
@@ -55,7 +55,7 @@ Besides, this year we have a solid partnership with FAFU-CHINA, whose project ai
 
 During our interaction with the professors in our school, they suggested to us that the practical application would require a combination of the rate of gas production and the rate of gas's diffusion into E. coli. Therefore we established a cellular automation model to simulate the dynamics of engineered bacteria spread and odor degradation in practical application. We also simulated the application in different environment, seasons and compared different ways of implementation. ==(To learn more)==链接至4.models
 
-<img src="https://2021.igem.org/wiki/images/e/ef/T--Tongji_China--6.3-1.png" alt="6.3-1" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/e/ef/T--Tongji_China--6.3-1.png" alt="6.3-1" style="max-width:100%" />
 
 
       `)

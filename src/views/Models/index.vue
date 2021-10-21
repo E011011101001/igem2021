@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="poc").text-left
 </template>
 
@@ -79,7 +79,7 @@ To sum up, the bacteria dynamics can be described as the equation below.
 
 [^ Equation 2.1.4 Dynamics of the bio-engineered bacteria population]:
 
-<img src="https://2021.igem.org/wiki/images/a/a3/T--Tongji_China--4.1.1.jpg" style="zoom: 50%;" />
+<img src="https://2021.igem.org/wiki/images/a/a3/T--Tongji_China--4.1.1.jpg" style="max-width:100%" />
 
 [^Figure 2.1 Bacterial dynamics]:
 
@@ -115,7 +115,7 @@ To sum up, the odour dynamics can be described as the equation below.
 
 [^ Equation 2.2.5 Dynamics of odour production and degradation]:
 
-<img src="https://2021.igem.org/wiki/images/1/17/T--Tongji_China--4.1.2.jpg" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/1/17/T--Tongji_China--4.1.2.jpg" style="max-width:100%" />
 
 [^Figure 2.2 Odour dynamics]:
 
@@ -129,7 +129,7 @@ Square lattice is simple, intuitional and easy to code, so it's chosen in our mo
 
 Due to the limitation of computing power, it's difficult to create a large map with high precision. Periodic boundary, which enable a two-dimensional surface to form a topological circle, is used in our model so that we can simulation a larger space.
 
-<img src="https://2021.igem.org/wiki/images/1/16/T--Tongji_China--4.1.3.jpg" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/1/16/T--Tongji_China--4.1.3.jpg" style="max-width:100%" />
 
 [^Figure 2.3 CA setting]:
 
@@ -161,13 +161,13 @@ To set the initiate value of these parameters, firstly we take hydrogen sulfide 
 
 We simulate the dynamic change of bio-engineered bacteria and odour for 60 minutes (60 iterations) in the 100*100 map. We use heatmaps to better visualize this process (Figure 3.2.1).
 
-<span style="color: red"> img src="D:\\research\\igem\\igem2021\\model\\result\\CA figure\\3_1_1.jpg" style="zoom:150%;" <span>
+<span style="color: red"> img src="D:\\research\\igem\\igem2021\\model\\result\\CA figure\\3_1_1.jpg" style="max-width:100%" <span>
 
-<img src="https://2021.igem.org/wiki/images/1/14/T--Tongji_China--4.1.4.jpg" alt="4.1.4" style="zoom:55%;" />
+<img src="https://2021.igem.org/wiki/images/1/14/T--Tongji_China--4.1.4.jpg" alt="4.1.4" style="max-width:100%" />
 
 The bacteria-time curve and odour-time curve are calculated using the average value of each cell. The bacteria population grows slowly at the beginning and reach a plateau after a rapid growth phase. For odour concentration, there are slightly increase at the beginning. However, it soon gets in to a  rapid degradation phase and keeps in low concentration in the end. The trend of our simulation curve**(Figure 3.2.2,a,b)** is consistent with a published experiment data^[6]^**(Figure 3.2.2,c,d)** , implying that our model has the ability to uncover rules in real environment to some degree.
 
-<img src="https://2021.igem.org/wiki/images/6/66/T--Tongji_China--4.1.5.jpg" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/6/66/T--Tongji_China--4.1.5.jpg" style="max-width:100%" />
 
 [^Figure 3.2.2 Simulation curve of bacteria and odour concentration. The experiment data comes from Zheng *et. al.*, 2011, Proceedings of the Chinese Society for Environmental Sciences conference. ]:
 
@@ -181,11 +181,11 @@ The bacteria-time curve and odour-time curve are calculated using the average va
 
 ***N0*** is the initiate number of engineered bacteria in each cell and ***n*** is the initiate number of engineered bacteria clusters in the map, which represent the initial concentration of the bacterium agent.  Increasing N0 does not have a significant effect on odour degradation rate while increasing n has a significant effect. This indicate that average distribution and concentration of the bacterium agent matters.
 
-<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--4.1.6.jpg" alt="4.1.6" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--4.1.6.jpg" alt="4.1.6" style="max-width:100%" />
 
 [^Figure 4.1.1 sensitivity analysis of N0]:
 
-<img src="https://2021.igem.org/wiki/images/3/3e/T--Tongji_China--4.1.7.jpg" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/3/3e/T--Tongji_China--4.1.7.jpg" style="max-width:100%" />
 
 [^Figure 4.1.2  sensitivity analysis of n]:
 
@@ -193,11 +193,11 @@ The bacteria-time curve and odour-time curve are calculated using the average va
 
 These result reminds us that improving the degradation ability of bio-engineered bacteria can be a cost-effective choice at the beginning but it is not always useful especially when it's high enough.
 
-<img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--4.1.8.jpg" alt="4.1.8" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--4.1.8.jpg" alt="4.1.8" style="max-width:100%" />
 
 [^Figure 4.1.3 sensitivity analysis of f ]:
 
-<img src="https://2021.igem.org/wiki/images/c/c0/T--Tongji_China--4.1.9.gif" alt="4.1.9" style="zoom:100%;" />
+<img src="https://2021.igem.org/wiki/images/c/c0/T--Tongji_China--4.1.9.gif" alt="4.1.9" style="max-width:100%" />
 
 [^Figure 4.1.4 sensitivity of f is limited by odour diffusion rate ]:
 
@@ -227,7 +227,7 @@ To achieve this goal, we adjusted the rules of the basic model in the following 
 
 * ***N*** and ***n***, which are related to distribution uniformity, are different in these two cases.
 
-  <img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--4.1.13.jpg" alt="4.1.13" style="zoom:50%;" />
+  <img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--4.1.13.jpg" alt="4.1.13" style="max-width:100%" />
 
   [^Figure 4.3.1 Immobilized bacteria and spraying]:
 
@@ -262,7 +262,7 @@ Our simulation result are showed intuitively as below **(Figure 4.3.2,Figure4.3.
 
 Under the condition above, spraying bacteria shows better odour degradation efficiency, with lower final concentration. Upregulating the initiate number of bacteria-immobilized biochar can not reverse its disadvantage. Indicating from our result, spraying may be a cheaper and more efficient way of application.
 
-  <img src="https://2021.igem.org/wiki/images/b/be/T--Tongji_China--4.1.14.jpg" alt="4.1.14" style="zoom:60%;" />
+  <img src="https://2021.igem.org/wiki/images/b/be/T--Tongji_China--4.1.14.jpg" alt="4.1.14" style="max-width:100%" />
 
   [^Figure 4.2.4 The odour degradation curve of Immobilized bacteria and spraying bacteria]:
 
@@ -274,19 +274,19 @@ Under the condition above, spraying bacteria shows better odour degradation effi
 
 In our basic model, we assume that the odour is produced at a steady rate. However, in practical application, the odour is produced at alterable rate, which is influenced by temperature, the fermentation stage and so on. To offer a more precise guidance for application, we acquired the odour production rate - time curve from literature^[8]^**(Figure 4.3.1)** and tried to figure out whether we can find a optimized initiate concentration considering both the efficiency and cost.
 
-<img src="https://2021.igem.org/wiki/images/1/1a/T--Tongji_China--4.1.15.jpg" alt="4.1.15" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/1/1a/T--Tongji_China--4.1.15.jpg" alt="4.1.15" style="max-width:100%" />
 
 [^Figure 4.3.1 Odour production rate changes over time.  Experiment data from Yang *et. al.*, 2019]:
 
 However, our simulation result shows that in the range of variation causing by different stage of fermentation, the concentration of input bacteria will not affect the apparent odour degradation efficiency significantly.
 
-<img src="https://2021.igem.org/wiki/images/2/26/T--Tongji_China--4.1.16.jpg" alt="4.1.16" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/2/26/T--Tongji_China--4.1.16.jpg" alt="4.1.16" style="max-width:100%" />
 
 [^Figure 4.3.2 Different concentration of input bacteria in different stage of fermentation]:
 
 Next, we wonder whether adding bacteria for several times can improve the odour degradation efficiency. When the viability and spread rate of bacterial is high, adding bacteria for several times do not have a contribution to odour degradation. However, when the the viability and spread rate of bacterial is lower, adding bacteria for several times or adding larger amount of bacteria does help.
 
-<img src="https://2021.igem.org/wiki/images/2/25/T--Tongji_China--4.1.17.jpg" alt="4.1.17" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/2/25/T--Tongji_China--4.1.17.jpg" alt="4.1.17" style="max-width:100%" />
 
 [^Figure 4.3.3  Adding bacteria for several times]:
 
@@ -302,7 +302,7 @@ There are two important parameters that determines the performance of our kill-s
 
 Our result shows that changing ***d*** and ***th*** has great influenced the end concentration of bacteria. However, the odour degradation rate is not affected (ignoring the abnormal value). This reminds us that when we design the killing strength and turn-on threshold of kill switch, we should put biosafety into the first consideration. High suicide coefficient and low threshold in a reasonable range is preferable.
 
-<img src="https://2021.igem.org/wiki/images/e/ec/T--Tongji_China--4.1.18.jpg" alt="4.1.18" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/e/ec/T--Tongji_China--4.1.18.jpg" alt="4.1.18" style="max-width:100%" />
 
 
 

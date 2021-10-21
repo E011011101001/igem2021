@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="safety").text-left
 </template>
 
@@ -29,23 +29,23 @@ export default class Safety extends Vue {
 
 Team Tongji_China obeys the **safety policy of iGEM 2021**. All the experiments were done in the Open Laboratory of Innovation Practice for College Students. All the equipment and devices belonged to **bio-safety level 1**, and reagent cabinet was equipped for storing hazardous reagents.
 
-<img src="https://2021.igem.org/wiki/images/0/0c/T--Tongji_China--3-7-1.png" style="zoom: 70%" />
+<img src="https://2021.igem.org/wiki/images/0/0c/T--Tongji_China--3-7-1.png" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--3-7-2.png" style="zoom: 70%" />
+<img src="https://2021.igem.org/wiki/images/7/7f/T--Tongji_China--3-7-2.png" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--3-7-3.png" style="zoom: 70%" />
+<img src="https://2021.igem.org/wiki/images/4/46/T--Tongji_China--3-7-3.png" style="max-width:100%" />
 
 <center>Our laboratory</center>
 
 We have established detailed **laboratory safety rules**, which were revised by our advisors, instructor and PI. All the team members taking part in experiments were required to obey the laboratory safety rules.
 
-<img src="https://2021.igem.org/wiki/images/8/83/T--Tongji_China--3-7-4_%E5%9F%B9%E8%AE%AD.jpg" style="zoom: 50%" />
+<img src="https://2021.igem.org/wiki/images/8/83/T--Tongji_China--3-7-4_%E5%9F%B9%E8%AE%AD.jpg" style="max-width:100%" />
 
 <center>Students are learning about safety training</center>
 
 Before the experiments began, all the members were required to attend to the **safety training** of the school. Advisors and instructor also imparted proper experimental operations of equipment (such as PCR amplifier, clean bench and autoclave) and reagents (such as NaOH and nucleic acid dye). All the equipment in the lab would be regularly checked. All the experiments must be done when there are more than two people.
 
-<img src="https://2021.igem.org/wiki/images/1/1b/T--Tongji_China--3-7-5_.jpg" style="zoom: 23%" />
+<img src="https://2021.igem.org/wiki/images/1/1b/T--Tongji_China--3-7-5_.jpg" style="max-width:100%" />
 
 <center>Students are doing experiments in the clean bench</center>
 

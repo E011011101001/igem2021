@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="poc").text-left
 </template>
 
@@ -36,7 +36,7 @@ We selected sulfate as our end product, which has no major effect on both bacter
 
 We wanted to realize our idea of converting sulfide to sulfate through four genes: SQR, SDO, AprBA, and SAT, so we designed the following treatment route.
 
-<img src="https://2021.igem.org/wiki/images/7/71/T--Tongji_China--POCP1.png" style="zoom: 70%;" />
+<img src="https://2021.igem.org/wiki/images/7/71/T--Tongji_China--POCP1.png" style="max-width:100%" />
 
 
 
@@ -52,11 +52,11 @@ After experimental testing, we found that the promoter was too weak, resulting i
 
 Through RT-qPCR experiment and SDS-PAGE experiment, we preliminarily verified that the four genes can be transcribed and translated normally in E. coli.(more details can be found in **==result==**)==(<span style="color:red">链接到2.2result</span>)==
 
-<img src="https://2021.igem.org/wiki/images/4/49/T--Tongji_China---16344961965841.png" alt="-16344961965841" style="zoom: 77%;" />
+<img src="https://2021.igem.org/wiki/images/4/49/T--Tongji_China---16344961965841.png" alt="-16344961965841" style="max-width:100%" />
 
 [^Figure 2.]:  Result of RT-qPCR for four genes
 
-<img src="https://2021.igem.org/wiki/images/f/fd/T--Tongji_China---16344963137465.jpeg" alt="-16344963137465" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/f/fd/T--Tongji_China---16344963137465.jpeg" alt="-16344963137465" style="max-width:100%" />
 
 [^Figure 3.]:  SDS-PAGE bands of four genes regulated by T7 promoter
 
@@ -80,9 +80,9 @@ We configured a series of sodium sulfide solutions with concentration gradient a
 
 We put the engineered bacteria and wild-type bacteria into a certain concentration of sodium sulfide solution,  take out the bacterial solution every 30 min to detect the residual sulfide concentration. The results show that our engineered bacteria can oxidize sulfide better. (because the bacteria have a certain adsorption effect on sulfide, the initial sulfur ion concentration of the two groups of added bacterial solution is lower than blank)
 
-<img src="https://2021.igem.org/wiki/images/0/02/T--Tongji_China--%E9%85%B6%E6%A0%87%E4%BB%AA.png" alt="酶标仪" style="zoom:20%;" />
+<img src="https://2021.igem.org/wiki/images/0/02/T--Tongji_China--%E9%85%B6%E6%A0%87%E4%BB%AA.png" alt="酶标仪" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/5/55/T--Tongji_China---163449635323611.png" alt="-163449635323611" style="zoom:100%;" />
+<img src="https://2021.igem.org/wiki/images/5/55/T--Tongji_China---163449635323611.png" alt="-163449635323611" style="max-width:100%" />
 
 [^Figure 5 & 6.]:  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )
 
@@ -90,7 +90,7 @@ We put the engineered bacteria and wild-type bacteria into a certain concentrati
 
 We have preliminarily confirmed that the engineering bacteria can effectively inhibit the production of hydrogen sulfide in egg liquid, but due to the limited time, it has not been accurately verified. Further experiments need to be designed to detect the ability and efficiency of engineering bacteria to oxidize hydrogen sulfide in wet waste environment.
 
-<img src="https://2021.igem.org/wiki/images/7/72/T--Tongji_China--%E9%B8%A1%E8%9B%8B%E6%B6%B2-16346659014661.png" alt="鸡蛋液-16346659014661" style="zoom:40%;" />
+<img src="https://2021.igem.org/wiki/images/7/72/T--Tongji_China--%E9%B8%A1%E8%9B%8B%E6%B6%B2-16346659014661.png" alt="鸡蛋液-16346659014661" style="max-width:100%" />
 
 
 

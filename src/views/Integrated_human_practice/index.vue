@@ -1,8 +1,8 @@
 <template lang="pug">
 v-row
-  v-col.col-4
+  v-col.col-3
     Anchor(v-if="ele" :ele="ele")
-  v-col.col-8
+  v-col.col-9
     div(ref="hp").text-left
 </template>
 
@@ -25,13 +25,13 @@ export default class Integrated extends Vue {
       hp.innerHTML = marked(`
 # Human Practice
 
-<img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--Where_do_we_get_the_inspiration_.png" alt="Where do we get the inspiration_" style="zoom: 75%;" />
+<img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--Where_do_we_get_the_inspiration_.png" alt="Where do we get the inspiration_" style="max-width:100%" />
 
 The inspiration for our project comes from a detail in our life. In our school canteen, students need to **pour the left** into food waste bins. However, the odor coming from food waste bins makes students unwilling to come near them, leading to spilling the left. It not only increases the **safety risks** but also **adds burden** to people who work in school canteens. On the other hand, those people have to stay near food waste bins for a long time, the odor from food waste may **do harm to their health**. Therefore, we realize that **the odor of food waste** is a problem to be solved after the implementation of waste sorting regulations. 
 
 
 
-<img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--Where_do_we_get_the_inspiration_.png" alt="What’s our values_" style="zoom:75%;" />
+<img src="https://2021.igem.org/wiki/images/f/fe/T--Tongji_China--What%E2%80%99s_our_values_.png" alt="What’s our values_" style="max-width:100%" />
 
 
 
@@ -39,19 +39,19 @@ The inspiration for our project comes from a detail in our life. In our school c
 
 Tongji_China has always been with a **people-oriented attitude**. Besides, the object we are dealing with, food waste, has a close relationship with our lives. Therefore, we take the opinions from **residents and people who work in related fields in different stages of our project** into our consideration. On the other hand, Shanghai, as the financial center of China, is facing the problem of rubbish siege, so the problem of waste sorting cannot be delayed. Given the environmental problems of food waste will bring, we pay much attention to the **environmental influence** our project will result in. Briefly, based on **people-oriented and environment-friendly** attitude, we have carried out a series of human practice that will influence our design meanwhile.
 
-<img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-1_overview.png" alt="6.1-1 overview" style="zoom:10%;" />
+<img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-1_overview.png" alt="6.1-1 overview" style="max-width:100%" />
 
 ## Understand the problem
 
 Before our design, we have conducted a thorough series of human practices to learn about our project completely. Therefore, we designed a questionnaire and made field trips to the different stages of food waste treatment.
 
-<img src="https://2021.igem.org/wiki/images/b/bb/T--Tongji_China--6.1-2%E6%B9%BF%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.png" alt="6.1-2湿垃圾处理方式" style="zoom:70%;" />
+<img src="https://2021.igem.org/wiki/images/b/bb/T--Tongji_China--6.1-2%E6%B9%BF%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.png" alt="6.1-2湿垃圾处理方式" style="max-width:100%" />
 
 ### A questionnaire
 
 In order to learn about the harm of food waste odor on different people, we've designed different questionnaires for different people. However, as our team members all major in biotechnology, it's hard for us to design a scientific questionnaire. Therefore, we turned to Professor Sun Ming for help.
 
-<img src="https://2021.igem.org/wiki/images/c/cc/T--Tongji_China--6.1-3.jpeg" alt="6.1-3" style="zoom:15%;" />
+<img src="https://2021.igem.org/wiki/images/c/cc/T--Tongji_China--6.1-3.jpeg" alt="6.1-3" style="max-width:100%" />
 
 During our talk with Professor Sun Ming, we learned some basic rules to obey in designing questionnaire ==(To learn more链接至2.3 contribution)==. Therefore we made some changes to the questionnaire according to our research objectives and targets. For example, as our research targets were mostly residents and people who work in related fields, we set some pictures in it to make targets understand more easily. Besides, we tried our best to describe professional vocabulary in an easy-to-understand language. Most importantly, we always put ourselves in others' shoes and avoid any vague expression. ==(What's the results?链接至 )==
 
@@ -60,27 +60,27 @@ During our talk with Professor Sun Ming, we learned some basic rules to obey in 
 
 In order to learn about the **whole process** of food waste treatment, we visited different places from the **emergence of food waste, transfer and treatment**. In this way we wanted to find out **what influence the odor of food waste would have on people in different stages** as well as **present odor treatment methods**.
 
-<img src="https://2021.igem.org/wiki/images/c/c4/T--Tongji_China--6.1-25.png" alt="6.1-25" style="zoom:80%;" />
+<img src="https://2021.igem.org/wiki/images/c/c4/T--Tongji_China--6.1-25.png" alt="6.1-25" style="max-width:100%" />
 
 #### Front-end
 
 We realize that there are many different places where the odor of food waste emerges. Therefore, we did some field trips to a **neighborhood**, a **school** and a **food market**, exploring people's ideas on food waste in different places.
 
-![6.1-4](https://2021.igem.org/wiki/images/d/de/T--Tongji_China--6.1-4-16347000279811.png)
+<img src="https://2021.igem.org/wiki/images/d/de/T--Tongji_China--6.1-4-16347000279811.png" style="max-width:100%" />
 
-![Neighborhood_](https://2021.igem.org/wiki/images/7/72/T--Tongji_China--Neighborhood_.png)
+<img src="https://2021.igem.org/wiki/images/7/72/T--Tongji_China--Neighborhood_.png" style="max-width:100%" />
 
-![6.1-26](https://2021.igem.org/wiki/images/9/9d/T--Tongji_China--6.1-26-16347000468272.png)
+<img src="https://2021.igem.org/wiki/images/9/9d/T--Tongji_China--6.1-26-16347000468272.png" style="max-width:100%" />
 
-![Neighborhood_](https://2021.igem.org/wiki/images/4/42/T--Tongji_China--HP_school.png)
+<img src="https://2021.igem.org/wiki/images/4/42/T--Tongji_China--HP_school.png" style="max-width:100%" />
 
-![6.1-5](https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-5-16347000558704.png)
+<img src="https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-5-16347000558704.png" style="max-width:100%" />
 
-![Food market_](https://2021.igem.org/wiki/images/0/01/T--Tongji_China--Food_market_.png)
+<img src="https://2021.igem.org/wiki/images/0/01/T--Tongji_China--Food_market_.png" style="max-width:100%" />
 
 #### Middle-end:
 
-<img src="https://2021.igem.org/wiki/images/6/66/T--Tongji_China--6.1-7.png" alt="6.1-7" style="zoom: 50%;" />
+<img src="https://2021.igem.org/wiki/images/6/66/T--Tongji_China--6.1-7.png" alt="6.1-7" style="max-width:100%" />
 
 We went to **Tian Wei Environmental Company** in Min Hang District that is responsible for the concentrated treatment of food waste in Hong Mei Street. The staff here told us that in the middle end of food waste treatment like waste transfer stations, there is some odor because of the **huge amount of food waste**. Also in our field trips, we found that despite the **plant extraction**, the **unpleasant smell of food waste can't be covered thoroughly**, making a huge influence on the workers. Besides, food waste is fermented to produce fertilizer **in high temperature**, where the organic components in plant extraction may react the odor gases and **form more odorous substances**.
 
@@ -90,7 +90,7 @@ We went to **Tian Wei Environmental Company** in Min Hang District that is respo
 
 Because of the COVID-2019, we didn't have the chance to visit a waste treatment plant. Luckily, our friend team, CPU_CHINA happened to visit one in Nanjing. Therefore, we asked them to collect some information of odor treatment methods in factory.
 
-<img src="https://2021.igem.org/wiki/images/5/5e/T--Tongji_China--6.1-8.JPG" alt="6.1-8" style="zoom:15%;" />
+<img src="https://2021.igem.org/wiki/images/5/5e/T--Tongji_China--6.1-8.JPG" alt="6.1-8" style="max-width:100%" />
 
 According to their research, we found that as the amount of odor in factory is very large, there has been a complete collect of odor treatment methods. Here are some typical methods.
 
@@ -130,15 +130,15 @@ Present odor treatment methods
 
 ## Define the solution
 
-<img src="../images/6.1-12.png" alt="6.1-12" style="zoom: 67%;" />
+<img src="https://2021.igem.org/wiki/images/c/cd/T--Tongji_China--6.1-12.png" style="max-width:100%" />
 
 After having a thorough understanding of our project, we determined the application scenarios to be front and middle end. Then we started to brainstorm on how to solve the problem. Then we turned to **synthesis biology**, however, we realized that we needed to reflect upon our project from the view of **philosophy and morality**. Therefore, we invited **Professor Xinhua Lu** from College of Humanities in Tongji University to give us a lecture themed on **'Philosophy vs Synthesis biology, human beings and rubbish in biosphere'**. The lecture has attracted over 50 participants online and offline.
 
-<img src="https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-9-16346887102461.jpeg" alt="6.1-9" style="zoom:20%;" />
+<img src="https://2021.igem.org/wiki/images/1/1d/T--Tongji_China--6.1-9-16346887102461.jpeg" alt="6.1-9" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/5/51/T--Tongji_China--6.1-10.png" alt="6.1-10" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/5/51/T--Tongji_China--6.1-10.png" alt="6.1-10" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/4/47/T--Tongji_China--6.1-11.jpeg" alt="6.1-11" style="zoom:20%;" />
+<img src="https://2021.igem.org/wiki/images/4/47/T--Tongji_China--6.1-11.jpeg" alt="6.1-11" style="max-width:100%" />
 
 ### What have we learned?
 
@@ -150,7 +150,7 @@ During the heated talk ,we've learned that we need to find out the **influence o
 
 After learning about people's opinions on eliminating odor of food waste by synthesis biology, we began to ideate and design our project.
 
-<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-13.png" alt="6.1-13" style="zoom:70%;" />
+<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-13.png" alt="6.1-13" style="max-width:100%" />
 
 
 
@@ -160,23 +160,23 @@ As we all know,there are many complex components in odor gases therefore we need
 
 To do that, we've read huge amounts of literature and visited one of the authors, **Professor Lv Fan** from School of Environmental Science and Engineering in Tongji University. She told us that the gases in odor can be divided into **organic and inorganic ones**, like H~2~S, NH~3~ and alkene. She advised us to pay attention to **H~2~S and NH~3~** whose sniffing thresholds are low.
 
-<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-27.jpeg" alt="6.1-27" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-27.jpeg" alt="6.1-27" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/d/d9/T--Tongji_China--6.1-14.jpeg" alt="6.1-14" style="zoom:20%;" />
+<img src="https://2021.igem.org/wiki/images/d/d9/T--Tongji_China--6.1-14.jpeg" alt="6.1-14" style="max-width:100%" />
 
 We know that the aim of implementation of garbage sorting in Shanghai is to make full use of waste resources, therefore we must take it into consideration when selecting final products. We came to **Tian Wei Environmental Company** and the staff there told us that if we want to treat H~2~S and NH~3~, we can transform them into **SO~4~^2-^ and NO~3~^-^** which are **helpful in composting**.
 
 ![6.1-28](https://2021.igem.org/wiki/images/9/9e/T--Tongji_China--6.1-28.png)
 
-<img src="https://2021.igem.org/wiki/images/b/b2/T--Tongji_China--6.1-15.jpeg" alt="6.1-15" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/b/b2/T--Tongji_China--6.1-15.jpeg" alt="6.1-15" style="max-width:100%" />
 
 ### Pathway design
 
 After determining the gases and final products, we started our design which is divided into three parts: **hydrogen sulfide degradation, pathway optimization and kill switch**.==(To learn more)== To ensure biosafety, we've designed a kill switch consisting of **odor sensors, Dre recombinase system and toxin-antitoxin system**. We needed to synthesize CstR and a promoter promoted by CstR while we had problems in synthesizing the fragment, which influenced the process of our project. After reading some related literature, we found that **Professor Huaiwei Liu from Shandong University** had done some related experiments before. So we talked about our situation with him by e-mail and got the **plasmid PL1-CstR-PR3-mKatessrA** from him,which is helpful for constructing our kill switch.
 
-<img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--6.1-16.png" alt="6.1-16" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--6.1-16.png" alt="6.1-16" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--6.1-17.png" alt="6.1-17" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--6.1-17.png" alt="6.1-17" style="max-width:100%" />
 
 ### What have we learned?
 
@@ -190,7 +190,7 @@ As the project progresses, we began to take application and evaluation of our ba
 
 
 
-<img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-18.png" alt="6.1-18" style="zoom:60%;" />
+<img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-18.png" alt="6.1-18" style="max-width:100%" />
 
 ### Efficiency of degrading H~2~S in gases and liquid
 
@@ -200,15 +200,15 @@ After constructing the plasimid we needed, we began to characterize our plasimid
 
 ![6.1-29](https://2021.igem.org/wiki/images/2/28/T--Tongji_China--6.1-29.jpeg)
 
-<img src="https://2021.igem.org/wiki/images/8/8a/T--Tongji_China--6.1-30.jpeg" alt="6.1-30" style="zoom:15%;" />
+<img src="https://2021.igem.org/wiki/images/8/8a/T--Tongji_China--6.1-30.jpeg" alt="6.1-30" style="max-width:100%" />
 
-<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--6.1-31.jpeg" alt="6.1-31" style="zoom:15%;" />
+<img src="https://2021.igem.org/wiki/images/8/82/T--Tongji_China--6.1-31.jpeg" alt="6.1-31" style="max-width:100%" />
 
 #### Characterization in gas forms
 
 Besides, we want to test the efficiency of degrading H~2~S in gas form. However, there isn't High Performance Gas Chromatograph in our lab to detect the concentration of gases. Therefore, we turned to **Professor Fan Lv** from Tongji University for help and she was willing to make us **use the instrument** in her lab and we finished the **construction of reaction device** under her guidance.
 
-<img src="https://2021.igem.org/wiki/images/c/c6/T--Tongji_China--6.1-27-16346888059952.jpeg" alt="6.1-27" style="zoom:50%;" />
+<img src="https://2021.igem.org/wiki/images/c/c6/T--Tongji_China--6.1-27-16346888059952.jpeg" alt="6.1-27" style="max-width:100%" />
 
 ### Application
 

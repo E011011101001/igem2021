@@ -152,7 +152,7 @@ export default class SiteHeader extends Vue {
           to: '/Communication'
         },
         {
-          title: 'Implementation & Entrepreneurship',
+          title: 'Implementation',
           to: '/Implementation'
         },
         {
