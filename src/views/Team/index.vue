@@ -51,7 +51,7 @@ div
         name="Yuanjia Wang"
         major="Biotechnology"
         hobbies="Reading, dreaming of cats"
-        description="Trying to be  alive and keep love by looking forward to the endless"
+        description="Always trial and error, always no regrets."
       )
   v-row
     v-col.col-5.offset-md-1
