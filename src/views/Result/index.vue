@@ -1,20 +1,22 @@
 <template lang="pug">
 v-row
-  v-col.col-1
-  v-col.col-10
+  v-col.col-3
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-9
     div(ref="result").text-left
-  v-col.col-1
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class Result extends Vue {
   static id = 'Result'
+  ele: HTMLElement | null = null
 
   mounted (): void {
     const result = this.$refs.result as Element
@@ -31,7 +33,7 @@ In the experimental part of hydrogen sulfide oxidation, we verified the expressi
 
 - **Pathway optimization**
 
-We believe that different enzymes expressed by different genes have different efficiencies, thus only four enzymes maintained in the right ratio will have the best effect of sulfur removal. Therefore, we decided to replace different promoters for different genes and combine them to select the optimal pair. 
+We believe that different enzymes expressed by different genes have different efficiencies, thus only four enzymes maintained in the right ratio will have the best effect of sulfur removal. Therefore, we decided to replace different promoters for different genes and combine them to select the optimal pair.
 
 - **Kill switch**
 
@@ -119,7 +121,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 * Perform sequencing, phenotyping on the correct clones
 * Collect data from phenotyping and train ANN model for prediction
 
-    In order to improve the hydrogen sulfide oxidation efficiency by making subtle control of enzymes concentration, we chose promoters with different strength in Anderson library<sup>[1]</sup> (link: design的相应部分). Firstly, we validated their relative strength for model training**(Figure 7)**. 
+    In order to improve the hydrogen sulfide oxidation efficiency by making subtle control of enzymes concentration, we chose promoters with different strength in Anderson library<sup>[1]</sup> (link: design的相应部分). Firstly, we validated their relative strength for model training**(Figure 7)**.
 
 ![p1](https://2021.igem.org/wiki/images/0/03/T--Tongji_China--figure_7.png)
 
@@ -135,7 +137,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 
 
 
-    Due to the limitation of commercial recombinase, it is almost impossible to recombine four genes with their respective promoters in a single reaction, so we recombine SQR, SDO with their promoters, AprBA, SAT with their promoters, respectively for the first round. Plasmid backbone with ampicillin resistance gene was used. This reaction was not effective enough due to the limitation of recombinase at first , we had improved our homologous arms to get better efficiency **(Figure 9 left)**. 
+    Due to the limitation of commercial recombinase, it is almost impossible to recombine four genes with their respective promoters in a single reaction, so we recombine SQR, SDO with their promoters, AprBA, SAT with their promoters, respectively for the first round. Plasmid backbone with ampicillin resistance gene was used. This reaction was not effective enough due to the limitation of recombinase at first , we had improved our homologous arms to get better efficiency **(Figure 9 left)**.
 
 ![p3](https://2021.igem.org/wiki/images/d/d2/T--Tongji_China--figure_9.png)
 
@@ -197,15 +199,16 @@ At the beginning, bacteria cultured in 5 mL were treated with 0, 20, 40, 80 and 
 
 [^Figure 12.]: the curve of OD<sub>600 nm</sub> relative to time
 
-It can be seen that the presence of S<sup>2-</sup> at different concentrations has no significant effect on the growth of bacteria. However, with the increase of S<sup>2-</sup>, the fluorescence intensity increases at first and then decreases, indicating that when S<sup>2-</sup> is too high, the lifting effect on CstR inhibition is weakened.  We hope to find out an appropriate concentration range in which the strength of Pcstr is positively correlated with the concentration of S<sup>2-</sup>, which tells us that we need to reduce the concentration gradient and concentration range for further characterization. 
+It can be seen that the presence of S<sup>2-</sup> at different concentrations has no significant effect on the growth of bacteria. However, with the increase of S<sup>2-</sup>, the fluorescence intensity increases at first and then decreases, indicating that when S<sup>2-</sup> is too high, the lifting effect on CstR inhibition is weakened.  We hope to find out an appropriate concentration range in which the strength of Pcstr is positively correlated with the concentration of S<sup>2-</sup>, which tells us that we need to reduce the concentration gradient and concentration range for further characterization.
 
-We further used 0, 10, 20, 30, 40 and 50 mg/L Na<sub>2</sub>S·9H<sub>2</sub>O to treat 5 mL bacterial solution and then measured the fluorescence intensity of mKate using a microplate reader.（这部分数据待补充） 
+We further used 0, 10, 20, 30, 40 and 50 mg/L Na<sub>2</sub>S·9H<sub>2</sub>O to treat 5 mL bacterial solution and then measured the fluorescence intensity of mKate using a microplate reader.（这部分数据待补充）
 
 ## Reference #
 
 [1]  http://parts.igem.org/Promoters/Catalog/Anderson
 
     `)
+      this.ele = result as HTMLElement
     }
   }
 }
