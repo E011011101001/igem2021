@@ -10,7 +10,7 @@ import Engineering from '@/views/Engineering/index.vue'
 import Exp from '@/views/Experiments_protocol/index.vue'
 import Notebook from '@/views/Notebook/index.vue'
 import Parts from '@/views/Parts/index.vue'
-import Improved_part from '@/views/Improved_part/index.vue'
+import POC from '@/views/POC/index.vue'
 import Safety from '@/views/Safety/index.vue'
 import Integrated_human_practice from '@/views/Integrated_human_practice/index.vue'
 import Education_public_engagement from '@/views/Education_public_engagement/index.vue'
@@ -72,9 +72,9 @@ const routes: Array<RouteConfig> = [
     component: Parts
   },
   {
-    path: '/Improved',
-    name: Improved_part.id,
-    component: Improved_part
+    path: '/Proof_Of_Concept',
+    name: POC.id,
+    component: POC
   },
   {
     path: '/Safety',

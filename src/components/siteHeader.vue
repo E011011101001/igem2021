@@ -3,11 +3,9 @@
     <v-app-bar
       fixed
       app
-      hide-on-scroll
       height="64"
-      elevate-on-scroll
       src="https://2021.igem.org/wiki/images/b/b0/T--Tongji_China--top-background.png"
->
+    >
       <router-link to="/" class="d-flex">
         <Logo />
       </router-link>
@@ -133,8 +131,8 @@ export default class SiteHeader extends Vue {
           to: '/Parts'
         },
         {
-          title: 'Improved part',
-          to: '/Improved_part'
+          title: 'Proof Of Concept',
+          to: '/Proof_Of_Concept'
         },
         {
           title: 'Safety',
