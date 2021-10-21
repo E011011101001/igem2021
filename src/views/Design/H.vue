@@ -1,18 +1,24 @@
 <template lang="pug">
-div(ref="h_md").text-left
+v-row
+  v-col.col-3
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-9
+    div(ref="h_md").text-left
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class H extends Vue {
   static readonly id = 'Hydrogen'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const h = this.$refs.h_md as Element
     if (h) {
       h.innerHTML = marked(`
@@ -45,9 +51,9 @@ After our extensive literature review and intense discussions, the following tec
 
 <img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--S%E9%80%9A%E8%B7%AF%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="S通路设计图" style="max-width:100%" />
 
-[^Figure 2. The hydrogen sulfide degradation pathway]: 
+[^Figure 2. The hydrogen sulfide degradation pathway]:
 
-#### The introduction of the four genes 
+#### The introduction of the four genes
 
 - ##### SQR
 
@@ -80,7 +86,7 @@ We hope to extract bacterial RNA, reverse transcribe it and then subject it to q
 | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | :----------------------------------------------------------: |
 | Primer | 16SrRNA_ecoli_F：<br/>CTGGAACTGAGACACGGTCC <br/> 16SrRNA_ecoli_R: <br/> GGTGCTTCTTCTGCGGGTAA |sqr-qpcr_F: <br/> tttatcgccttgccccagttga <br/> sqr-qpcr_R: <br/> ctcatagaagggctcggagaca|sdo-qpcr_F: <br/> accgaaaccagcacctacac <br/> sdo-qpcr_R:<br/>ccgatccagtatgcgcagta|aprba-qpcr_F: <br/> aacatgcgccctggatagag <br/> aprba-qpcr_R: <br/> gctccactgtcccgtattcc|sat-qpcr_F: <br/> gcgccacccatttcatcatc <br/> sat-qpcr_R: <br/> acgcatactcgggcagaaaa|
 
-[^Table 1. The primer sequences for each genes]: 
+[^Table 1. The primer sequences for each genes]:
 
 ### Protein level
 
@@ -106,9 +112,20 @@ There are many methods to detect sulfide and sulfate, according to the actual co
 
 7. Zheng, C.L., et al., *Characterization and Reconstitute of a Fe4S4 Adenosine 5 '-Phosphosulfate Reductase from Acidithiobacillus ferrooxidans.* Current Microbiology, 2009. **58**(6): p. 586-592.
 
- 
+
       `)
+      this.ele = h as HTMLElement
     }
   }
 }
 </script>
+<style>
+table {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+</style>

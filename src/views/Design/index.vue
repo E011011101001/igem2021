@@ -21,11 +21,10 @@ div
             @click="toggle"
           ).mx-2 {{ section.title }}
     v-col
-  v-row
-    HPage(v-if="sectionNum === 0")
-    APage(v-else-if="sectionNum === 1")
-    OPage(v-else-if="sectionNum === 2")
-    KPage(v-else)
+  HPage(v-if="sectionNum === 0")
+  APage(v-else-if="sectionNum === 1")
+  OPage(v-else-if="sectionNum === 2")
+  KPage(v-else)
 
 </template>
 
@@ -54,7 +53,7 @@ type Section = {
 })
 export default class Design extends Vue {
   static id = 'Design'
-  public sectionNum : 0|1|2|3 = 0
+  public sectionNum: 0 | 1 | 2 | 3 = 0
   public sections: Array<Section> = [
     {
       title: 'Hydrogen sulfide degradation',

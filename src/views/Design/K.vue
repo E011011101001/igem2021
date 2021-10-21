@@ -1,18 +1,24 @@
 <template lang="pug">
-div(ref="k_md").text-left
+v-row
+  v-col.col-3
+    Anchor(v-if="ele" :ele="ele")
+  v-col.col-9
+    div(ref="k_md").text-left
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Anchor from '@/components/Anchor.vue'
 
 import marked from 'marked'
 
-@Component
+@Component({ components: { Anchor } })
 export default class H extends Vue {
   static readonly id = 'Optimization'
+  ele: HTMLElement | null = null
 
-  mounted () : void {
+  mounted (): void {
     const k = this.$refs.k_md as Element
     if (k) {
       k.innerHTML = marked(`
@@ -52,6 +58,7 @@ Under the culture condition, H<sub>2</sub>S concentration is not high enough to 
 
 
       `)
+      this.ele = k as HTMLElement
     }
   }
 }
