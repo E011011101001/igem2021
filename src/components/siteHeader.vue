@@ -4,6 +4,7 @@
       fixed
       app
       height="64"
+      style="top:18px"
       src="https://2021.igem.org/wiki/images/b/b0/T--Tongji_China--top-background.png"
     >
       <router-link to="/" class="d-flex">
@@ -35,11 +36,7 @@
                 v-bind="attrs"
               >
                 {{ item.title }}
-                <v-icon
-                  right
-                  small
-                  class="mx-0"
-                >
+                <v-icon right small class="mx-0">
                   mdi-chevron-down
                 </v-icon>
               </v-btn>
