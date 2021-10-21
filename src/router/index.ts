@@ -15,6 +15,7 @@ import Safety from '@/views/Safety/index.vue'
 import Integrated_human_practice from '@/views/Integrated_human_practice/index.vue'
 import Education_public_engagement from '@/views/Education_public_engagement/index.vue'
 import Implementation from '@/views/Implementation/index.vue'
+import Entrepreneurship from '@/views/Entrepreneurship/index.vue'
 import Models from '@/views/Models/index.vue'
 import Team from '@/views/Team/index.vue'
 import Attribution from '@/views/Attribution/index.vue'
@@ -94,8 +95,12 @@ const routes: Array<RouteConfig> = [
   {
     path: '/Implementation',
     name: Implementation.id,
-    component: Implementation,
-    alias: '/Entrepreneurship'
+    component: Implementation
+  },
+  {
+    path: '/Entrepreneurship',
+    name: Entrepreneurship.id,
+    component: Entrepreneurship
   },
   {
     path: '/Model',
