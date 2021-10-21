@@ -19,6 +19,7 @@ export default class Education extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const edu = this.$refs.edu as Element
     console.log(edu)
     if (edu) {

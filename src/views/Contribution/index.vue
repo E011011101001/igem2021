@@ -19,6 +19,7 @@ export default class Contribution extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const contribution = this.$refs.contribution as Element
     if (contribution) {
       contribution.innerHTML = marked(`

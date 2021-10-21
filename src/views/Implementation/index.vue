@@ -19,6 +19,7 @@ export default class Implementation extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const mddiv = this.$refs.mddiv as Element
     console.log(mddiv)
     if (mddiv) {

@@ -19,6 +19,7 @@ export default class Medal extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const mc = this.$refs.mc as Element
     console.log(mc)
     if (mc) {

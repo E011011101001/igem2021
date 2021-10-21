@@ -19,6 +19,7 @@ export default class Entrepreneurship extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const mddiv = this.$refs.mddiv as Element
     console.log(mddiv)
     if (mddiv) {
@@ -27,13 +28,13 @@ export default class Entrepreneurship extends Vue {
 
 ### Overview:
 
-With the growing amount of food waste and the associated odor and health and psychological problems, this year, Tongji_China launched the "LOOK" project. The biological products containing the concept of our 'LOOK' project will be able to absorb **hydrogen sulfide** and **ammonia** with two kinds of bioengineered E.coli. One uses enzymes related to sulfide oxidization(**Sqr, Sdo, AprBA and Sat**), converting hydrogen sulfide to sulfate, while the other uses enzymes **AMO, HAO and NOD** to convert ammonia to nitrate. Besides, a three-gear adjustable **kill switch** based on the concentration of H2S and NH3 is added to ensure biosafety. Also, we optimize our pathway by high throughput screening and machine learning. With such efforts, we hope to solve the problems the odor has brought to people and downstream industries.  
+With the growing amount of food waste and the associated odor and health and psychological problems, this year, Tongji_China launched the "LOOK" project. The biological products containing the concept of our 'LOOK' project will be able to absorb **hydrogen sulfide** and **ammonia** with two kinds of bioengineered E.coli. One uses enzymes related to sulfide oxidization(**Sqr, Sdo, AprBA and Sat**), converting hydrogen sulfide to sulfate, while the other uses enzymes **AMO, HAO and NOD** to convert ammonia to nitrate. Besides, a three-gear adjustable **kill switch** based on the concentration of H2S and NH3 is added to ensure biosafety. Also, we optimize our pathway by high throughput screening and machine learning. With such efforts, we hope to solve the problems the odor has brought to people and downstream industries.
 
 <img src="https://2021.igem.org/wiki/images/9/9c/T--Tongji_China--6.4.1.png" alt="6.4.1" style="max-width:100%" />
 
 ### Establishment of application scenario and target customers
 
-To make our project not only limited to a laboratory result, but more likely to improve the current odor problem in food waste through production. The first thing we had to do was to identify our target customers. Our preliminary HP research showed that for **large food waste treatment plants**, the odor problem can be scientifically and systematically controlled and managed due to their high level of **automation**. Besides, **the initial sorting and compacting** is done during the transfer process. 
+To make our project not only limited to a laboratory result, but more likely to improve the current odor problem in food waste through production. The first thing we had to do was to identify our target customers. Our preliminary HP research showed that for **large food waste treatment plants**, the odor problem can be scientifically and systematically controlled and managed due to their high level of **automation**. Besides, **the initial sorting and compacting** is done during the transfer process.
 
 <img src="https://2021.igem.org/wiki/images/8/8e/T--Tongji_China--6.3.1-16346287525821.png" alt="6.3.1" style="max-width:100%" />
 

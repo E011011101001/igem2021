@@ -19,6 +19,7 @@ export default class Integrated extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const hp = this.$refs.hp as Element
     console.log(hp)
     if (hp) {
@@ -27,7 +28,7 @@ export default class Integrated extends Vue {
 
 <img src="https://2021.igem.org/wiki/images/b/b6/T--Tongji_China--Where_do_we_get_the_inspiration_.png" alt="Where do we get the inspiration_" style="max-width:100%" />
 
-The inspiration for our project comes from a detail in our life. In our school canteen, students need to **pour the left** into food waste bins. However, the odor coming from food waste bins makes students unwilling to come near them, leading to spilling the left. It not only increases the **safety risks** but also **adds burden** to people who work in school canteens. On the other hand, those people have to stay near food waste bins for a long time, the odor from food waste may **do harm to their health**. Therefore, we realize that **the odor of food waste** is a problem to be solved after the implementation of waste sorting regulations. 
+The inspiration for our project comes from a detail in our life. In our school canteen, students need to **pour the left** into food waste bins. However, the odor coming from food waste bins makes students unwilling to come near them, leading to spilling the left. It not only increases the **safety risks** but also **adds burden** to people who work in school canteens. On the other hand, those people have to stay near food waste bins for a long time, the odor from food waste may **do harm to their health**. Therefore, we realize that **the odor of food waste** is a problem to be solved after the implementation of waste sorting regulations.
 
 
 
@@ -107,7 +108,7 @@ According to their research, we found that as the amount of odor in factory is v
 
 ### What have we learned?
 
-In our questionnaire, we define that most of people consider the odor of food waste to be a question ,which makes our project meaningful. Besides, we collect people's idea on eliminating odor by synthesis biology and find that people are worrying about the safety. Therefore we design a kill switch to reduce their concern. (To learn more) Also, we found that people with different education levels have different understanding of synthesis biology. Therefore we designed different activities for different ages of people.(To learn more) 
+In our questionnaire, we define that most of people consider the odor of food waste to be a question ,which makes our project meaningful. Besides, we collect people's idea on eliminating odor by synthesis biology and find that people are worrying about the safety. Therefore we design a kill switch to reduce their concern. (To learn more) Also, we found that people with different education levels have different understanding of synthesis biology. Therefore we designed different activities for different ages of people.(To learn more)
 
 In the field trips to different stages of food waste treatment, we realized that the odor of food waste **in the front and middle end tended to be neglected** because of the **small volume**. Meanwhile, it can **influence related practitioners to some extent**. Therefore, we determined the **application scenarios** to be **front and middle end** which is of small volume.
 
@@ -156,7 +157,7 @@ After learning about people's opinions on eliminating odor of food waste by synt
 
 ### Selection of odor gases and final products
 
-As we all know,there are many complex components in odor gases therefore we need to select the gases we want to treat and the final products. 
+As we all know,there are many complex components in odor gases therefore we need to select the gases we want to treat and the final products.
 
 To do that, we've read huge amounts of literature and visited one of the authors, **Professor Lv Fan** from School of Environmental Science and Engineering in Tongji University. She told us that the gases in odor can be divided into **organic and inorganic ones**, like H~2~S, NH~3~ and alkene. She advised us to pay attention to **H~2~S and NH~3~** whose sniffing thresholds are low.
 

@@ -10,7 +10,6 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
-
 import SiteHeader from '@/components/SiteHeader.vue'
 import SiteFooter from '@/components/SiteFooter.vue'
 
@@ -20,8 +19,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
     SiteFooter
   }
 })
-export default class App extends Vue {
-}
+export default class App extends Vue {}
 </script>
 
 <style>

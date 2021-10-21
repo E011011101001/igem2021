@@ -19,6 +19,7 @@ export default class H extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const k = this.$refs.k_md as Element
     if (k) {
       k.innerHTML = marked(`

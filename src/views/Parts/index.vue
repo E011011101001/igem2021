@@ -16,6 +16,7 @@ export default class Parts extends Vue {
   static id = 'Parts'
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const parts = this.$refs.parts as Element
     if (parts) {
       parts.innerHTML = marked(`

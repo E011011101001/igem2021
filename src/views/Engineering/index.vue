@@ -19,6 +19,7 @@ export default class Engineering extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const result = this.$refs.engi as Element
     console.log(result)
     if (result) {

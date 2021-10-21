@@ -19,6 +19,7 @@ export default class Result extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const result = this.$refs.result as Element
     console.log(result)
     if (result) {

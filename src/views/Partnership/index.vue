@@ -19,6 +19,7 @@ export default class Partnership extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const poc = this.$refs.poc as Element
     console.log(poc)
     if (poc) {

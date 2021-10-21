@@ -20,6 +20,7 @@ export default class Safety extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const safety = this.$refs.safety as Element
     console.log(safety)
     if (safety) {

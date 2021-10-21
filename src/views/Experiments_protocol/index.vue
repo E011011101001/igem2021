@@ -19,6 +19,7 @@ export default class Exp extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const exp = this.$refs.exp as Element
     if (exp) {
       exp.innerHTML = marked(`

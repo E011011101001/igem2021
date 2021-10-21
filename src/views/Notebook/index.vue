@@ -19,6 +19,7 @@ export default class Notebook extends Vue {
   ele: HTMLElement | null = null
 
   mounted (): void {
+    window.scrollTo(0, 0)
     const notebook = this.$refs.notebook as Element
     console.log(notebook)
     if (notebook) {
