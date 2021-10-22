@@ -175,10 +175,6 @@ We know that the aim of implementation of garbage sorting in Shanghai is to make
 
 After determining the gases and final products, we started our design which is divided into three parts: **hydrogen sulfide degradation, pathway optimization and kill switch**.[(To learn more)](/Team:Tongji_China/Design) To ensure biosafety, we've designed a kill switch consisting of **odor sensors, Dre recombinase system and toxin-antitoxin system**. We needed to synthesize CstR and a promoter promoted by CstR while we had problems in synthesizing the fragment, which influenced the process of our project. After reading some related literature, we found that **Professor Huaiwei Liu from Shandong University** had done some related experiments before. So we talked about our situation with him by e-mail and got the **plasmid PL1-CstR-PR3-mKatessrA** from him,which is helpful for constructing our kill switch.
 
-<img src="https://2021.igem.org/wiki/images/2/2f/T--Tongji_China--6.1-16.png" alt="6.1-16" style="max-width:100%" />
-
-<img src="https://2021.igem.org/wiki/images/2/2d/T--Tongji_China--6.1-17.png" alt="6.1-17" style="max-width:100%" />
-
 ### What have we learned?
 
 We have conducted a huge amount of human practices when ideating and designing our project. We've **defined the odor gases and final products** after visiting Professor Fan Lv and Tian Wei Environmental Company and had **a rough frame of our processing path**. Besides, when we are designing our project, we got the **key plasmid of kill switch** from Professor Huaiwei Liu from Shandong University.
@@ -230,6 +226,11 @@ Through the human practices in application and evaluation, we have a deeper unde
 
 When it comes to the application future for our project, we asked for advice from professors in our school and consulted Professor Xinping Zeng for advice in hardware. Then we made a [model](/Team:Tongji_China/Model) to simulate the dynamics of engineered bacteria spread and odor degradation in practical application.
 
+<img src="https://2021.igem.org/wiki/images/2/27/T--Tongji_China--20211022-114718.png" alt="6.1-27" style="max-width:100%" />
+
+## Summary
+
+Our human practices can influence our project too. To **understand the problem**, we conducted a **questionnaire** to collect **people’s ideas** on food waste thus proving our project to be **meaningful**. Besides, we visited different places of the **food waste treatment process**, learning about present deodorizing methods and **opinions from people of related areas** and define our **application scenarios** to be front and middle end. To **define the solution**, we wanted to reflect the **morality problems of our project**, therefore, we held a **lecture between science and philosophy** and realized that we should utilize food waste fully which helps us in **selecting final products**. To **ideate and design the project**, we consulted some specialists to select the **target odor and final products**. Also we got help in **constructing plasmids**. To **apply and evaluate our project**, we improved our **characterization experiments** with professional help. Besides, we got advice for **hardware** from a specialist. 
       `)
 
       this.ele = hp as HTMLElement
