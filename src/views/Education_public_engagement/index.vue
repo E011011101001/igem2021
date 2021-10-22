@@ -91,7 +91,12 @@ For the following questions and other ones related to synthetic biology, we were
 
 As a newborn discipline in the area of natural science, synthetic biology, itself involves techniques that can achieve our goals after we modify genes. On the other hand, we should think over the philosophical and ethical it may incur.  Professor Lu launched a series of interesting and thoughtful prospectives, which aroused heated and further discussions between interdisciplinary students and teachers. Particularly, Professor **Wang Chunguang** and **Guo Guangpu** from College of Life Science and Technology talked further about whether gene editing therapy had made humans 'cross the border', whether the philosophy should tell the science to quit, and the concept of transhumanism.
 
-<img src="https://2021.igem.org/wiki/images/4/44/T--Tongji_China--%E5%93%B2%E5%AD%A6%E8%AE%B2%E5%BA%A72.jpg" alt="哲学讲座2" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/4/47/T--Tongji_China--6.1-11.jpeg" alt="哲学讲座2" style="max-width:100%" />
+
+<br/>
+<br/>
+
+Besides, we also held a publicity to students from different majors. We collaborated with SJTU-BioX-Shanghai to give a lecture on synthesis biology and projects of us two teams.
 
 ## Science and the Public
 
