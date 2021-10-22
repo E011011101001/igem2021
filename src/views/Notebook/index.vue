@@ -276,7 +276,16 @@ Characterization of pTrchis2A-lacI-cstR-trc-op2-op1-op2-mkate-CnSqr to observe t
 
 ### Kill switch
 
-Constructed the plasmid pACYC-rox-ter-rox-MazF-CstR-Pcstr-Dre-MazE but there was a deletion in Pcstr.
+- Constructed the plasmid pACYC-rox-ter-rox-MazF-CstR-Pcstr-Dre-MazE but there was a deletion in Pcstr.
+
+- Constructed the plasmids of mRFP connected with Pcstr, PlacI and J23110 respectively，and characterized the strength of them.
+
+## Week 13: 10.10-10.16
+
+### Hydrogen sulfide oxidization module
+
+* Proved that it is feasible to add hydrogen sulfide gas to the gas-liquid coexistence system, and the detection method and results are reasonable and repeatable
+* The ability of engineering bacteria to oxidize sulfur ions in gas-liquid coexistence environment was initially verified
 
 
       `)
