@@ -174,7 +174,7 @@ As the initial idea of our partnership, we hope to synthesize aroma as well as e
 | 35    | 30          | 8      | 16      | 5    | 1.1      | 0.999   |
 | 36    | 37          | 8      | 16      | 5    | 1.1      | 0.135   |
 
-<span style="color: red">==(To learn more)==</span>
+[FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Model)
 
 #### We help FAFU-CHINA
 
