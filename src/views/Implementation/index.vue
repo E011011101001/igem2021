@@ -30,7 +30,7 @@ We not only want to prove that our project works in laboratory ,but we also want
 
 ## 1. Application scenario
 
-After our preliminary human practice, we found that the front and middle ends of food waste treatment have not formed a scientific and systematic deodorisation method due to the small volume, so we set our application scenario as the front and middle ends of wet waste treatment, like food waste bins, waste transfer stations, etc.
+After our preliminary human practice, we found that the front and middle ends of food waste treatment have not formed a scientific and systematic deodorisation method due to the small volume, so we set our application scenario as the front and middle ends of wet waste treatment, like food waste bins, waste transfer stations, etc. We envision that our biological product will be distributed to our target group in the form of lyophilised powders. They can pour and spread them directly onto the wet waste pile when required, and that our product will be able to effectively detect the concentration of hydrogen sulfide and Ammonia in the environment.
 
 Besides, since food waste is very valuable resource for us to use, we want to utilize it fully. Therefore we have partnership with SJTang and explored the possibility that producing hydrogen while eliminating H<sub>2</sub>S by co-cultivating our bacteria.
 
