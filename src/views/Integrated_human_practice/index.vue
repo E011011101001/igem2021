@@ -163,8 +163,6 @@ As we all know,there are many complex components in odor gases therefore we need
 
 To do that, we've read huge amounts of literature and visited one of the authors, **Professor Lv Fan** from School of Environmental Science and Engineering in Tongji University. She told us that the gases in odor can be divided into **organic and inorganic ones**, like H<sub>2</sub>S, NH<sub>3</sub> and alkene. She advised us to pay attention to **H<sub>2</sub>S and NH<sub>3</sub>** whose sniffing thresholds are low.
 
-<img src="https://2021.igem.org/wiki/images/d/dd/T--Tongji_China--6.1-27.jpeg" alt="6.1-27" style="max-width:50%" />
-
 <img src="https://2021.igem.org/wiki/images/d/d9/T--Tongji_China--6.1-14.jpeg" alt="6.1-14" style="max-width:100%" />
 
 We know that the aim of implementation of garbage sorting in Shanghai is to make full use of waste resources, therefore we must take it into consideration when selecting final products. We came to **Tian Wei Environmental Company** and the staff there told us that if we want to treat H<sub>2</sub>S and NH<sub>3</sub>, we can transform them into **SO<sub>4</sub><sup>2-</sup> and NO<sub>3</sub><sup>-</sup>** which are **helpful in composting**.

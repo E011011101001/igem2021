@@ -36,7 +36,7 @@ Based on this model, we can determine the general optimized release strategy, ge
 
 ### 1.1 About our project
 
-Since the implementation of household garbage sorting regulations in Shanghai, the amount of food waste has reached a peak. However, problems caused by odor like unpleasant smell and health problems, have aroused great attention everywhere. We construct two kinds of bioengineered E.coli to absorb hydrogen sulfide and ammonia, which are the two main ingredients in the odor **(link:description)**.
+Since the implementation of household garbage sorting regulations in Shanghai, the amount of food waste has reached a peak. However, problems caused by odor like unpleasant smell and health problems, have aroused great attention everywhere. We construct two kinds of bioengineered E.coli to absorb hydrogen sulfide and ammonia, which are the two main [ingredients in the odor](/Team:Tongji_China/Description).
 
 By developing this model, we hope to achieve these following goals which can contribute to our project design, biosafety consideration and implementation.
 
@@ -161,8 +161,6 @@ To set the initiate value of these parameters, firstly we take hydrogen sulfide 
 ### 3.2 Model validation
 
 We simulate the dynamic change of bio-engineered bacteria and odour for 60 minutes (60 iterations) in the 100*100 map. We use heatmaps to better visualize this process (Figure 3.2.1).
-
-<span style="color: red"> img src="D:\\research\\igem\\igem2021\\model\\result\\CA figure\\3_1_1.jpg" style="max-width:100%" <span>
 
 <img src="https://2021.igem.org/wiki/images/1/14/T--Tongji_China--4.1.4.jpg" alt="4.1.4" style="max-width:100%" />
 
@@ -297,7 +295,7 @@ Next, we wonder whether adding bacteria for several times can improve the odour 
 
 ######  Goal 4: To find the optimized strength and threshold of kill switch, considering both bio-safety and working efficiency.
 
-To ensure bio-safety, we design a three-gear-adjustable kill switch, which is regulated by odour concentration in the environment**(link: design,kill switch)**.
+To ensure bio-safety, we design a three-gear-adjustable kill switch, which is regulated by odour concentration in the environment.
 
 There are two important parameters that determines the performance of our kill-switch in this CA model: the suicide coefficient ***(d)*** which describes the possibility that a bacterium will die in 1 min when the kill switch is on; the threshold ***(th)*** which tells us when the kill switch will be turned on. When ***d*** is too high or ***th*** is too low, the bacteria viability and odour degradation rate may be affected while the opposite may have bad impact on biosafety. For this purpose, we hope to know to what extent  ***d*** and ***th*** can affect odour degradation rate.
 

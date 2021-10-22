@@ -58,7 +58,7 @@ In June, there's China iGEM online meetup where teams can communicate their proj
 
 Both of us wanted to introduce synthesis biology to more people, especially to children. Therefore, CPU_CHINA launched 'ICII' (Into China, Into iGEM) that focused on the education of children. Tongji_China took part in the activity and together we spread the idea of iGEM to children from different cities.==(To see more)==
 
-<span style="color: red">ZHELIYOUTUPIAN</span>
+<img src="https://2021.igem.org/wiki/images/e/ef/T--Tongji_China--6.3-1.png" alt="6.3-1" style="max-width: 100%;" title="">
 
 #### August
 
