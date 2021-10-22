@@ -40,7 +40,7 @@ The inspiration for our project comes from a detail in our life. In our school c
 
 Tongji_China has always been with a **people-oriented attitude**. Besides, the object we are dealing with, food waste, has a close relationship with our lives. Therefore, we take the opinions from **residents and people who work in related fields in different stages of our project** into our consideration. On the other hand, Shanghai, as the financial center of China, is facing the problem of rubbish siege, so the problem of waste sorting cannot be delayed. Given the environmental problems of food waste will bring, we pay much attention to the **environmental influence** our project will result in. Briefly, based on **people-oriented and environment-friendly** attitude, we have carried out a series of human practice that will influence our design meanwhile.
 
-<img src="https://2021.igem.org/wiki/images/6/67/T--Tongji_China--6.1-1_overview.png" alt="6.1-1 overview" style="max-width:100%" />
+<img src="https://2021.igem.org/wiki/images/f/f6/T--Tongji_China--20211022-115asdf.jpeg" alt="6.1-1 overview" style="max-width:100%" />
 
 ## Understand the problem
 

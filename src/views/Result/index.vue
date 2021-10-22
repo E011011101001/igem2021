@@ -72,7 +72,7 @@ We had hoped to construct plasmids with T7 promoter for all four genes, and then
 
 <img src="https://2021.igem.org/wiki/images/5/59/T--Tongji_China--RES-16344963268247.jpeg" alt="img" style="max-width:100%" />
 
-<center>Figure 4.  SDS-PAGE bands of T7-SQR-J23110-SDO-APR-SAT</center>
+<center>Figure 4.  SDS-PAGE bands of S-S-A-S. (S-S-A-S: pET3a-T7-SQR-J23110-SDO-J23110-APR-J23110-SAT; WT: Wild Type; Mix: Positive mix of 4 target protein.)</center>
 
 ### **Protein function verification experiment**
 
@@ -94,7 +94,7 @@ In view of the  the limiting capacity of our laboratory to detect the intermedia
 
   ![img](https://2021.igem.org/wiki/images/f/fe/T--Tongji_China--RES-163449635323611.png)
 
-<center>Figure 6.  concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-APR-SAT； WT: Wild Type； BK: Blank )</center>
+<center>Figure 6.  Concentration of S<sup>2-</sup> in liquid environment with different bacteria. ( SSAS: pET3a-T7-SQR-J23110-SDO-J23110-APR-J23110-SAT； WT: Wild Type； BK: Blank )</center>
 
 
 - **Hydrogen sulfide oxidation in simulated food  waste environment**
