@@ -34,38 +34,47 @@ Tongji_China and CPU_CHINA have been in good relationship for many years. Theref
 
 #### April
 
-In April, with instructors of both teams, we held an online meetup to talk about our topics. We got familiar with each other and shared our ideas on opponents' topics. We found that the problems we focus on are about waste. Tongji_China has focused on the odor caused by food waste after the implementation of garbage sorting regulations. While CPU_CHINA noticed the phenomenon that packaging waste were piled up near express transfer stations. Since the background of us is similar, defined the willing to establish partnership primarily.
+In April, with instructors of both teams, we held an online meetup to **talk about our topics**. We got familiar with each other and shared our ideas on opponents' topics. We found that the problems we focus on are **about waste**. Tongji_China has focused on the **odor** caused by food waste after the implementation of garbage sorting regulations. While CPU_CHINA noticed the phenomenon that **packaging waste** were piled up near express transfer stations. Since the background of us is similar, **defined the willing to establish partnership** primarily.
 
 <img src="https://2021.igem.org/wiki/images/b/bf/T--Tongji_China--7.4-8.jpeg" alt="7.4-8" style="max-width:100%" />
 
 <img src="https://2021.igem.org/wiki/images/6/62/T--Tongji_China--7.4-9.jpeg" alt="7.4-9" style="max-width:100%" />
 
+<center>Figure1-1 Our first online meetup</center>
+
 #### May
 
-In May, our members came to Nanjing and had an offline communication with CPU_CHINA. Both of us had a more concrete design plan and we exchanged our ideas on the design. On the meetup, Tongji_China introduced their design to solve the odor while put forward their worry too: secreted expression of SQR and SOD might have the problem of low transmembrane rate, while the enzymes produced by lysis-engineered bacteria recovery had the problem of enzyme degradation by intracellular proteases. In this regard, CPU-CHINA proposed two solutions respectively: (i) the target protein can be assisted to exit the cell by constructing a signal peptide library and screening the signal peptide with the highest efficiency to avoid the encounter between the protease and the cell. (ii) The addition of protease preparations or EDTA during the lysis of E. coli could be considered to inhibit protease activity.
+In May, our members came to **Nanjing** and had an **offline communication** with CPU_CHINA. Both of us had a more concrete **design plan** and we exchanged our ideas on the design. On the meetup, Tongji_China asked whether our **genes should be expressed intracellularly or extracellularly**. We proposed that if we wanted to express it extracellularly, secreted expression of SQR and SOD might have the problem of low transmembrane rate and  the enzymes produced by lysis-engineered bacteria recovery had the problem of **enzyme degradation by intracellular proteases**. In this regard, CPU-CHINA **proposed two solutions** respectively: (i) the target protein can be assisted to exit the cell by **constructing a signal peptide library** and screening the signal peptide with the highest efficiency to avoid the encounter between the protease and the cell. (ii) The addition of **protease preparations or EDTA** during the lysis of E. coli could be considered to inhibit protease activity. Given that both of the solutions need great work, we finally decided to **express our genes intracellularly**. 
 
-On the other hand, since we learned that CPU-CHINA was going to conduct a questionnaire, we shared some experience to them after talking with related professionals.==(To see more)==
+On the other hand, since we learned that CPU-CHINA was going to **conduct a questionnaire** and we happened to work out a guide on how to design a questionnaire. Therefore, we **shared some experience** to them and proposed some **revising advice**. [(To see more)](/Team:Tongji_China/Contribution)
 
 <img src="https://2021.igem.org/wiki/images/9/92/T--Tongji_China--7.4-12.jpeg" alt="7.4-12" style="max-width:100%" />
 
+<center>Figure1-2 Our trip to Nanjing</center>
+
 #### June
 
-In June, there's China iGEM online meetup where teams can communicate their project. In order to do a perfect presentation, both of us held an online meetup to give a pre-presentation to each other.
+In June, there's **China iGEM online meetup** where teams can communicate their project. In order to do a **perfect presentation understood by everyone**, we held an online meetup to **give a pre-presentation** to each other. After presenting our projects, we had **further understanding** of each other's work and **proposed some advice for presentation**.
 
 <img src="https://2021.igem.org/wiki/images/d/d1/T--Tongji_China--7.4-10.jpeg" alt="7.4-10" style="max-width:100%" />
 
+<center>Figure1-3 Our online meetup to pre-present</center>
+
 #### July
 
-Both of us wanted to introduce synthesis biology to more people, especially to children. Therefore, CPU_CHINA launched 'ICII' (Into China, Into iGEM) that focused on the education of children. Tongji_China took part in the activity and together we spread the idea of iGEM to children from different cities.==(To see more)==
+Both of us wanted to **introduce synthesis biology** to more people, **especially to children**. Therefore, **CPU_CHINA launched 'ICII'** (Into China, Into iGEM) that focused on the education of children. Tongji_China took part in the activity and together we **spread the idea of iGEM to children from different cities**. [(To see more)](/Team:Tongji_China/Collaboration)
 
-<img src="https://2021.igem.org/wiki/images/e/ef/T--Tongji_China--6.3-1.png" alt="6.3-1" style="max-width: 100%;" title="">
+<img src="https://2021.igem.org/wiki/images/8/85/T--Tongji_China--7.4-16.png" alt="6.3-1" style="max-width: 100%;" title="">
 
 #### August
 
-Since the COVID-19 break out in part of Shanghai ,our predicted trip to waste treatment factory had to be delayed. Luckily, CPU_CHINA would visit one in Nanjing, therefore we asked for their help to collect some information we needed. <span style="color: red;">==(To see more)==</span>
+Since the COVID-19 break out in part of Shanghai ,our predicted trip to **waste treatment factory** had to be delayed. Luckily, CPU_CHINA would visit one in Nanjing, therefore we asked for their help to **collect some information we needed**. Through the information they collected, we realized that **there's already methods to deal with odor in factories**. So we defined our application scenarios to be **the front and middle end**.==(To see more)==
 
-<img src="https://2021.igem.org/wiki/images/5/5e/T--Tongji_China--6.1-8.JPG" alt="6.1-8" style="max-width:100%" />
+### Summary:
 
+We've established solid partnership with CPU_CHINA after collaborations in different stages of our project. **In the beginning** of our project, we discussed the **topic and our design**, which helps a lot in our following project. Besides, we **pre-presented** to each other to gather advice from the view of audience which **makes our presentation more easy-to-understand**. Besides, we participated in **ICII** launched by CPU_CHINA to make more **children understand the charm of synthesis biology**. Last but not least, CPU_CHINA helps us in **human practices** and collects much useful information which helps us in **defining the implementation scenarios**. 
+
+See our partnership on [CPU_CHINA's wiki](https://2021.igem.org/Team:CPU_CHINA/Partnership)
 
 
 ## FAFU-CHINA
@@ -169,15 +178,19 @@ As the initial idea of our partnership, we hope to synthesize aroma as well as e
 
 #### We help FAFU-CHINA
 
-At the same time, we started to do experiments to test our envisaged application scenarios. Therefore we received the linalool from FAFU-CHINA and planned to react the linalool and our bio-engineered bacteria with H<sub>2</sub>S. Then we will test the components of treated gases in order to define whether the odor is treated after processing.
+At the same time, we started to **do experiments to test** our envisaged application scenarios. Therefore we received the linalool from FAFU-CHINA and planned to **react the linalool and our bio-engineered bacteria with H~2~S**. Then we will test the **components of treated gases** in order to define whether the odor is treated after processing.
 
 #### Together makes us stronger
 
-The exploration in application makes both of our project more complete. For FAFU-CHINA, applying the aroma generating microorganism provides an alternative future for their project. For Tongji_China, eliminating odor as well as generating aroma helps us solve the problem more completely and provides a more pleasant working environment for related people, which is in line with our values.
+The exploration in application makes both of our project **more complete**. For FAFU-CHINA, applying the aroma generating microorganism provides **an alternative future** for their project. For Tongji_China, eliminating odor as well as generating aroma helps us solve the problem **more completely** and provides a more **pleasant working environment** for related people, which is **in line with our values**.
 
 <img src="https://2021.igem.org/wiki/images/e/ee/T--Tongji_China--7.4-5.png" alt="7.4-5" style="max-width:100%" />
 
+See our partnership on [FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Partnership)
 
+### Summary
+
+We've established solid partnership with FAFU-CHINA after learning that their project can help ours in application. **At the initial stage**, we talked about our design **on questionnaire** and received scientific statistics which **define the following trend of the project**. **At the middle stage**, we **co-organized** some online and offline **lectures on morality** to talk about the morality problems we meet in the project. **At the ended stage**, we explored the possibility that we can **co-cultivate our bacteria** to **deodorizing while generating aroma by means of model**. 
 
 ## SJTang
 
@@ -187,19 +200,23 @@ Then SJTang got our bio-engineered bacteria and helped us with the experiment.
 
 <img src="https://2021.igem.org/wiki/images/3/32/T--Tongji_China--7.4-13.png" alt="7.4-13" style="max-width:100%" />
 
-<center>Growth curve of 3 different strains. HoxG1 for Hydrogenase expression, T7-Sqr and SSAS for sulfide oxidization.
+<center>Growth curve of 3 different strains. HoxG1 for Hydrogenase expression, T7-Sqr and SSAS for sulfide oxidization.</center>
+<br/>
 
 The experiment showed that our SSAS bacteria used for degrading S<sup>2-</sup> have similar growth rates with E.coli modified by SJTang's hydrogenase. So SJTang used SSAS and their hydrogenase strain for co-cultivation and did some futher experiments.
 
 <img src="https://2021.igem.org/wiki/images/d/d2/T--Tongji_China--7.4-14.png" alt="7.4-14" style="max-width:100%" />
 
 <center>Growth curve of different strains. Both SSAS and HoxG1 use E.coli BL21 as chassis.</center>
+<br>
 
 After doing experiments, SJTang found that this two kinds of bacteria had similar living conditions. So they induced the expression of sulfide oxidization enzymes and tested the efficiency of removing S<sup>2-</sup> in the presence of the other bacteria. The results are as follows:
 
 <img src="https://2021.igem.org/wiki/images/0/09/T--Tongji_China--7.4-15.png" alt="7.4-15" style="max-width:100%" />
 
-<center>S2- concentration test. Use OD 665nm for concentration domination. The higher the OD 665nm value, the greater the S2- concentration.
+<center>S2- concentration test. Use OD 665nm for concentration domination. The higher the OD 665nm value, the greater the S2- concentration.</center>
+<br>
+
 
 The results show that after adding the E.coli modified by SJTang's hydrogenase, the concentration of S2- in the solution increases, although without an obvious difference. However it indicates us that we need to consider more when applying our bacteria into a complex environment. The specific reasons for this result require the cooperation of the two teams to conduct a further exploration afterward.
       `)
