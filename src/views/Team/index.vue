@@ -23,7 +23,7 @@ div
     v-col.col-5.offset-md-1
       TMember(
         src="https://2021.igem.org/wiki/images/0/05/T--Tongji_China--cjy.png"
-        name="Jiayi Cheng"
+        name="Jiayi Chen"
         major="Biotechnology"
         hobbies="Painting, binge-watching, biology, design"
         description="She is drawn to a  relaxing and peaceful life，but sometimes she wants to challenge herself."

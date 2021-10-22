@@ -66,8 +66,19 @@ The expression of our plasmids needs some harmful chemicals like H2S and Na2S. B
 
 #### Killing switch
 
-In order to avoid the leakage of our bioengineered bacteria into the environment, we've designed a three-gear adjustable kill switch. It works based on the concentration of H2S and NH3 which consists of odor sensors, Dre recombinase system and toxin-antitoxin system. Under cultural conditions, none of the pathway can be activated. When the bioengineered bacteria are put into work, high density of hydrogen sulfide in the environment induces the expression of Dre recombinase and MazF (antitoxin), followed by terminator removal and MazE (toxin) expression. Once our bioengineered bacteria leak to the environment, low density of hydrogen sulfide inhibits MazF (antitoxin) expression. Without the rescue of MazF(antitoxin), bioengineered bacteria will be killed by the accumulation of MazE (toxin). In this way ,we succeed in adjusting the survival and death of the bacteria by adjusting the concentration of H2S and NH3. [(To learn more)](/Team:Tongji_China/Design)
+#### Kill switch
 
+In order to avoid the leakage of our bioengineered bacteria into the environment, we've designed a three-gear adjustable kill switch. Since H<sub>2</sub>S is an important variable in the working environment of our engineered bacteria, we chose H<sub>2</sub>S concentration to control the on-off of the kill switch. After reading literature, we chose CstR, a gene regulator, to be the biosensor. CstR can detect the concentration of HS<sub>n</sub>H,the oxidization product of H<sub>2</sub>S by SQR, and adjust the expression of downstream genes.
+
+However, if there's only CstR to adjust the living conditions of our bacteria, we have to cultivate them with high concentration of H<sub>2</sub>S. Therefore, we designed a three-gear kill switch based on the Dre/rox recombinant enzyme system <sup>[1]</sup>(referring to the work of [the Edinburgh UG in 2017](http://2017.igem.org/Team:Edinburgh_UG)) and the MazEF toxin-antitoxin system<sup>[2]</sup>, which can achieve more flexible regulation of the survival of our engineered bacteria. (Figure 2.)
+
+Under cultural conditions, none of the pathway can be activated. When the bioengineered bacteria are put into work, high density of hydrogen sulfide in the environment induces the expression of Dre recombinase and MazE (antitoxin), followed by terminator removal and MazF (toxin) expression. Once our bioengineered bacteria leak to the environment, low density of hydrogen sulfide inhibits MazE (antitoxin) expression. Without the rescue of MazE(antitoxin), bioengineered bacteria will be killed by the accumulation of MazF (toxin). In this way ,we succeed in adjusting the survival and death of the bacteria by adjusting the concentration of H<sub>2</sub>S. (Figure 3.)
+
+## References
+
+2. Anastassiadis, K., et al., *Dre recombinase, like Cre, is a highly efficient site-specific recombinase in E-coli, mammalian cells and mice.* Disease Models & Mechanisms, 2009. **2**(9-10): p. 508-515.
+
+3. Simanshu, D.K., et al., *Structural Basis of mRNA Recognition and Cleavage by Toxin MazF and Its Regulation by Antitoxin MazE in Bacillus subtilis.* Molecular Cell, 2013. **52**(3): p. 447-458.
       `)
       this.ele = safety as HTMLElement
     }

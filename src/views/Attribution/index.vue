@@ -52,7 +52,7 @@ Wiki writing
 
 
 
-**Jiayi Cheng**:
+**Jiayi Chen**:
 
 The construction and expression of Kill Switch,
 
