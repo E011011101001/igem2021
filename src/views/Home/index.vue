@@ -7,7 +7,7 @@ div.bkgrd
         src="https://2021.igem.org/wiki/images/2/2b/T--Tongji_China--%E5%9C%86%E8%A7%92%E7%9F%A9%E5%BD%A2_1.png"
       )
         div.text-left.text-primary.food-wast
-          h2 Food wast
+          h2 Food waste
           p Food waste refers to perishable biomass household waste such as leftovers, expired food, flowers and greenery, and herbal medicine residues.
           p Food waste is waste generated from residents' daily lives and activities such as food processing, whose main sources are household kitchens, restaurants, hotels, canteens, markets and other industries related to food processing.
     v-col.col-4
@@ -40,9 +40,13 @@ div.bkgrd
         src="https://2021.igem.org/wiki/images/8/8d/T--Tongji_China--%E5%9C%86%E8%A7%92%E7%9F%A9%E5%BD%A2_4.png"
       )
         div.text-left.text-primary.food-wast
-          h2 Food wast
-          p Food waste refers to perishable biomass household waste such as leftovers, expired food, flowers and greenery, and herbal medicine residues.
-          p Food waste is waste generated from residents' daily lives and activities such as food processing, whose main sources are household kitchens, restaurants, hotels, canteens, markets and other industries related to food processing.
+          h2 Problems behind garbage sorting
+          p
+            | With such a huge amount of food waste, the problems of odor caused by food waste have come into our view.
+            b &nbsp; Unpleasant smells, health problems &nbsp;
+            | and influence on
+            b &nbsp; downstream industries &nbsp;
+            | are the three important ones which influence not only related people but also the downstream industries.
     v-col.col-5.mx-12
       v-img(
         contain

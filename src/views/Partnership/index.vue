@@ -68,7 +68,7 @@ Both of us wanted to **introduce synthesis biology** to more people, **especiall
 
 #### August
 
-Since the COVID-19 break out in part of Shanghai ,our predicted trip to **waste treatment factory** had to be delayed. Luckily, CPU_CHINA would visit one in Nanjing, therefore we asked for their help to **collect some information we needed**. Through the information they collected, we realized that **there's already methods to deal with odor in factories**. So we defined our application scenarios to be **the front and middle end**.==(To see more)==
+Since the COVID-19 break out in part of Shanghai ,our predicted trip to **waste treatment factory** had to be delayed. Luckily, CPU_CHINA would visit one in Nanjing, therefore we asked for their help to **collect some information we needed**. Through the information they collected, we realized that **there's already methods to deal with odor in factories**. So we defined our application scenarios to be **the front and middle end**.[(To see more)](/Team:Tongji_China/Human_Practices)
 
 ### Summary:
 

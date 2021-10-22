@@ -183,7 +183,7 @@ As the initial idea of our partnership, we hope to synthesize aroma as well as e
 | 35    | 30          | 8      | 16      | 5    | 1.1      | 0.999   |
 | 36    | 37          | 8      | 16      | 5    | 1.1      | 0.135   |
 
-[FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Model)
+[FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Model).
 
 #### We help FAFU-CHINA
 
@@ -195,7 +195,7 @@ The exploration in application makes both of our project **more complete**. For 
 
 <img src="https://2021.igem.org/wiki/images/e/ee/T--Tongji_China--7.4-5.png" alt="7.4-5" style="max-width:100%" />
 
-See our partnership on [FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Partnership)
+See our partnership on [FAFU-CHINA's wiki](https://2021.igem.org/Team:FAFU-China/Partnership).
 
 ### Summary
 
@@ -229,13 +229,19 @@ After doing experiments, SJTang found that this two kinds of bacteria had simila
 
 The results show that after adding the E.coli modified by SJTang's hydrogenase, the concentration of S2- in the solution increases, although without an obvious difference. However it indicates us that we need to consider more when applying our bacteria into a complex environment. The specific reasons for this result require the cooperation of the two teams to conduct a further exploration afterward.
 
-To see our collaboration on [SJTang's collaboration](https://2021.igem.org/Team:SJTang/Partnership)
+To see our collaboration on [SJTang's collaboration](https://2021.igem.org/Team:SJTang/Partnership).
 
 ## DUT_China
 
 On the **China iGEM online meet-up**, we shared about our kill switch which aroused great interests from DUT_China. Therefore, they had a heated discussion on the design of kill switch with us. They were **inspired by our design of kill switch** and  **designed a kill switch** for E.coli BL21/pET28a-PD-MD-hA (Secretory) in the environment.                                                                                                                                                         
 
-To see our collaboration on [DUT_China's collaboration](https://2021.igem.org/Team:DUT_China/Collaboration)
+To see our collaboration on [DUT_China's collaboration](https://2021.igem.org/Team:DUT_China/Collaboration).
+
+## CPU_CHINA
+
+We have collaborated with CPU_CHINA at different stages of our project. The details are showing in the [partnership page](/Team:Tongji_China/Partnership).
+
+To see our collaboration on [CPU_CHINA's collaboration](https://2021.igem.org/Team:CPU_CHINA/Collaboration).
       `)
       this.ele = poc as HTMLElement
     }

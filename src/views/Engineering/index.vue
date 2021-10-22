@@ -71,7 +71,7 @@ SDS-PAGE showed that the protein expression of our engineered bacteria isn’t d
 We believe that different enzymes expressed by different genes have different efficiencies, thus only four enzymes **maintained in the right ratio** will have the best effect of sulfur removal. If one enzyme effect is outstanding, it will lead to product accumulation and the intermediate products may affect the bacteria. In the contrary, if one enzyme efficiency is too low, it will lead to a decrease in the speed of the whole processing pathway.
 In addition, considering that our plasmids are relatively large, large amount of expression will cause a **great load on the growth of bacteria**. Thus, choosing the right promoter strength is important.
 
-Therefore, we decided to **replace different promoters for different genes and combine them to select the optimal pair**. Due to the variety of promoters, it was difficult to construct all of the plasmid. So we decided to realize this idea by **constructing a random promoter libraries** to find the best promoter pairing (result 部分。加超链接).
+Therefore, we decided to **replace different promoters for different genes and combine them to select the optimal pair**. Due to the variety of promoters, it was difficult to construct all of the plasmid. So we decided to realize this idea by [constructing a random promoter libraries](/Team:Tongji_China/Results) to find the best promoter pairing.
 
 
 

@@ -136,7 +136,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: '/Team:Tongji_China/',
+  base: '/Team:Tongji_China',
   routes
 })
 
